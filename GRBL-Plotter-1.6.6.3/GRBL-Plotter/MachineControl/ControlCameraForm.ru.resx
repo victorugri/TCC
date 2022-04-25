@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="compensateAngleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Компенсировать угол и масштаб</value>
+  </data>
+  <data name="showOverlayGraphicsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Показать оверлейную графику</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>зум</value>
+  </data>
+  <data name="camSourceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Источник видео</value>
+  </data>
+  <data name="camSourceToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Выберите источник камеры.</value>
+  </data>
+  <data name="setRotationAngleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Поворот изображения</value>
+  </data>
+  <data name="teachRadiusTopToolStripMenuItem.Text" xml:space="preserve">
+    <value>Установить радиус обучения сверху</value>
+  </data>
+  <data name="lowerPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Научить нижнее положение</value>
+  </data>
+  <data name="lowerPositionToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Научить вид с камеры</value>
+  </data>
+  <data name="teachRadiusBottomToolStripMenuItem.Text" xml:space="preserve">
+    <value>Установить радиус обучения внизу</value>
+  </data>
+  <data name="teachScalingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Научить масштабирование</value>
+  </data>
+  <data name="teachScalingToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>1) Домашний плоттер
+2) переместить камеру в верхнее положение
+3) нажмите на картинку, чтобы узнать расстояние от верхнего радиуса
+4) переместите камеру в нижнее положение
+5) нажмите на картинку, чтобы узнать расстояние нижнего радиуса</value>
+  </data>
+  <data name="teachOffsetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Учить офсет</value>
+  </data>
+  <data name="teachOffsetToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>1) переключиться на «Координата инструмента». (G54)
+2) Ноль X, позиция Y
+3) Отметьте положение инструмента (при X = 0, Y = 0) с помощью инструмента на заготовке.
+4) Переместите маркер ниже центра обзора камеры
+5) Изучите фактическое положение как смещение
+6) переключиться на «Координаты кулачка». (G59) - теперь показывает X = 0, Y = 0</value>
+  </data>
+  <data name="crossHairsToolStripMenuItem.Text" xml:space="preserve">
+    <value>十字线...</value>
+  </data>
+  <data name="colorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Цвета</value>
+  </data>
+  <data name="setupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Настроить</value>
+  </data>
+  <data name="btnApplyAngle.Text" xml:space="preserve">
+    <value>Применить угол к GCode</value>
+  </data>
+  <data name="btnApplyAngle.ToolTip" xml:space="preserve">
+    <value>Используйте правую кнопку мыши, чтобы измерить угол.
+Нажмите кнопку, чтобы преобразовать G-Code с измеренным углом.</value>
+  </data>
+  <data name="btnCamCoordTool.ToolTip" xml:space="preserve">
+    <value>Переместить текущее положение инструмента ниже камеры</value>
+  </data>
+  <data name="cBCamCoordMove.ToolTip" xml:space="preserve">
+    <value>Применить смещение камеры к графике</value>
+  </data>
+  <data name="lblAngle.ToolTip" xml:space="preserve">
+    <value>Измеренный угол</value>
+  </data>
+  <data name="btnCamCoordCam.ToolTip" xml:space="preserve">
+    <value>Переместить текущую позицию камеры ниже инструмента</value>
+  </data>
+  <data name="lblCenterPos.Text" xml:space="preserve">
+    <value>Форма не найдена</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>угол</value>
+  </data>
+  <data name="cBShapeDetection.Text" xml:space="preserve">
+    <value>Распознавание формы</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Выберите набор фильтров</value>
+  </data>
+  <data name="btnAutoCenter.Text" xml:space="preserve">
+    <value>Центр красный круг</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>камера</value>
+  </data>
+  <data name="setRotationAngleToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Повернуть видео - введите угол</value>
+  </data>
+  <data name="upperPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Учить верхнюю позицию</value>
+  </data>
+  <data name="upperPositionToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Научить вид с камеры</value>
+  </data>
+  <data name="teachToolStripMenuItem.Text" xml:space="preserve">
+    <value>Обучить камеру смещению</value>
+  </data>
+  <data name="teachToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>1) Ноль X, позиция Y
+2) Отметить положение инструмента (при X = 0, Y = 0)
+3) Двигайтесь, пока маркер не окажется в центре обзора камеры
+4) Изучите фактическое положение как смещение</value>
+  </data>
+  <data name="toolStripTextBox1.ToolTipText" xml:space="preserve">
+    <value>Повернуть видео - введите угол</value>
+  </data>
+  <data name="toolStripTextBox2.ToolTipText" xml:space="preserve">
+    <value>в единицах GRBL (мм или дюйм)</value>
+  </data>
+  <data name="toolStripTextBox3.ToolTipText" xml:space="preserve">
+    <value>в единицах GRBL (мм или дюйм)</value>
+  </data>
+  <data name="cameraMountToolStripMenuItem.Text" xml:space="preserve">
+    <value>Крепление камеры</value>
+  </data>
+  <data name="distortionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Коррекция искажений</value>
+  </data>
+  <data name="teachRadiusToolStripMenuItem.Text" xml:space="preserve">
+    <value>Обучить радиус</value>
+  </data>
+  <data name="setTeachRadiusToolStripMenuItem.Text" xml:space="preserve">
+    <value>Установить радиус обучения</value>
+  </data>
+  <data name="teachScaling2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Научите масштабированию</value>
+  </data>
+  <data name="toolPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Установить начало координат</value>
+  </data>
+  <data name="textToolStripMenuItem.Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="setToolPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Нажмите, чтобы установить</value>
+  </data>
+  <data name="resetAndTeachToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сбросить и научить</value>
+  </data>
+  <data name="cBRotateArround0.Text" xml:space="preserve">
+    <value>Повернуть вокруг 0; 0</value>
+  </data>
+  <data name="simulateCameraToolStripMenuItem.Text" xml:space="preserve">
+    <value>Имитация камеры</value>
+  </data>
+  <data name="penupPathToolStripMenuItem.Text" xml:space="preserve">
+    <value>Путь вверх</value>
+  </data>
+  <data name="machineLimitsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ограничения машины</value>
+  </data>
+  <data name="dimensionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Размер G-кода</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="menuStripCamera.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="btnCamCoordTool.Text" xml:space="preserve">
+    <value>G54 Координата инструмента.</value>
+  </data>
+  <data name="cBCamCoordMove.Text" xml:space="preserve">
+    <value>Переместить этап</value>
+  </data>
+  <data name="lblAngle.Text" xml:space="preserve">
+    <value>0,00 °</value>
+  </data>
+  <data name="btnCamCoordCam.Text" xml:space="preserve">
+    <value>G59 Координатор камеры</value>
+  </data>
+  <data name="TbSetPoints.Text" xml:space="preserve">
+    <value>Реперные координаты:</value>
+  </data>
+  <data name="TbSetPoints.ToolTip" xml:space="preserve">
+    <value>Реперные координаты: будут использоваться только 1-я и 2-я координаты.
+Получите координаты реперных точек из импортированной графики или соберите их вручную:
+Ctrl-щелчок, чтобы отметить,
+"a" добавить в список,
+«c», чтобы очистить список.</value>
+  </data>
+  <data name="TbRealPoints.Text" xml:space="preserve">
+    <value>Назначенные координаторы:</value>
+  </data>
+  <data name="TbRealPoints.ToolTip" xml:space="preserve">
+    <value>Назначенные координаторы:
+Набирать баллы вручную:
+Shift-щелчок, чтобы добавить точку,
+Shift - «c», чтобы очистить список</value>
+  </data>
+  <data name="btnAutoCenter.ToolTip" xml:space="preserve">
+    <value>Добавьте позицию в «Назначенные точки» и переместите инструмент</value>
+  </data>
+  <data name="GbZoom.Text" xml:space="preserve">
+    <value>Камера</value>
+  </data>
+  <data name="BtnSetOffsetZero.Text" xml:space="preserve">
+    <value>Установите XY = 0; 0</value>
+  </data>
+  <data name="BtnSetOffsetMarker.Text" xml:space="preserve">
+    <value>Установить XY = маркер</value>
+  </data>
+  <data name="GbOffset.Text" xml:space="preserve">
+    <value>Смещение / перемещение камеры</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Щелкните правой кнопкой мыши для точки поворота, удерживайте нажатой, отпустите под нужным углом</value>
+  </data>
+  <data name="CbScale.Text" xml:space="preserve">
+    <value>Также масштабировать</value>
+  </data>
+  <data name="GbMeasure.Text" xml:space="preserve">
+    <value>Угол измерения</value>
+  </data>
+  <data name="BtnStartAutomatic.Text" xml:space="preserve">
+    <value>Начать автоматическую коррекцию реперных точек</value>
+  </data>
+  <data name="cBShapeShowFilter.Text" xml:space="preserve">
+    <value>Показать примененные фильтры</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>Также масштабируется при вращении</value>
+  </data>
+  <data name="CbUseShapeRecognition.Text" xml:space="preserve">
+    <value>Распознавание формы</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Автоматический режим</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Форма рядом с маркером красная</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Фильтры можно настроить в [Настройка - Поведение программы - Камера].</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Распознавание формы</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Ручной режим</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Установить смещения</value>
+  </data>
+  <data name="setWork00ToHereToolStripMenuItem.Text" xml:space="preserve">
+    <value>Задайте здесь рабочую координату 0; 0</value>
+  </data>
+  <data name="FiducialAddCoordinateIn2DViewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Добавить реперные координаты из 2D-вида в список реперных точек</value>
+  </data>
+  <data name="FiducialRemoveLastToolStripMenuItem.Text" xml:space="preserve">
+    <value>Удалить последний реперный знак</value>
+  </data>
+  <data name="FiducialListClearToolStripMenuItem.Text" xml:space="preserve">
+    <value>Очистить список реперных точек</value>
+  </data>
+  <data name="ReferenceAddPointInImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Добавить контрольную точку из изображения в назначенный список</value>
+  </data>
+  <data name="ReferenceRemoveLastPointToolStripMenuItem.Text" xml:space="preserve">
+    <value>Удалить последнюю контрольную точку</value>
+  </data>
+  <data name="ReferenceClearListToolStripMenuItem.Text" xml:space="preserve">
+    <value>Очистить список контрольных точек (назначенных)</value>
+  </data>
+  <data name="setWork00ToHereToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Устанавливает начало координат заготовки в положение щелчка в 2D-виде</value>
+  </data>
+  <data name="compensateAngleToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Применяет желтый отмеченный угол к G-коду</value>
+  </data>
+  <data name="FiducialAddCoordinateIn2DViewToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Добавить реперные координаты точки щелчка внутри 2D-вида в список реперных точек.</value>
+  </data>
+  <data name="FiducialRemoveLastToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Удалить последний добавленный реперный знак из списка реперных точек</value>
+  </data>
+  <data name="FiducialListClearToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Очистить список реперных точек</value>
+  </data>
+  <data name="ReferenceAddPointInImageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Добавить контрольную точку места щелчка внутри изображения в назначенный список</value>
+  </data>
+  <data name="ReferenceRemoveLastPointToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Удалить последнюю добавленную контрольную точку из назначенного списка</value>
+  </data>
+  <data name="ReferenceClearListToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Очистить список контрольных точек (назначенных)</value>
+  </data>
+  <data name="showOverlayGraphicsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Mostrar gráficos de sobreposição (régua, caminho da caneta, etc.)</value>
+  </data>
+  <data name="setMachinePositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Нажмите, чтобы получить машинное смещение grbl в исходной точке</value>
+  </data>
+</root>

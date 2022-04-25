@@ -1,0 +1,1902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBoxVideo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="setWork00ToHereToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 22</value>
+  </data>
+  <data name="setWork00ToHereToolStripMenuItem.Text" xml:space="preserve">
+    <value>Set work coordinate 0;0 here</value>
+  </data>
+  <data name="setWork00ToHereToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Sets the origin of the work coordinate to the clicked position in the 2D view</value>
+  </data>
+  <data name="compensateAngleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 22</value>
+  </data>
+  <data name="compensateAngleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Apply angle to G-Code</value>
+  </data>
+  <data name="compensateAngleToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Applys the yellow marked angle to the G code</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 6</value>
+  </data>
+  <data name="FiducialAddCoordinateIn2DViewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 22</value>
+  </data>
+  <data name="FiducialAddCoordinateIn2DViewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add fiducial coordinate from 2D view to fiducial list</value>
+  </data>
+  <data name="FiducialAddCoordinateIn2DViewToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Add fiducial coordinates of the clicked position, inside the 2D view, to the fiducial list</value>
+  </data>
+  <data name="FiducialRemoveLastToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 22</value>
+  </data>
+  <data name="FiducialRemoveLastToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remove last fiducial</value>
+  </data>
+  <data name="FiducialRemoveLastToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Remove last added fiducial from fiducial list</value>
+  </data>
+  <data name="FiducialListClearToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 22</value>
+  </data>
+  <data name="FiducialListClearToolStripMenuItem.Text" xml:space="preserve">
+    <value>Clear fiducial list</value>
+  </data>
+  <data name="FiducialListClearToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Clear fiducial list</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 6</value>
+  </data>
+  <data name="ReferenceAddPointInImageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 22</value>
+  </data>
+  <data name="ReferenceAddPointInImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add reference point from image to assigned list</value>
+  </data>
+  <data name="ReferenceAddPointInImageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Add reference point from image to assigned list</value>
+  </data>
+  <data name="ReferenceRemoveLastPointToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 22</value>
+  </data>
+  <data name="ReferenceRemoveLastPointToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remove last reference point</value>
+  </data>
+  <data name="ReferenceRemoveLastPointToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Remove last added reference point from assigned list</value>
+  </data>
+  <data name="ReferenceClearListToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 22</value>
+  </data>
+  <data name="ReferenceClearListToolStripMenuItem.Text" xml:space="preserve">
+    <value>Clear reference point (assigned) list</value>
+  </data>
+  <data name="ReferenceClearListToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Clear reference point (assigned) list</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 6</value>
+  </data>
+  <data name="showOverlayGraphicsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 22</value>
+  </data>
+  <data name="showOverlayGraphicsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show overlay graphics</value>
+  </data>
+  <data name="showOverlayGraphicsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Show overlay graphics (ruler, pen-down path, etc.)</value>
+  </data>
+  <data name="cmsPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 220</value>
+  </data>
+  <data name="&gt;&gt;cmsPictureBox.Name" xml:space="preserve">
+    <value>cmsPictureBox</value>
+  </data>
+  <data name="&gt;&gt;cmsPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBoxVideo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 123</value>
+  </data>
+  <data name="pictureBoxVideo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pictureBoxVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 480</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBoxVideo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxVideo.Name" xml:space="preserve">
+    <value>pictureBoxVideo</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxVideo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxVideo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="nUDCameraZoom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 14</value>
+  </data>
+  <data name="nUDCameraZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 20</value>
+  </data>
+  <data name="nUDCameraZoom.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;nUDCameraZoom.Name" xml:space="preserve">
+    <value>nUDCameraZoom</value>
+  </data>
+  <data name="&gt;&gt;nUDCameraZoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nUDCameraZoom.Parent" xml:space="preserve">
+    <value>GbZoom</value>
+  </data>
+  <data name="&gt;&gt;nUDCameraZoom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>GbZoom</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="simulateCameraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="simulateCameraToolStripMenuItem.Text" xml:space="preserve">
+    <value>Simulate camera</value>
+  </data>
+  <data name="toolStripCameraMount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="cameraMountToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="cameraMountToolStripMenuItem.Text" xml:space="preserve">
+    <value>Camera mount</value>
+  </data>
+  <data name="camSourceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="camSourceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Video Source</value>
+  </data>
+  <data name="camSourceToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Select camera source.</value>
+  </data>
+  <data name="resetAndTeachToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="resetAndTeachToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reset and teach</value>
+  </data>
+  <data name="distortionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="distortionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Distortion correction</value>
+  </data>
+  <data name="toolStripTextBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="toolStripTextBox1.MaxLength" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="toolStripTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="toolStripTextBox1.Text" xml:space="preserve">
+    <value>000,00</value>
+  </data>
+  <data name="toolStripTextBox1.ToolTipText" xml:space="preserve">
+    <value>Rotate video image - enter angle</value>
+  </data>
+  <data name="setRotationAngleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="setRotationAngleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Picture rotation</value>
+  </data>
+  <data name="setRotationAngleToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Rotate video image - enter angle</value>
+  </data>
+  <data name="upperPositionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="upperPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Teach Upper Position</value>
+  </data>
+  <data name="upperPositionToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Teach camera view</value>
+  </data>
+  <data name="toolStripTextBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripTextBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="toolStripTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="toolStripTextBox2.Text" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="toolStripTextBox2.ToolTipText" xml:space="preserve">
+    <value>in GRBL units (mm or inch)</value>
+  </data>
+  <data name="teachRadiusTopToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="teachRadiusTopToolStripMenuItem.Text" xml:space="preserve">
+    <value>Set teach radius top</value>
+  </data>
+  <data name="lowerPositionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="lowerPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Teach Lower Position</value>
+  </data>
+  <data name="lowerPositionToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Teach camera view</value>
+  </data>
+  <data name="toolStripTextBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripTextBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="toolStripTextBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="toolStripTextBox3.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="toolStripTextBox3.ToolTipText" xml:space="preserve">
+    <value>in GRBL units (mm or inch)</value>
+  </data>
+  <data name="teachRadiusBottomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="teachRadiusBottomToolStripMenuItem.Text" xml:space="preserve">
+    <value>Set teach radius bottom</value>
+  </data>
+  <data name="teachScalingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="teachScalingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Teach scaling</value>
+  </data>
+  <data name="teachScalingToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>1) Home Plotter
+2) move camera to upper position
+3) click in picture to teach distance of top radius
+4) move camera to lower position
+5) click in picture to teach distance of bottom radius
+</value>
+  </data>
+  <data name="teachRadiusToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="teachRadiusToolStripMenuItem.Text" xml:space="preserve">
+    <value>Teach radius</value>
+  </data>
+  <data name="toolStripTextBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="toolStripTextBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="toolStripTextBox4.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="setTeachRadiusToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="setTeachRadiusToolStripMenuItem.Text" xml:space="preserve">
+    <value>Set teach radius</value>
+  </data>
+  <data name="teachScaling2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="teachScaling2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Teach scaling</value>
+  </data>
+  <data name="teachScaling2ToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="setToolPositionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 22</value>
+  </data>
+  <data name="setToolPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Click to set origin in 2D view</value>
+  </data>
+  <data name="setMachinePositionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 22</value>
+  </data>
+  <data name="setMachinePositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Click to get grbl machine offset at origin</value>
+  </data>
+  <data name="toolPositionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="toolPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Set coordinate orign</value>
+  </data>
+  <data name="teachToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="teachToolStripMenuItem.Text" xml:space="preserve">
+    <value>Teach Camera Offset</value>
+  </data>
+  <data name="teachToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>1) Zero X,Y position
+2) Mark tool position (at X=0,Y=0)
+3) Move until marker is in center of camera view
+4) Teach actual position as offset</value>
+  </data>
+  <data name="teachOffsetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="teachOffsetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Teach Offset</value>
+  </data>
+  <data name="teachOffsetToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>1) switch to 'Tool coord.' (G54)
+2) Zero X,Y position
+3) Mark tool position (at X=0,Y=0) with tool on work piece
+4) Move marker below center of camera view
+5) Teach actual position as offset
+6) switch to 'Cam coord.' (G59) - shows now X=0, Y=0</value>
+  </data>
+  <data name="teachOffsetToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="textToolStripMenuItem.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="crossHairsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="crossHairsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cross Hairs</value>
+  </data>
+  <data name="colorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="colorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="setupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="setupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="penupPathToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="penupPathToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pen-up path</value>
+  </data>
+  <data name="machineLimitsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="machineLimitsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Machine limits</value>
+  </data>
+  <data name="dimensionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="dimensionToolStripMenuItem.Text" xml:space="preserve">
+    <value>G-Code Dimension</value>
+  </data>
+  <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="menuStripCamera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStripCamera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 24</value>
+  </data>
+  <data name="menuStripCamera.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="menuStripCamera.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStripCamera.Name" xml:space="preserve">
+    <value>menuStripCamera</value>
+  </data>
+  <data name="&gt;&gt;menuStripCamera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStripCamera.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStripCamera.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnApplyAngle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnApplyAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="btnApplyAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="btnApplyAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnApplyAngle.Text" xml:space="preserve">
+    <value>Apply Angle to G-Code</value>
+  </data>
+  <data name="btnApplyAngle.ToolTip" xml:space="preserve">
+    <value>Use right mouse button to measure angle.
+Press button to transform G-Code with measured angle.</value>
+  </data>
+  <data name="&gt;&gt;btnApplyAngle.Name" xml:space="preserve">
+    <value>btnApplyAngle</value>
+  </data>
+  <data name="&gt;&gt;btnApplyAngle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApplyAngle.Parent" xml:space="preserve">
+    <value>GbMeasure</value>
+  </data>
+  <data name="&gt;&gt;btnApplyAngle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnCamCoordTool.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCamCoordTool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 35</value>
+  </data>
+  <data name="btnCamCoordTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="btnCamCoordTool.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnCamCoordTool.Text" xml:space="preserve">
+    <value>G54 Tool coord.</value>
+  </data>
+  <data name="btnCamCoordTool.ToolTip" xml:space="preserve">
+    <value>Move current Tool position below camera</value>
+  </data>
+  <data name="&gt;&gt;btnCamCoordTool.Name" xml:space="preserve">
+    <value>btnCamCoordTool</value>
+  </data>
+  <data name="&gt;&gt;btnCamCoordTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCamCoordTool.Parent" xml:space="preserve">
+    <value>GbOffset</value>
+  </data>
+  <data name="&gt;&gt;btnCamCoordTool.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cBCamCoordMove.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cBCamCoordMove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cBCamCoordMove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="cBCamCoordMove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="cBCamCoordMove.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cBCamCoordMove.Text" xml:space="preserve">
+    <value>Move stage</value>
+  </data>
+  <data name="cBCamCoordMove.ToolTip" xml:space="preserve">
+    <value>Apply camera offset to graphics</value>
+  </data>
+  <data name="&gt;&gt;cBCamCoordMove.Name" xml:space="preserve">
+    <value>cBCamCoordMove</value>
+  </data>
+  <data name="&gt;&gt;cBCamCoordMove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cBCamCoordMove.Parent" xml:space="preserve">
+    <value>GbOffset</value>
+  </data>
+  <data name="&gt;&gt;cBCamCoordMove.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblAngle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAngle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 16</value>
+  </data>
+  <data name="lblAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblAngle.Text" xml:space="preserve">
+    <value>0.00°</value>
+  </data>
+  <data name="lblAngle.ToolTip" xml:space="preserve">
+    <value>Measured Angle</value>
+  </data>
+  <data name="&gt;&gt;lblAngle.Name" xml:space="preserve">
+    <value>lblAngle</value>
+  </data>
+  <data name="&gt;&gt;lblAngle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAngle.Parent" xml:space="preserve">
+    <value>GbMeasure</value>
+  </data>
+  <data name="&gt;&gt;lblAngle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCamCoordCam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCamCoordCam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="btnCamCoordCam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="btnCamCoordCam.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnCamCoordCam.Text" xml:space="preserve">
+    <value>G59 Camera coord</value>
+  </data>
+  <data name="btnCamCoordCam.ToolTip" xml:space="preserve">
+    <value>Move current camera position below Tool</value>
+  </data>
+  <data name="&gt;&gt;btnCamCoordCam.Name" xml:space="preserve">
+    <value>btnCamCoordCam</value>
+  </data>
+  <data name="&gt;&gt;btnCamCoordCam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCamCoordCam.Parent" xml:space="preserve">
+    <value>GbOffset</value>
+  </data>
+  <data name="&gt;&gt;btnCamCoordCam.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TbSetPoints.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.5pt</value>
+  </data>
+  <data name="TbSetPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 4</value>
+  </data>
+  <data name="TbSetPoints.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TbSetPoints.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="TbSetPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 60</value>
+  </data>
+  <data name="TbSetPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="TbSetPoints.Text" xml:space="preserve">
+    <value>Fiducial coordinates:</value>
+  </data>
+  <data name="TbSetPoints.ToolTip" xml:space="preserve">
+    <value>Fiducial coordinates: Only the 1st and 2nd will be used.
+Get fiducials coordinates from imported graphic, or collect them manualy:
+Ctrl-Click to mark, 
+"a" to append to list,
+"c" to clear list.</value>
+  </data>
+  <data name="&gt;&gt;TbSetPoints.Name" xml:space="preserve">
+    <value>TbSetPoints</value>
+  </data>
+  <data name="&gt;&gt;TbSetPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TbSetPoints.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;TbSetPoints.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TbRealPoints.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.5pt</value>
+  </data>
+  <data name="TbRealPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 4</value>
+  </data>
+  <data name="TbRealPoints.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TbRealPoints.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="TbRealPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 60</value>
+  </data>
+  <data name="TbRealPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="TbRealPoints.Text" xml:space="preserve">
+    <value>Assigned coordinats:</value>
+  </data>
+  <data name="TbRealPoints.ToolTip" xml:space="preserve">
+    <value>Assigned coordinats:
+Collect points manually:
+Shift-Click to add point,
+Shift -"c" to clear list</value>
+  </data>
+  <data name="&gt;&gt;TbRealPoints.Name" xml:space="preserve">
+    <value>TbRealPoints</value>
+  </data>
+  <data name="&gt;&gt;TbRealPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TbRealPoints.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;TbRealPoints.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnAutoCenter.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnAutoCenter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAutoCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 63</value>
+  </data>
+  <data name="btnAutoCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 23</value>
+  </data>
+  <data name="btnAutoCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnAutoCenter.Text" xml:space="preserve">
+    <value>Move to red circle</value>
+  </data>
+  <data name="btnAutoCenter.ToolTip" xml:space="preserve">
+    <value>Add position to "Assigned points" and move tool</value>
+  </data>
+  <data name="&gt;&gt;btnAutoCenter.Name" xml:space="preserve">
+    <value>btnAutoCenter</value>
+  </data>
+  <data name="&gt;&gt;btnAutoCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAutoCenter.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;btnAutoCenter.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GbZoom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 6</value>
+  </data>
+  <data name="GbZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 83</value>
+  </data>
+  <data name="GbZoom.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="GbZoom.Text" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="&gt;&gt;GbZoom.Name" xml:space="preserve">
+    <value>GbZoom</value>
+  </data>
+  <data name="&gt;&gt;GbZoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GbZoom.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;GbZoom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnSetOffsetZero.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnSetOffsetZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 54</value>
+  </data>
+  <data name="BtnSetOffsetZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 23</value>
+  </data>
+  <data name="BtnSetOffsetZero.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="BtnSetOffsetZero.Text" xml:space="preserve">
+    <value>Set XY = 0;0</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOffsetZero.Name" xml:space="preserve">
+    <value>BtnSetOffsetZero</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOffsetZero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOffsetZero.Parent" xml:space="preserve">
+    <value>GbOffset</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOffsetZero.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnSetOffsetMarker.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnSetOffsetMarker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 19</value>
+  </data>
+  <data name="BtnSetOffsetMarker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 23</value>
+  </data>
+  <data name="BtnSetOffsetMarker.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="BtnSetOffsetMarker.Text" xml:space="preserve">
+    <value>Set XY = Marker</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOffsetMarker.Name" xml:space="preserve">
+    <value>BtnSetOffsetMarker</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOffsetMarker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOffsetMarker.Parent" xml:space="preserve">
+    <value>GbOffset</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOffsetMarker.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GbOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="GbOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 83</value>
+  </data>
+  <data name="GbOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="GbOffset.Text" xml:space="preserve">
+    <value>Camera Offset / Movement</value>
+  </data>
+  <data name="&gt;&gt;GbOffset.Name" xml:space="preserve">
+    <value>GbOffset</value>
+  </data>
+  <data name="&gt;&gt;GbOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GbOffset.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;GbOffset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCenterPos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCenterPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCenterPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 68</value>
+  </data>
+  <data name="lblCenterPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="lblCenterPos.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lblCenterPos.Text" xml:space="preserve">
+    <value>No shape found</value>
+  </data>
+  <data name="&gt;&gt;lblCenterPos.Name" xml:space="preserve">
+    <value>lblCenterPos</value>
+  </data>
+  <data name="&gt;&gt;lblCenterPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCenterPos.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblCenterPos.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 14</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 63</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Rigth click for rotation point, keep pressed, release at desired angle</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>GbMeasure</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CbScale.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CbScale.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CbScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 32</value>
+  </data>
+  <data name="CbScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="CbScale.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="CbScale.Text" xml:space="preserve">
+    <value>Also scale</value>
+  </data>
+  <data name="&gt;&gt;CbScale.Name" xml:space="preserve">
+    <value>CbScale</value>
+  </data>
+  <data name="&gt;&gt;CbScale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CbScale.Parent" xml:space="preserve">
+    <value>GbMeasure</value>
+  </data>
+  <data name="&gt;&gt;CbScale.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>GbMeasure</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cBRotateArround0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cBRotateArround0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cBRotateArround0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 32</value>
+  </data>
+  <data name="cBRotateArround0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="cBRotateArround0.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cBRotateArround0.Text" xml:space="preserve">
+    <value>Rotate arround 0;0</value>
+  </data>
+  <data name="&gt;&gt;cBRotateArround0.Name" xml:space="preserve">
+    <value>cBRotateArround0</value>
+  </data>
+  <data name="&gt;&gt;cBRotateArround0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cBRotateArround0.Parent" xml:space="preserve">
+    <value>GbMeasure</value>
+  </data>
+  <data name="&gt;&gt;cBRotateArround0.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GbMeasure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="GbMeasure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 83</value>
+  </data>
+  <data name="GbMeasure.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="GbMeasure.Text" xml:space="preserve">
+    <value>Measure angle</value>
+  </data>
+  <data name="&gt;&gt;GbMeasure.Name" xml:space="preserve">
+    <value>GbMeasure</value>
+  </data>
+  <data name="&gt;&gt;GbMeasure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GbMeasure.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;GbMeasure.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cBShapeDetection.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cBShapeDetection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cBShapeDetection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="cBShapeDetection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 17</value>
+  </data>
+  <data name="cBShapeDetection.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cBShapeDetection.Text" xml:space="preserve">
+    <value>Enable shape recognition</value>
+  </data>
+  <data name="&gt;&gt;cBShapeDetection.Name" xml:space="preserve">
+    <value>cBShapeDetection</value>
+  </data>
+  <data name="&gt;&gt;cBShapeDetection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cBShapeDetection.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;cBShapeDetection.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BtnStartAutomatic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnStartAutomatic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="BtnStartAutomatic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 61</value>
+  </data>
+  <data name="BtnStartAutomatic.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="BtnStartAutomatic.Text" xml:space="preserve">
+    <value>Start automatic fiducial correction</value>
+  </data>
+  <data name="&gt;&gt;BtnStartAutomatic.Name" xml:space="preserve">
+    <value>BtnStartAutomatic</value>
+  </data>
+  <data name="&gt;&gt;BtnStartAutomatic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnStartAutomatic.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;BtnStartAutomatic.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cBShapeShowFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cBShapeShowFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cBShapeShowFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 24</value>
+  </data>
+  <data name="cBShapeShowFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 17</value>
+  </data>
+  <data name="cBShapeShowFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="cBShapeShowFilter.Text" xml:space="preserve">
+    <value>Show applied filters</value>
+  </data>
+  <data name="&gt;&gt;cBShapeShowFilter.Name" xml:space="preserve">
+    <value>cBShapeShowFilter</value>
+  </data>
+  <data name="&gt;&gt;cBShapeShowFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cBShapeShowFilter.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;cBShapeShowFilter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 49</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Select filter set for fiducial recognition</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 21</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 605</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 22</value>
+  </data>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControl1.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 69</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 17</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>Also scale on rotation</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CbUseShapeRecognition.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CbUseShapeRecognition.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CbUseShapeRecognition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 70</value>
+  </data>
+  <data name="CbUseShapeRecognition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 17</value>
+  </data>
+  <data name="CbUseShapeRecognition.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="CbUseShapeRecognition.Text" xml:space="preserve">
+    <value>Use shape recognition</value>
+  </data>
+  <data name="&gt;&gt;CbUseShapeRecognition.Name" xml:space="preserve">
+    <value>CbUseShapeRecognition</value>
+  </data>
+  <data name="&gt;&gt;CbUseShapeRecognition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CbUseShapeRecognition.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;CbUseShapeRecognition.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 4</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 92</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Automatic mode</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 47</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Shape close to marker is red</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 7</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Filters can be setup in [Setup - Program behavior - Camera]</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 4</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 92</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Shape recognition</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 4</value>
+  </data>
+  <data name="tabPage3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 92</value>
+  </data>
+  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Manual mode</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 4</value>
+  </data>
+  <data name="tabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 92</value>
+  </data>
+  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Set offsets</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabControl1.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>23, 120</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 100</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>640, 627</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 150</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>656, 666</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>656, 666</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="&gt;&gt;setWork00ToHereToolStripMenuItem.Name" xml:space="preserve">
+    <value>setWork00ToHereToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;setWork00ToHereToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;compensateAngleToolStripMenuItem.Name" xml:space="preserve">
+    <value>compensateAngleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;compensateAngleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FiducialAddCoordinateIn2DViewToolStripMenuItem.Name" xml:space="preserve">
+    <value>FiducialAddCoordinateIn2DViewToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;FiducialAddCoordinateIn2DViewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FiducialRemoveLastToolStripMenuItem.Name" xml:space="preserve">
+    <value>FiducialRemoveLastToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;FiducialRemoveLastToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FiducialListClearToolStripMenuItem.Name" xml:space="preserve">
+    <value>FiducialListClearToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;FiducialListClearToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReferenceAddPointInImageToolStripMenuItem.Name" xml:space="preserve">
+    <value>ReferenceAddPointInImageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ReferenceAddPointInImageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReferenceRemoveLastPointToolStripMenuItem.Name" xml:space="preserve">
+    <value>ReferenceRemoveLastPointToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ReferenceRemoveLastPointToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReferenceClearListToolStripMenuItem.Name" xml:space="preserve">
+    <value>ReferenceClearListToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ReferenceClearListToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showOverlayGraphicsToolStripMenuItem.Name" xml:space="preserve">
+    <value>showOverlayGraphicsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;showOverlayGraphicsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setupToolStripMenuItem.Name" xml:space="preserve">
+    <value>setupToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;setupToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;simulateCameraToolStripMenuItem.Name" xml:space="preserve">
+    <value>simulateCameraToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;simulateCameraToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cameraMountToolStripMenuItem.Name" xml:space="preserve">
+    <value>cameraMountToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cameraMountToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripCameraMount.Name" xml:space="preserve">
+    <value>toolStripCameraMount</value>
+  </data>
+  <data name="&gt;&gt;toolStripCameraMount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;camSourceToolStripMenuItem.Name" xml:space="preserve">
+    <value>camSourceToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;camSourceToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;distortionToolStripMenuItem.Name" xml:space="preserve">
+    <value>distortionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;distortionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resetAndTeachToolStripMenuItem.Name" xml:space="preserve">
+    <value>resetAndTeachToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;resetAndTeachToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setRotationAngleToolStripMenuItem.Name" xml:space="preserve">
+    <value>setRotationAngleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;setRotationAngleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox1.Name" xml:space="preserve">
+    <value>toolStripTextBox1</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teachScalingToolStripMenuItem.Name" xml:space="preserve">
+    <value>teachScalingToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;teachScalingToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upperPositionToolStripMenuItem.Name" xml:space="preserve">
+    <value>upperPositionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;upperPositionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teachRadiusTopToolStripMenuItem.Name" xml:space="preserve">
+    <value>teachRadiusTopToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;teachRadiusTopToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox2.Name" xml:space="preserve">
+    <value>toolStripTextBox2</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lowerPositionToolStripMenuItem.Name" xml:space="preserve">
+    <value>lowerPositionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;lowerPositionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teachRadiusBottomToolStripMenuItem.Name" xml:space="preserve">
+    <value>teachRadiusBottomToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;teachRadiusBottomToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox3.Name" xml:space="preserve">
+    <value>toolStripTextBox3</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teachScaling2ToolStripMenuItem.Name" xml:space="preserve">
+    <value>teachScaling2ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;teachScaling2ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teachRadiusToolStripMenuItem.Name" xml:space="preserve">
+    <value>teachRadiusToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;teachRadiusToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setTeachRadiusToolStripMenuItem.Name" xml:space="preserve">
+    <value>setTeachRadiusToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;setTeachRadiusToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox4.Name" xml:space="preserve">
+    <value>toolStripTextBox4</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolPositionToolStripMenuItem.Name" xml:space="preserve">
+    <value>toolPositionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolPositionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setToolPositionToolStripMenuItem.Name" xml:space="preserve">
+    <value>setToolPositionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;setToolPositionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setMachinePositionToolStripMenuItem.Name" xml:space="preserve">
+    <value>setMachinePositionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;setMachinePositionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teachOffsetToolStripMenuItem.Name" xml:space="preserve">
+    <value>teachOffsetToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;teachOffsetToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teachToolStripMenuItem.Name" xml:space="preserve">
+    <value>teachToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;teachToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorsToolStripMenuItem.Name" xml:space="preserve">
+    <value>colorsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;colorsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textToolStripMenuItem.Name" xml:space="preserve">
+    <value>textToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;textToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crossHairsToolStripMenuItem.Name" xml:space="preserve">
+    <value>crossHairsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;crossHairsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;viewToolStripMenuItem.Name" xml:space="preserve">
+    <value>viewToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;viewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;penupPathToolStripMenuItem.Name" xml:space="preserve">
+    <value>penupPathToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;penupPathToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;machineLimitsToolStripMenuItem.Name" xml:space="preserve">
+    <value>machineLimitsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;machineLimitsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dimensionToolStripMenuItem.Name" xml:space="preserve">
+    <value>dimensionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dimensionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Name" xml:space="preserve">
+    <value>colorDialog1</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timerFlowControl.Name" xml:space="preserve">
+    <value>timerFlowControl</value>
+  </data>
+  <data name="&gt;&gt;timerFlowControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timerFreezFrame.Name" xml:space="preserve">
+    <value>timerFreezFrame</value>
+  </data>
+  <data name="&gt;&gt;timerFreezFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ControlCameraForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="cmsPictureBox.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>385, 17</value>
+  </metadata>
+  <metadata name="menuStripCamera.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>167, 17</value>
+  </metadata>
+  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>264, 17</value>
+  </metadata>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>516, 17</value>
+  </metadata>
+  <metadata name="timerFlowControl.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>632, 17</value>
+  </metadata>
+  <metadata name="timerFreezFrame.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>637, 45</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

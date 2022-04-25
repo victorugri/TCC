@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="teachScalingToolStripMenuItem.Text" xml:space="preserve">
+    <value>スケーリングを教える</value>
+  </data>
+  <data name="setRotationAngleToolStripMenuItem.Text" xml:space="preserve">
+    <value>画像の回転</value>
+  </data>
+  <data name="teachOffsetToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>1）「ツール座標」に切り替えます。 （G54）
+2）ゼロX、Y位置
+3）ワークピース上の工具で工具位置をマーク（X = 0、Y = 0）
+4）マーカーをカメラビューの中心の下に移動する
+5）実際の位置をオフセットとして教える
+6）「Cam coord」に切り替えます。 （G59）-X = 0、Y = 0になりました</value>
+  </data>
+  <data name="btnApplyAngle.Text" xml:space="preserve">
+    <value>GCodeに角度を適用</value>
+  </data>
+  <data name="teachScalingToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>1）ホームプロッター
+2）カメラを上の位置に移動する
+3）画像をクリックして、上の半径の距離を教えます
+4）カメラを下の位置に移動する
+5）下の半径の距離を教えるために写真をクリックしてください</value>
+  </data>
+  <data name="toolStripTextBox2.ToolTipText" xml:space="preserve">
+    <value>GRBL単位（mmまたはインチ）</value>
+  </data>
+  <data name="showOverlayGraphicsToolStripMenuItem.Text" xml:space="preserve">
+    <value>オーバーレイグラフィックを表示する</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>カメラ</value>
+  </data>
+  <data name="btnCamCoordTool.Text" xml:space="preserve">
+    <value>G54ツール座標。</value>
+  </data>
+  <data name="toolStripTextBox1.ToolTipText" xml:space="preserve">
+    <value>ビデオ画像を回転-角度を入力</value>
+  </data>
+  <data name="teachRadiusBottomToolStripMenuItem.Text" xml:space="preserve">
+    <value>ティーチ半径の下部を設定</value>
+  </data>
+  <data name="lowerPositionToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>カメラビューを教える</value>
+  </data>
+  <data name="cBCamCoordMove.ToolTip" xml:space="preserve">
+    <value>カメラオフセットをグラフィックスに適用する</value>
+  </data>
+  <data name="teachToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>1）ゼロX、Y位置
+2）ツール位置をマーク（X = 0、Y = 0で）
+3）マーカーがカメラビューの中央に来るまで移動する
+4）実際の位置をオフセットとして教える</value>
+  </data>
+  <data name="btnCamCoordCam.ToolTip" xml:space="preserve">
+    <value>現在のカメラ位置をツールの下に移動</value>
+  </data>
+  <data name="lblCenterPos.Text" xml:space="preserve">
+    <value>形状が見つかりません</value>
+  </data>
+  <data name="btnAutoCenter.Text" xml:space="preserve">
+    <value>中央の赤丸</value>
+  </data>
+  <data name="toolStripTextBox3.ToolTipText" xml:space="preserve">
+    <value>GRBL単位（mmまたはインチ）</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="upperPositionToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>カメラビューを教える</value>
+  </data>
+  <data name="setupToolStripMenuItem.Text" xml:space="preserve">
+    <value>セットアップ</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>フィルターセットを選択</value>
+  </data>
+  <data name="upperPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>上部位置を教える</value>
+  </data>
+  <data name="cBShapeDetection.Text" xml:space="preserve">
+    <value>形状認識</value>
+  </data>
+  <data name="camSourceToolStripMenuItem.Text" xml:space="preserve">
+    <value>ビデオソース</value>
+  </data>
+  <data name="setRotationAngleToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>ビデオ画像を回転-角度を入力</value>
+  </data>
+  <data name="teachToolStripMenuItem.Text" xml:space="preserve">
+    <value>カメラオフセットを教える</value>
+  </data>
+  <data name="compensateAngleToolStripMenuItem.Text" xml:space="preserve">
+    <value>角度とスケールを補正する</value>
+  </data>
+  <data name="btnApplyAngle.ToolTip" xml:space="preserve">
+    <value>マウスの右ボタンを使用して角度を測定します。
+ボタンを押して、測定された角度でGコードを変換します。</value>
+  </data>
+  <data name="btnCamCoordCam.Text" xml:space="preserve">
+    <value>G59カメラ座標</value>
+  </data>
+  <data name="crossHairsToolStripMenuItem.Text" xml:space="preserve">
+    <value>十字線</value>
+  </data>
+  <data name="colorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="lowerPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>低い位置を教える</value>
+  </data>
+  <data name="cBCamCoordMove.Text" xml:space="preserve">
+    <value>ステージを移動</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>ズーム</value>
+  </data>
+  <data name="teachOffsetToolStripMenuItem.Text" xml:space="preserve">
+    <value>オフセットを教える</value>
+  </data>
+  <data name="teachRadiusTopToolStripMenuItem.Text" xml:space="preserve">
+    <value>ティーチ半径を上に設定</value>
+  </data>
+  <data name="lblAngle.ToolTip" xml:space="preserve">
+    <value>測定角度</value>
+  </data>
+  <data name="btnCamCoordTool.ToolTip" xml:space="preserve">
+    <value>現在のツールの位置をカメラの下に移動する</value>
+  </data>
+  <data name="camSourceToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>カメラソースを選択します。</value>
+  </data>
+  <data name="cameraMountToolStripMenuItem.Text" xml:space="preserve">
+    <value>カメラマウント</value>
+  </data>
+  <data name="distortionToolStripMenuItem.Text" xml:space="preserve">
+    <value>歪み補正</value>
+  </data>
+  <data name="teachRadiusToolStripMenuItem.Text" xml:space="preserve">
+    <value>半径を教える</value>
+  </data>
+  <data name="setTeachRadiusToolStripMenuItem.Text" xml:space="preserve">
+    <value>ティーチ半径を設定する</value>
+  </data>
+  <data name="teachScaling2ToolStripMenuItem.Text" xml:space="preserve">
+    <value>スケーリングを教える</value>
+  </data>
+  <data name="toolPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>座標orignを設定します</value>
+  </data>
+  <data name="textToolStripMenuItem.Text" xml:space="preserve">
+    <value>文章</value>
+  </data>
+  <data name="setToolPositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>クリックして設定</value>
+  </data>
+  <data name="resetAndTeachToolStripMenuItem.Text" xml:space="preserve">
+    <value>リセットして教える</value>
+  </data>
+  <data name="cBRotateArround0.Text" xml:space="preserve">
+    <value>0; 0を中心に回転します</value>
+  </data>
+  <data name="simulateCameraToolStripMenuItem.Text" xml:space="preserve">
+    <value>カメラをシミュレートする</value>
+  </data>
+  <data name="penupPathToolStripMenuItem.Text" xml:space="preserve">
+    <value>ペンアップパス</value>
+  </data>
+  <data name="machineLimitsToolStripMenuItem.Text" xml:space="preserve">
+    <value>機械の制限</value>
+  </data>
+  <data name="dimensionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Gコードの寸法</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>意見</value>
+  </data>
+  <data name="menuStripCamera.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="lblAngle.Text" xml:space="preserve">
+    <value>0.00°</value>
+  </data>
+  <data name="TbSetPoints.Text" xml:space="preserve">
+    <value>基準座標：</value>
+  </data>
+  <data name="TbSetPoints.ToolTip" xml:space="preserve">
+    <value>基準座標：1番目と2番目のみが使用されます。
+インポートしたグラフィックから基準座標を取得するか、手動で収集します。
+Ctrl-クリックしてマーク、
+リストに追加する「a」、
+リストをクリアするには「c」。</value>
+  </data>
+  <data name="TbRealPoints.Text" xml:space="preserve">
+    <value>割り当てられたコーディネーター：</value>
+  </data>
+  <data name="TbRealPoints.ToolTip" xml:space="preserve">
+    <value>割り当てられたコーディネーター：
+手動でポイントを収集します。
+Shiftキーを押しながらクリックしてポイントを追加し、
+Shift- "c"でリストをクリア</value>
+  </data>
+  <data name="btnAutoCenter.ToolTip" xml:space="preserve">
+    <value>「割り当てられたポイント」に位置を追加し、ツールを移動します</value>
+  </data>
+  <data name="GbZoom.Text" xml:space="preserve">
+    <value>カメラ</value>
+  </data>
+  <data name="BtnSetOffsetZero.Text" xml:space="preserve">
+    <value>XY = 0; 0に設定します</value>
+  </data>
+  <data name="BtnSetOffsetMarker.Text" xml:space="preserve">
+    <value>XY =マーカーを設定します</value>
+  </data>
+  <data name="GbOffset.Text" xml:space="preserve">
+    <value>カメラのオフセット/動き</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>回転点を右クリックし、押し続け、希望の角度で放します</value>
+  </data>
+  <data name="CbScale.Text" xml:space="preserve">
+    <value>また、スケール</value>
+  </data>
+  <data name="GbMeasure.Text" xml:space="preserve">
+    <value>角度を測定する</value>
+  </data>
+  <data name="BtnStartAutomatic.Text" xml:space="preserve">
+    <value>自動基準修正を開始します</value>
+  </data>
+  <data name="cBShapeShowFilter.Text" xml:space="preserve">
+    <value>適用されたフィルターを表示する</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>また、回転に合わせて拡大縮小します</value>
+  </data>
+  <data name="CbUseShapeRecognition.Text" xml:space="preserve">
+    <value>形状認識を使用する</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>自動モード</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>マーカーに近い形状は赤</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>フィルタは[設定-プログラムの動作-カメラ]で設定できます</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>形状認識</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>手動モード</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>オフセットを設定する</value>
+  </data>
+  <data name="setWork00ToHereToolStripMenuItem.Text" xml:space="preserve">
+    <value>ここで作業座標0; 0を設定します</value>
+  </data>
+  <data name="FiducialAddCoordinateIn2DViewToolStripMenuItem.Text" xml:space="preserve">
+    <value>2Dビューから基準リストに基準座標を追加します</value>
+  </data>
+  <data name="FiducialRemoveLastToolStripMenuItem.Text" xml:space="preserve">
+    <value>最後の基準を削除します</value>
+  </data>
+  <data name="FiducialListClearToolStripMenuItem.Text" xml:space="preserve">
+    <value>基準リストをクリアする</value>
+  </data>
+  <data name="ReferenceAddPointInImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>画像から割り当てられたリストに参照点を追加します</value>
+  </data>
+  <data name="ReferenceRemoveLastPointToolStripMenuItem.Text" xml:space="preserve">
+    <value>最後の参照点を削除します</value>
+  </data>
+  <data name="ReferenceClearListToolStripMenuItem.Text" xml:space="preserve">
+    <value>基準点（割り当て済み）リストをクリアする</value>
+  </data>
+  <data name="setWork00ToHereToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>作業座標の原点を2Dビューでクリックした位置に設定します</value>
+  </data>
+  <data name="compensateAngleToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>黄色でマークされた角度をGコードに適用します</value>
+  </data>
+  <data name="FiducialAddCoordinateIn2DViewToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>2Dビュー内のクリックされた位置の基準座標を基準リストに追加します</value>
+  </data>
+  <data name="FiducialRemoveLastToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>最後に追加した基準を基準リストから削除します</value>
+  </data>
+  <data name="FiducialListClearToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>基準リストをクリアする</value>
+  </data>
+  <data name="ReferenceAddPointInImageToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>画像内のクリックされた位置の参照点を割り当てられたリストに追加します</value>
+  </data>
+  <data name="ReferenceRemoveLastPointToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>割り当てられたリストから最後に追加された参照点を削除します</value>
+  </data>
+  <data name="ReferenceClearListToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>基準点（割り当て済み）リストをクリアする</value>
+  </data>
+  <data name="showOverlayGraphicsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>オーバーレイグラフィックを表示する（ルーラー、ペンダウンパスなど）</value>
+  </data>
+  <data name="setMachinePositionToolStripMenuItem.Text" xml:space="preserve">
+    <value>クリックして、原点でのgrblマシンオフセットを取得します</value>
+  </data>
+</root>

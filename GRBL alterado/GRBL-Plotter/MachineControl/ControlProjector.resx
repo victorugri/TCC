@@ -1,0 +1,1206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 79</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>GbProjectorScale</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 57</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>GbProjectorScale</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 26</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 32</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Scaling (also depends on machine limits)</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>GbProjectorScale</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 34</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 34</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Pen width</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="BtnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 352</value>
+  </data>
+  <data name="BtnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>484, 23</value>
+  </data>
+  <data name="BtnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BtnClose.Text" xml:space="preserve">
+    <value>Close Setup (reopen with right-click)</value>
+  </data>
+  <data name="&gt;&gt;BtnClose.Name" xml:space="preserve">
+    <value>BtnClose</value>
+  </data>
+  <data name="&gt;&gt;BtnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnClose.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;BtnClose.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnColorMarker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 162</value>
+  </data>
+  <data name="btnColorMarker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="btnColorMarker.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnColorMarker.Text" xml:space="preserve">
+    <value>Marker</value>
+  </data>
+  <data name="&gt;&gt;btnColorMarker.Name" xml:space="preserve">
+    <value>btnColorMarker</value>
+  </data>
+  <data name="&gt;&gt;btnColorMarker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorMarker.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;btnColorMarker.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnColorTool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 140</value>
+  </data>
+  <data name="btnColorTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="btnColorTool.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnColorTool.Text" xml:space="preserve">
+    <value>Tool</value>
+  </data>
+  <data name="&gt;&gt;btnColorTool.Name" xml:space="preserve">
+    <value>btnColorTool</value>
+  </data>
+  <data name="&gt;&gt;btnColorTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorTool.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;btnColorTool.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnColorPenDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 118</value>
+  </data>
+  <data name="btnColorPenDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="btnColorPenDown.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnColorPenDown.Text" xml:space="preserve">
+    <value>Pen-Down</value>
+  </data>
+  <data name="&gt;&gt;btnColorPenDown.Name" xml:space="preserve">
+    <value>btnColorPenDown</value>
+  </data>
+  <data name="&gt;&gt;btnColorPenDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorPenDown.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;btnColorPenDown.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnColorPenUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 96</value>
+  </data>
+  <data name="btnColorPenUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="btnColorPenUp.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnColorPenUp.Text" xml:space="preserve">
+    <value>Pen-Up</value>
+  </data>
+  <data name="&gt;&gt;btnColorPenUp.Name" xml:space="preserve">
+    <value>btnColorPenUp</value>
+  </data>
+  <data name="&gt;&gt;btnColorPenUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorPenUp.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;btnColorPenUp.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnColorRuler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 74</value>
+  </data>
+  <data name="btnColorRuler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="btnColorRuler.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnColorRuler.Text" xml:space="preserve">
+    <value>Ruler</value>
+  </data>
+  <data name="&gt;&gt;btnColorRuler.Name" xml:space="preserve">
+    <value>btnColorRuler</value>
+  </data>
+  <data name="&gt;&gt;btnColorRuler.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorRuler.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;btnColorRuler.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnColorDimension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 52</value>
+  </data>
+  <data name="btnColorDimension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="btnColorDimension.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnColorDimension.Text" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="&gt;&gt;btnColorDimension.Name" xml:space="preserve">
+    <value>btnColorDimension</value>
+  </data>
+  <data name="&gt;&gt;btnColorDimension.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorDimension.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;btnColorDimension.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnColorBackground.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 30</value>
+  </data>
+  <data name="btnColorBackground.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="btnColorBackground.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnColorBackground.Text" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="&gt;&gt;btnColorBackground.Name" xml:space="preserve">
+    <value>btnColorBackground</value>
+  </data>
+  <data name="&gt;&gt;btnColorBackground.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorBackground.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;btnColorBackground.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CbProjectorScaleEnable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CbProjectorScaleEnable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CbProjectorScaleEnable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 206</value>
+  </data>
+  <data name="CbProjectorScaleEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="CbProjectorScaleEnable.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="CbProjectorScaleEnable.Text" xml:space="preserve">
+    <value>Scaling and Offset</value>
+  </data>
+  <data name="&gt;&gt;CbProjectorScaleEnable.Name" xml:space="preserve">
+    <value>CbProjectorScaleEnable</value>
+  </data>
+  <data name="&gt;&gt;CbProjectorScaleEnable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CbProjectorScaleEnable.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;CbProjectorScaleEnable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GbProjectorCalc.Name" xml:space="preserve">
+    <value>GbProjectorCalc</value>
+  </data>
+  <data name="&gt;&gt;GbProjectorCalc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GbProjectorCalc.Parent" xml:space="preserve">
+    <value>GbProjectorScale</value>
+  </data>
+  <data name="&gt;&gt;GbProjectorCalc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NudScaling.Name" xml:space="preserve">
+    <value>NudScaling</value>
+  </data>
+  <data name="&gt;&gt;NudScaling.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NudScaling.Parent" xml:space="preserve">
+    <value>GbProjectorScale</value>
+  </data>
+  <data name="&gt;&gt;NudScaling.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NudOffsetX.Name" xml:space="preserve">
+    <value>NudOffsetX</value>
+  </data>
+  <data name="&gt;&gt;NudOffsetX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NudOffsetX.Parent" xml:space="preserve">
+    <value>GbProjectorScale</value>
+  </data>
+  <data name="&gt;&gt;NudOffsetX.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NudOffsetY.Name" xml:space="preserve">
+    <value>NudOffsetY</value>
+  </data>
+  <data name="&gt;&gt;NudOffsetY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NudOffsetY.Parent" xml:space="preserve">
+    <value>GbProjectorScale</value>
+  </data>
+  <data name="&gt;&gt;NudOffsetY.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GbProjectorScale.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GbProjectorScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 209</value>
+  </data>
+  <data name="GbProjectorScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 113</value>
+  </data>
+  <data name="GbProjectorScale.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;GbProjectorScale.Name" xml:space="preserve">
+    <value>GbProjectorScale</value>
+  </data>
+  <data name="&gt;&gt;GbProjectorScale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GbProjectorScale.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;GbProjectorScale.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label69.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label69.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label69.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 34</value>
+  </data>
+  <data name="label69.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 13</value>
+  </data>
+  <data name="label69.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="label69.Text" xml:space="preserve">
+    <value>Monitor nr. to open window</value>
+  </data>
+  <data name="&gt;&gt;label69.Name" xml:space="preserve">
+    <value>label69</value>
+  </data>
+  <data name="&gt;&gt;label69.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label69.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;label69.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numericUpDown15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 32</value>
+  </data>
+  <data name="numericUpDown15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 20</value>
+  </data>
+  <data name="numericUpDown15.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="numericUpDown15.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown15.Name" xml:space="preserve">
+    <value>numericUpDown15</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown15.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown15.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnMaximize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 142</value>
+  </data>
+  <data name="BtnMaximize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 46</value>
+  </data>
+  <data name="BtnMaximize.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BtnMaximize.Text" xml:space="preserve">
+    <value>Maximize Window</value>
+  </data>
+  <data name="&gt;&gt;BtnMaximize.Name" xml:space="preserve">
+    <value>BtnMaximize</value>
+  </data>
+  <data name="&gt;&gt;BtnMaximize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnMaximize.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;BtnMaximize.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnMinimize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 82</value>
+  </data>
+  <data name="BtnMinimize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 46</value>
+  </data>
+  <data name="BtnMinimize.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="BtnMinimize.Text" xml:space="preserve">
+    <value>Minimize Window</value>
+  </data>
+  <data name="&gt;&gt;BtnMinimize.Name" xml:space="preserve">
+    <value>BtnMinimize</value>
+  </data>
+  <data name="&gt;&gt;BtnMinimize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnMinimize.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;BtnMinimize.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 329</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 17</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>Show setup on form load</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CbMarker.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CbMarker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 166</value>
+  </data>
+  <data name="CbMarker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="CbMarker.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="CbMarker.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="&gt;&gt;CbMarker.Name" xml:space="preserve">
+    <value>CbMarker</value>
+  </data>
+  <data name="&gt;&gt;CbMarker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CbMarker.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;CbMarker.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CbTool.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CbTool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 144</value>
+  </data>
+  <data name="CbTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="CbTool.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="CbTool.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="&gt;&gt;CbTool.Name" xml:space="preserve">
+    <value>CbTool</value>
+  </data>
+  <data name="&gt;&gt;CbTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CbTool.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;CbTool.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="CbPenUp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CbPenUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 100</value>
+  </data>
+  <data name="CbPenUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="CbPenUp.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="CbPenUp.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="&gt;&gt;CbPenUp.Name" xml:space="preserve">
+    <value>CbPenUp</value>
+  </data>
+  <data name="&gt;&gt;CbPenUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CbPenUp.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;CbPenUp.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="CbRuler.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CbRuler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 78</value>
+  </data>
+  <data name="CbRuler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="CbRuler.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="CbRuler.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="&gt;&gt;CbRuler.Name" xml:space="preserve">
+    <value>CbRuler</value>
+  </data>
+  <data name="&gt;&gt;CbRuler.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CbRuler.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;CbRuler.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="NudDImension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 54</value>
+  </data>
+  <data name="NudDImension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="NudDImension.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="NudDImension.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;NudDImension.Name" xml:space="preserve">
+    <value>NudDImension</value>
+  </data>
+  <data name="&gt;&gt;NudDImension.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NudDImension.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;NudDImension.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="CbDimension.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CbDimension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 56</value>
+  </data>
+  <data name="CbDimension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="CbDimension.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="CbDimension.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="&gt;&gt;CbDimension.Name" xml:space="preserve">
+    <value>CbDimension</value>
+  </data>
+  <data name="&gt;&gt;CbDimension.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CbDimension.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;CbDimension.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="NudRuler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 76</value>
+  </data>
+  <data name="NudRuler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="NudRuler.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="NudRuler.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;NudRuler.Name" xml:space="preserve">
+    <value>NudRuler</value>
+  </data>
+  <data name="&gt;&gt;NudRuler.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NudRuler.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;NudRuler.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="NudPenUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 98</value>
+  </data>
+  <data name="NudPenUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="NudPenUp.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="NudPenUp.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;NudPenUp.Name" xml:space="preserve">
+    <value>NudPenUp</value>
+  </data>
+  <data name="&gt;&gt;NudPenUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NudPenUp.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;NudPenUp.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="NudMarker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 164</value>
+  </data>
+  <data name="NudMarker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="NudMarker.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="NudMarker.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;NudMarker.Name" xml:space="preserve">
+    <value>NudMarker</value>
+  </data>
+  <data name="&gt;&gt;NudMarker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NudMarker.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;NudMarker.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="NudPenDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 120</value>
+  </data>
+  <data name="NudPenDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="NudPenDown.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="NudPenDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;NudPenDown.Name" xml:space="preserve">
+    <value>NudPenDown</value>
+  </data>
+  <data name="&gt;&gt;NudPenDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NudPenDown.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;NudPenDown.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="NudTool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 142</value>
+  </data>
+  <data name="NudTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="NudTool.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="NudTool.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;NudTool.Name" xml:space="preserve">
+    <value>NudTool</value>
+  </data>
+  <data name="&gt;&gt;NudTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NudTool.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;NudTool.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 39</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Setup - see also [Setup - Program appearance - Projector]</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="SetupPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 12</value>
+  </data>
+  <data name="SetupPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>496, 380</value>
+  </data>
+  <data name="SetupPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SetupPanel.Name" xml:space="preserve">
+    <value>SetupPanel</value>
+  </data>
+  <data name="&gt;&gt;SetupPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SetupPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SetupPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NudOffsetY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 77</value>
+  </data>
+  <data name="NudOffsetY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="NudOffsetY.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="NudOffsetY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="NudOffsetX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="NudOffsetX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="NudOffsetX.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="NudOffsetX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="NudScaling.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="NudScaling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="NudScaling.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="NudScaling.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;label71.Name" xml:space="preserve">
+    <value>label71</value>
+  </data>
+  <data name="&gt;&gt;label71.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label71.Parent" xml:space="preserve">
+    <value>GbProjectorCalc</value>
+  </data>
+  <data name="&gt;&gt;label71.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label70.Name" xml:space="preserve">
+    <value>label70</value>
+  </data>
+  <data name="&gt;&gt;label70.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label70.Parent" xml:space="preserve">
+    <value>GbProjectorCalc</value>
+  </data>
+  <data name="&gt;&gt;label70.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnProjectorCalc.Name" xml:space="preserve">
+    <value>BtnProjectorCalc</value>
+  </data>
+  <data name="&gt;&gt;BtnProjectorCalc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnProjectorCalc.Parent" xml:space="preserve">
+    <value>GbProjectorCalc</value>
+  </data>
+  <data name="&gt;&gt;BtnProjectorCalc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NudProjectorSet.Name" xml:space="preserve">
+    <value>NudProjectorSet</value>
+  </data>
+  <data name="&gt;&gt;NudProjectorSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NudProjectorSet.Parent" xml:space="preserve">
+    <value>GbProjectorCalc</value>
+  </data>
+  <data name="&gt;&gt;NudProjectorSet.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NudProjectorReal.Name" xml:space="preserve">
+    <value>NudProjectorReal</value>
+  </data>
+  <data name="&gt;&gt;NudProjectorReal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NudProjectorReal.Parent" xml:space="preserve">
+    <value>GbProjectorCalc</value>
+  </data>
+  <data name="&gt;&gt;NudProjectorReal.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GbProjectorCalc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 12</value>
+  </data>
+  <data name="GbProjectorCalc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 99</value>
+  </data>
+  <data name="GbProjectorCalc.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="GbProjectorCalc.Text" xml:space="preserve">
+    <value>Calculate scaling</value>
+  </data>
+  <data name="label71.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label71.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 45</value>
+  </data>
+  <data name="label71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="label71.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="label71.Text" xml:space="preserve">
+    <value>Real measured width</value>
+  </data>
+  <data name="label70.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label70.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 21</value>
+  </data>
+  <data name="label70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="label70.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="label70.Text" xml:space="preserve">
+    <value>Graphic width</value>
+  </data>
+  <data name="BtnProjectorCalc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnProjectorCalc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 69</value>
+  </data>
+  <data name="BtnProjectorCalc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 23</value>
+  </data>
+  <data name="BtnProjectorCalc.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="BtnProjectorCalc.Text" xml:space="preserve">
+    <value>Calculate scaling</value>
+  </data>
+  <data name="NudProjectorSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="NudProjectorSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="NudProjectorSet.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="NudProjectorSet.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="NudProjectorReal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="NudProjectorReal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="NudProjectorReal.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="NudProjectorReal.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 441</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Projector</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ControlProjector</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
