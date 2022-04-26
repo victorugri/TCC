@@ -1474,6 +1474,13 @@ namespace GrblPlotter
             else
                 CbAddGraphic.BackColor = Color.Transparent;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //alterar pra algo mais generico tipo:
+            //string diretorioGcodeInicial = string.Format("{0}", Directory.GetCurrentDirectory());
+            LoadFile("D:\\Projetos VisualStudio\\TCC\\GRBL-Plotter-Alterado\\GRBL-Plotter\\GCodes\\gcode.gcode");
+        }
     }
 }
 

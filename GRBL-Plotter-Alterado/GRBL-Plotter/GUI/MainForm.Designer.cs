@@ -321,6 +321,7 @@ namespace GrblPlotter
             this.CbAddGraphic = new System.Windows.Forms.CheckBox();
             this.tLPRechtsOben = new System.Windows.Forms.TableLayoutPanel();
             this.groupBoxCoordinates = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.label_c = new System.Windows.Forms.Label();
             this.btnZeroC = new System.Windows.Forms.Button();
             this.label_mc = new System.Windows.Forms.Label();
@@ -2196,6 +2197,7 @@ namespace GrblPlotter
             // 
             // groupBoxCoordinates
             // 
+            this.groupBoxCoordinates.Controls.Add(this.button1);
             this.groupBoxCoordinates.Controls.Add(this.label_c);
             this.groupBoxCoordinates.Controls.Add(this.btnZeroC);
             this.groupBoxCoordinates.Controls.Add(this.label_mc);
@@ -2229,6 +2231,13 @@ namespace GrblPlotter
             resources.ApplyResources(this.groupBoxCoordinates, "groupBoxCoordinates");
             this.groupBoxCoordinates.Name = "groupBoxCoordinates";
             this.groupBoxCoordinates.TabStop = false;
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label_c
             // 
@@ -2714,8 +2723,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_rotate
             // 
-            this.toolStrip_tb_rotate.Name = "toolStrip_tb_rotate";
             resources.ApplyResources(this.toolStrip_tb_rotate, "toolStrip_tb_rotate");
+            this.toolStrip_tb_rotate.Name = "toolStrip_tb_rotate";
             this.toolStrip_tb_rotate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_rotate_KeyDown);
             // 
             // toolStripSeparator5
@@ -2732,8 +2741,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_scale
             // 
-            this.toolStrip_tb_XY_scale.Name = "toolStrip_tb_XY_scale";
             resources.ApplyResources(this.toolStrip_tb_XY_scale, "toolStrip_tb_XY_scale");
+            this.toolStrip_tb_XY_scale.Name = "toolStrip_tb_XY_scale";
             this.toolStrip_tb_XY_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_scale_KeyDown);
             // 
             // skalierenXYToolStripMenuItem
@@ -2745,8 +2754,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_X_scale
             // 
-            this.toolStrip_tb_XY_X_scale.Name = "toolStrip_tb_XY_X_scale";
             resources.ApplyResources(this.toolStrip_tb_XY_X_scale, "toolStrip_tb_XY_X_scale");
+            this.toolStrip_tb_XY_X_scale.Name = "toolStrip_tb_XY_X_scale";
             this.toolStrip_tb_XY_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_X_scale_KeyDown);
             // 
             // skalierenXYUmXUnitsZuErreichenToolStripMenuItem
@@ -2758,8 +2767,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_Y_scale
             // 
-            this.toolStrip_tb_XY_Y_scale.Name = "toolStrip_tb_XY_Y_scale";
             resources.ApplyResources(this.toolStrip_tb_XY_Y_scale, "toolStrip_tb_XY_Y_scale");
+            this.toolStrip_tb_XY_Y_scale.Name = "toolStrip_tb_XY_Y_scale";
             this.toolStrip_tb_XY_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_Y_scale_KeyDown);
             // 
             // skaliereXUmToolStripMenuItem
@@ -2772,8 +2781,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_scale
             // 
-            this.toolStrip_tb_X_scale.Name = "toolStrip_tb_X_scale";
             resources.ApplyResources(this.toolStrip_tb_X_scale, "toolStrip_tb_X_scale");
+            this.toolStrip_tb_X_scale.Name = "toolStrip_tb_X_scale";
             this.toolStrip_tb_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_scale_KeyDown);
             // 
             // skaliereAufXUnitsToolStripMenuItem
@@ -2787,8 +2796,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_X_scale
             // 
-            this.toolStrip_tb_X_X_scale.Name = "toolStrip_tb_X_X_scale";
             resources.ApplyResources(this.toolStrip_tb_X_X_scale, "toolStrip_tb_X_X_scale");
+            this.toolStrip_tb_X_X_scale.Name = "toolStrip_tb_X_X_scale";
             this.toolStrip_tb_X_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_X_scale_KeyDown);
             // 
             // skaliereYUmToolStripMenuItem
@@ -2801,8 +2810,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_scale
             // 
-            this.toolStrip_tb_Y_scale.Name = "toolStrip_tb_Y_scale";
             resources.ApplyResources(this.toolStrip_tb_Y_scale, "toolStrip_tb_Y_scale");
+            this.toolStrip_tb_Y_scale.Name = "toolStrip_tb_Y_scale";
             this.toolStrip_tb_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_scale_KeyDown);
             // 
             // skaliereAufYUnitsToolStripMenuItem
@@ -2815,8 +2824,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_Y_scale
             // 
-            this.toolStrip_tb_Y_Y_scale.Name = "toolStrip_tb_Y_Y_scale";
             resources.ApplyResources(this.toolStrip_tb_Y_Y_scale, "toolStrip_tb_Y_Y_scale");
+            this.toolStrip_tb_Y_Y_scale.Name = "toolStrip_tb_Y_Y_scale";
             this.toolStrip_tb_Y_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_Y_scale_KeyDown);
             // 
             // toolStripSeparator6
@@ -2833,8 +2842,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_rotary_diameter
             // 
-            this.toolStrip_tb_rotary_diameter.Name = "toolStrip_tb_rotary_diameter";
             resources.ApplyResources(this.toolStrip_tb_rotary_diameter, "toolStrip_tb_rotary_diameter");
+            this.toolStrip_tb_rotary_diameter.Name = "toolStrip_tb_rotary_diameter";
             this.toolStrip_tb_rotary_diameter.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_rotary_diameter_KeyDown);
             // 
             // skaliereXAufDrehachseToolStripMenuItem
@@ -2847,8 +2856,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_A_scale
             // 
-            this.toolStrip_tb_X_A_scale.Name = "toolStrip_tb_X_A_scale";
             resources.ApplyResources(this.toolStrip_tb_X_A_scale, "toolStrip_tb_X_A_scale");
+            this.toolStrip_tb_X_A_scale.Name = "toolStrip_tb_X_A_scale";
             this.toolStrip_tb_X_A_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_A_scale_KeyDown);
             // 
             // skaliereYAufDrehachseToolStripMenuItem
@@ -2861,8 +2870,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_A_scale
             // 
-            this.toolStrip_tb_Y_A_scale.Name = "toolStrip_tb_Y_A_scale";
             resources.ApplyResources(this.toolStrip_tb_Y_A_scale, "toolStrip_tb_Y_A_scale");
+            this.toolStrip_tb_Y_A_scale.Name = "toolStrip_tb_Y_A_scale";
             this.toolStrip_tb_Y_A_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_A_scale_KeyDown);
             // 
             // toolStripSeparator15
@@ -2879,8 +2888,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tBRadiusCompValue
             // 
-            this.toolStrip_tBRadiusCompValue.Name = "toolStrip_tBRadiusCompValue";
             resources.ApplyResources(this.toolStrip_tBRadiusCompValue, "toolStrip_tBRadiusCompValue");
+            this.toolStrip_tBRadiusCompValue.Name = "toolStrip_tBRadiusCompValue";
             this.toolStrip_tBRadiusCompValue.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tBRadiusCompValue_KeyDown);
             // 
             // ersetzteG23DurchLinienToolStripMenuItem
@@ -2990,8 +2999,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_StreamLine
             // 
-            this.toolStrip_tb_StreamLine.Name = "toolStrip_tb_StreamLine";
             resources.ApplyResources(this.toolStrip_tb_StreamLine, "toolStrip_tb_StreamLine");
+            this.toolStrip_tb_StreamLine.Name = "toolStrip_tb_StreamLine";
             this.toolStrip_tb_StreamLine.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_StreamLine_KeyDown);
             // 
             // controlStreamingToolStripMenuItem
@@ -3260,12 +3269,6 @@ namespace GrblPlotter
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.Label label_mx;
-        private System.Windows.Forms.Label label_my;
-        private System.Windows.Forms.Label label_mz;
-        private System.Windows.Forms.Label label_wx;
-        private System.Windows.Forms.Label label_wy;
-        private System.Windows.Forms.Label label_wz;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.Timer MainTimer;
         private System.Windows.Forms.GroupBox gBoxStream;
@@ -3276,19 +3279,7 @@ namespace GrblPlotter
         private System.Windows.Forms.Button btnStreamStart;
         private System.Windows.Forms.TextBox tbFile;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.GroupBox groupBoxCoordinates;
-        private System.Windows.Forms.Label label_status;
         private System.Windows.Forms.Label lblRemaining;
-        private System.Windows.Forms.Label label_status0;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnZeroXYZ;
-        private System.Windows.Forms.Button btnZeroXY;
-        private System.Windows.Forms.Button btnZeroZ;
-        private System.Windows.Forms.Button btnZeroY;
-        private System.Windows.Forms.Button btnZeroX;
-        private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label lbInfo;
         private System.Windows.Forms.ContextMenuStrip cmsFCTB;
@@ -3300,7 +3291,6 @@ namespace GrblPlotter
         private System.Windows.Forms.TableLayoutPanel tLPLinks;
         private System.Windows.Forms.TableLayoutPanel tLPRechts;
         private System.Windows.Forms.TableLayoutPanel tLPRechtsUnten;
-        private System.Windows.Forms.TableLayoutPanel tLPRechtsOben;
         private FastColoredTextBoxNS.FastColoredTextBox fCTBCode;
         private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
@@ -3383,10 +3373,6 @@ namespace GrblPlotter
         private System.Windows.Forms.ToolStripMenuItem heightMapToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cmsPicBoxResetZooming;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
-        private System.Windows.Forms.Label label_a;
-        private System.Windows.Forms.Button btnZeroA;
-        private System.Windows.Forms.Label label_ma;
-        private System.Windows.Forms.Label label_wa;
         private System.Windows.Forms.ToolStripMenuItem cmsPicBoxPasteFromClipboard;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
         private System.Windows.Forms.GroupBox gBOverrideFRGB;
@@ -3410,7 +3396,6 @@ namespace GrblPlotter
         private System.Windows.Forms.ToolStripMenuItem cmsCommentOut;
         private System.Windows.Forms.Timer gamePadTimer;
         private System.Windows.Forms.ToolStripMenuItem cmsPicBoxMoveToMarkedPosition;
-        private System.Windows.Forms.Label lblCurrentG;
         private System.Windows.Forms.ToolStripMenuItem cmsPicBoxReloadFile;
         private System.Windows.Forms.Button btnLimitExceed;
         private System.Windows.Forms.ToolStripMenuItem startStreamingAtLineToolStripMenuItem;
@@ -3465,14 +3450,6 @@ namespace GrblPlotter
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.ToolStripMenuItem mirrorRotaryToolStripMenuItem;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Label label_c;
-        private System.Windows.Forms.Button btnZeroC;
-        private System.Windows.Forms.Label label_mc;
-        private System.Windows.Forms.Label label_wc;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button btnZeroB;
-        private System.Windows.Forms.Label label_mb;
-        private System.Windows.Forms.Label label_wb;
         private virtualJoystick.virtualJoystick virtualJoystickB;
         private virtualJoystick.virtualJoystick virtualJoystickC;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator15;
@@ -3610,6 +3587,39 @@ namespace GrblPlotter
         private System.Windows.Forms.CheckBox CbAddGraphic;
         private System.Windows.Forms.ToolStripMenuItem cmsPicBoxDuplicatePath;
         private System.Windows.Forms.ToolStripMenuItem cmsPicBoxShowProperties;
+        private System.Windows.Forms.TableLayoutPanel tLPRechtsOben;
+        private System.Windows.Forms.GroupBox groupBoxCoordinates;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label_c;
+        private System.Windows.Forms.Button btnZeroC;
+        private System.Windows.Forms.Label label_mc;
+        private System.Windows.Forms.Label label_wc;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button btnZeroB;
+        private System.Windows.Forms.Label label_mb;
+        private System.Windows.Forms.Label label_wb;
+        private System.Windows.Forms.Label lblCurrentG;
+        private System.Windows.Forms.Label label_status0;
+        private System.Windows.Forms.Label label_a;
+        private System.Windows.Forms.Button btnZeroA;
+        private System.Windows.Forms.Label label_ma;
+        private System.Windows.Forms.Label label_wa;
+        private System.Windows.Forms.Button btnHome;
+        private System.Windows.Forms.Button btnZeroXYZ;
+        private System.Windows.Forms.Button btnZeroXY;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnZeroZ;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnZeroY;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnZeroX;
+        private System.Windows.Forms.Label label_status;
+        private System.Windows.Forms.Label label_mx;
+        private System.Windows.Forms.Label label_my;
+        private System.Windows.Forms.Label label_mz;
+        private System.Windows.Forms.Label label_wz;
+        private System.Windows.Forms.Label label_wx;
+        private System.Windows.Forms.Label label_wy;
     }
 }
 

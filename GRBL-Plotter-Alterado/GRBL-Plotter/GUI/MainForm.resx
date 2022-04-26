@@ -133,7 +133,7 @@
     <value>1</value>
   </data>
   <data name="fCTBCode.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
-    <value>191, 12</value>
+    <value>214, 12</value>
   </data>
   <metadata name="cmsFCTB.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>123, 56</value>
@@ -4633,7 +4633,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>Fill</value>
   </data>
   <data name="tLPRechtsUntenRechts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 0</value>
+    <value>983, 0</value>
   </data>
   <data name="tLPRechtsUntenRechts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -4870,7 +4870,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>3, 3</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>286, 347</value>
+    <value>971, 347</value>
   </data>
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -4894,7 +4894,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>3, 356</value>
   </data>
   <data name="tBURL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>286, 20</value>
+    <value>971, 20</value>
   </data>
   <data name="tBURL.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -4960,7 +4960,7 @@ Changing import settings after the first import can lead to undesired effects.</
     <value>3</value>
   </data>
   <data name="tLPMitteUnten.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 401</value>
+    <value>977, 401</value>
   </data>
   <data name="tLPMitteUnten.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -4993,7 +4993,7 @@ Changing import settings after the first import can lead to undesired effects.</
     <value>1</value>
   </data>
   <data name="tLPRechtsUnten.Size" type="System.Drawing.Size, System.Drawing">
-    <value>534, 407</value>
+    <value>1219, 407</value>
   </data>
   <data name="tLPRechtsUnten.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -5015,6 +5015,30 @@ Changing import settings after the first import can lead to undesired effects.</
   </data>
   <data name="tLPRechtsOben.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 87</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>UploadAotumatico</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>groupBoxCoordinates</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="label_c.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5050,7 +5074,7 @@ Changing import settings after the first import can lead to undesired effects.</
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_c.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="btnZeroC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5080,7 +5104,7 @@ Changing import settings after the first import can lead to undesired effects.</
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;btnZeroC.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="label_mc.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7pt</value>
@@ -5116,7 +5140,7 @@ Changing import settings after the first import can lead to undesired effects.</
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_mc.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="label_wc.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5152,7 +5176,7 @@ Changing import settings after the first import can lead to undesired effects.</
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_wc.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5188,7 +5212,7 @@ Changing import settings after the first import can lead to undesired effects.</
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="btnZeroB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5218,7 +5242,7 @@ Changing import settings after the first import can lead to undesired effects.</
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;btnZeroB.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="label_mb.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7pt</value>
@@ -5254,7 +5278,7 @@ Changing import settings after the first import can lead to undesired effects.</
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_mb.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="label_wb.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5290,7 +5314,7 @@ Changing import settings after the first import can lead to undesired effects.</
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_wb.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="lblCurrentG.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5325,7 +5349,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;lblCurrentG.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="label_status0.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5361,7 +5385,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_status0.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="label_a.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5397,7 +5421,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_a.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="btnZeroA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5427,7 +5451,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;btnZeroA.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="label_ma.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7pt</value>
@@ -5463,7 +5487,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_ma.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="label_wa.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5499,7 +5523,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_wa.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="btnHome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5529,7 +5553,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;btnHome.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="btnZeroXYZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5559,7 +5583,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;btnZeroXYZ.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="btnZeroXY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5589,7 +5613,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;btnZeroXY.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5625,7 +5649,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="btnZeroZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5655,7 +5679,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;btnZeroZ.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5691,7 +5715,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="btnZeroY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5721,7 +5745,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;btnZeroY.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5757,7 +5781,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="btnZeroX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5787,7 +5811,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;btnZeroX.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>23</value>
   </data>
   <data name="label_status.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5820,7 +5844,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_status.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>24</value>
   </data>
   <data name="label_mx.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7pt</value>
@@ -5856,7 +5880,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_mx.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>25</value>
   </data>
   <data name="label_my.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7pt</value>
@@ -5892,7 +5916,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_my.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>26</value>
   </data>
   <data name="label_mz.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7pt</value>
@@ -5928,7 +5952,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_mz.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>27</value>
   </data>
   <data name="label_wz.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -5964,7 +5988,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_wz.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>28</value>
   </data>
   <data name="label_wx.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -6000,7 +6024,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_wx.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>29</value>
   </data>
   <data name="label_wy.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -6036,13 +6060,13 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>groupBoxCoordinates</value>
   </data>
   <data name="&gt;&gt;label_wy.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>30</value>
   </data>
   <data name="groupBoxCoordinates.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
   <data name="groupBoxCoordinates.Size" type="System.Drawing.Size, System.Drawing">
-    <value>394, 170</value>
+    <value>514, 170</value>
   </data>
   <data name="groupBoxCoordinates.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -6072,7 +6096,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>1</value>
   </data>
   <data name="tLPRechtsOben.Size" type="System.Drawing.Size, System.Drawing">
-    <value>528, 176</value>
+    <value>1213, 176</value>
   </data>
   <data name="tLPRechtsOben.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -6090,7 +6114,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>1</value>
   </data>
   <data name="tLPRechtsOben.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBoxCoordinates" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,400,Percent,100" /&gt;&lt;Rows Styles="Absolute,176" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBoxCoordinates" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,520,Percent,100" /&gt;&lt;Rows Styles="Absolute,176" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tLPRechts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -6102,7 +6126,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>2</value>
   </data>
   <data name="tLPRechts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>534, 589</value>
+    <value>1219, 589</value>
   </data>
   <data name="tLPRechts.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -6138,7 +6162,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>400</value>
   </data>
   <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 591</value>
+    <value>1565, 591</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
     <value>340</value>
@@ -6520,6 +6544,9 @@ Jazyk
   <data name="rotate180ToolStripMenuItem.Text" xml:space="preserve">
     <value>Rotate 180°</value>
   </data>
+  <data name="toolStrip_tb_rotate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="toolStrip_tb_rotate.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6535,6 +6562,9 @@ Jazyk
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
   </data>
+  <data name="toolStrip_tb_XY_scale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="toolStrip_tb_XY_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6546,6 +6576,9 @@ Jazyk
   </data>
   <data name="sToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY by ...%</value>
+  </data>
+  <data name="toolStrip_tb_XY_X_scale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_XY_X_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6559,6 +6592,9 @@ Jazyk
   <data name="skalierenXYToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY set X=... units</value>
   </data>
+  <data name="toolStrip_tb_XY_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="toolStrip_tb_XY_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6570,6 +6606,9 @@ Jazyk
   </data>
   <data name="skalierenXYUmXUnitsZuErreichenToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY set Y=... units</value>
+  </data>
+  <data name="toolStrip_tb_X_scale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_X_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6586,6 +6625,9 @@ Jazyk
   <data name="skaliereXUmToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
   </data>
+  <data name="toolStrip_tb_X_X_scale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="toolStrip_tb_X_X_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6601,6 +6643,9 @@ Jazyk
   <data name="skaliereAufXUnitsToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
   </data>
+  <data name="toolStrip_tb_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="toolStrip_tb_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6615,6 +6660,9 @@ Jazyk
   </data>
   <data name="skaliereYUmToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
+  </data>
+  <data name="toolStrip_tb_Y_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_Y_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6634,6 +6682,9 @@ Jazyk
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
   </data>
+  <data name="toolStrip_tb_rotary_diameter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="toolStrip_tb_rotary_diameter.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6649,6 +6700,9 @@ Jazyk
   <data name="rotaryDimaeterToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Set Diameter of part for rotary axis</value>
   </data>
+  <data name="toolStrip_tb_X_A_scale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="toolStrip_tb_X_A_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6663,6 +6717,9 @@ Jazyk
   </data>
   <data name="skaliereXAufDrehachseToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
+  </data>
+  <data name="toolStrip_tb_Y_A_scale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_Y_A_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6681,6 +6738,9 @@ Jazyk
   </data>
   <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
+  </data>
+  <data name="toolStrip_tBRadiusCompValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tBRadiusCompValue.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6802,6 +6862,9 @@ Jazyk
   </data>
   <data name="toolStripMenuItem1.ToolTipText" xml:space="preserve">
     <value>Show camera picture</value>
+  </data>
+  <data name="toolStrip_tb_StreamLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_StreamLine.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6960,7 +7023,7 @@ Jazyk
     <value>2, 2</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 24</value>
+    <value>1565, 24</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -7011,7 +7074,7 @@ Jazyk
     <value>2, 617</value>
   </data>
   <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 22</value>
+    <value>1565, 22</value>
   </data>
   <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -7047,7 +7110,7 @@ Jazyk
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>884, 641</value>
+    <value>1569, 641</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>800, 680</value>
