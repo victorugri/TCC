@@ -563,64 +563,16 @@ namespace GrblPlotter
         private void CustomButtonsFillWithContent()
         {
             int customButtonUse = 0;
-            SetCustomButton(btnCustom1, Properties.Settings.Default.guiCustomBtn1);//, 1);
-            SetCustomButton(btnCustom2, Properties.Settings.Default.guiCustomBtn2);//, 2);
-            SetCustomButton(btnCustom3, Properties.Settings.Default.guiCustomBtn3);//, 3);
-            SetCustomButton(btnCustom4, Properties.Settings.Default.guiCustomBtn4);//, 4);
-            SetCustomButton(btnCustom5, Properties.Settings.Default.guiCustomBtn5);//, 5);
-            SetCustomButton(btnCustom6, Properties.Settings.Default.guiCustomBtn6);//, 6);
-            SetCustomButton(btnCustom7, Properties.Settings.Default.guiCustomBtn7);//, 7);
-            SetCustomButton(btnCustom8, Properties.Settings.Default.guiCustomBtn8);//, 8);
-            SetCustomButton(btnCustom9, Properties.Settings.Default.guiCustomBtn9);//, 9);
-            SetCustomButton(btnCustom10, Properties.Settings.Default.guiCustomBtn10);//, 10);
-            SetCustomButton(btnCustom11, Properties.Settings.Default.guiCustomBtn11);//, 11);
-            SetCustomButton(btnCustom12, Properties.Settings.Default.guiCustomBtn12);//, 12);
-
-            customButtonUse += SetCustomButton(btnCustom13, Properties.Settings.Default.guiCustomBtn13);//, 13);
-            customButtonUse += SetCustomButton(btnCustom14, Properties.Settings.Default.guiCustomBtn14);//, 14);
-            customButtonUse += SetCustomButton(btnCustom15, Properties.Settings.Default.guiCustomBtn15);//, 15);
-            customButtonUse += SetCustomButton(btnCustom16, Properties.Settings.Default.guiCustomBtn16);//, 16);
-
-            if (customButtonUse == 0)
-            {
-                tLPCustomButton2.ColumnStyles[0].Width = 33.3f;
-                tLPCustomButton2.ColumnStyles[1].Width = 33.3f;
-                tLPCustomButton2.ColumnStyles[2].Width = 33.3f;
-                tLPCustomButton2.ColumnStyles[3].Width = 0f;
-                tLPCustomButton1.ColumnStyles[0].Width = 100f;
-                tLPCustomButton1.ColumnStyles[1].Width = 0f;
-            }
-            else
-            {
-                tLPCustomButton2.ColumnStyles[0].Width = 25f;
-                tLPCustomButton2.ColumnStyles[1].Width = 25f;
-                tLPCustomButton2.ColumnStyles[2].Width = 25f;
-                tLPCustomButton2.ColumnStyles[3].Width = 25f;
-                tLPCustomButton1.ColumnStyles[0].Width = 100f;
-                tLPCustomButton1.ColumnStyles[1].Width = 0f;
-            }
 
             string[] tmp = Properties.Settings.Default.guiCustomBtn17.Split('|');
             if (tmp[0].Length > 1)      //Properties.Settings.Default.guiCustomBtn17.ToString().Length > 2)
             {
-                if (customButtonUse == 0)
-                {
-                    tLPCustomButton1.ColumnStyles[0].Width = 75f;
-                    tLPCustomButton1.ColumnStyles[1].Width = 25f;
-                }
-                else
-                {
-                    tLPCustomButton1.ColumnStyles[0].Width = 80f;
-                    tLPCustomButton1.ColumnStyles[1].Width = 20f;
-                }
 
                 for (int i = 17; i <= 32; i++)
                 {
                     if (CustomButtons17.ContainsKey(i))
                     {
                         Button b = CustomButtons17[i];
-                        b.Width = btnCustom1.Width - 24;
-                        b.Height = btnCustom1.Height;
                         SetCustomButton(b, Properties.Settings.Default["guiCustomBtn" + i.ToString()].ToString());//, i);
                     }
                 }
@@ -630,22 +582,6 @@ namespace GrblPlotter
 
         private void UpdateCustomButtons(bool enable)	//CustomButtonsEnable
         {
-            btnCustom1.Enabled = enable;
-            btnCustom2.Enabled = enable;
-            btnCustom3.Enabled = enable;
-            btnCustom4.Enabled = enable;
-            btnCustom5.Enabled = enable;
-            btnCustom6.Enabled = enable;
-            btnCustom7.Enabled = enable;
-            btnCustom8.Enabled = enable;
-            btnCustom9.Enabled = enable;
-            btnCustom10.Enabled = enable;
-            btnCustom11.Enabled = enable;
-            btnCustom12.Enabled = enable;
-            btnCustom13.Enabled = enable;
-            btnCustom14.Enabled = enable;
-            btnCustom15.Enabled = enable;
-            btnCustom16.Enabled = enable;
             for (int i = 17; i <= 32; i++)
             {
                 if (CustomButtons17.ContainsKey(i))
@@ -664,12 +600,11 @@ namespace GrblPlotter
                 {
                     Text = "b" + i,
                     Name = "btnCustom" + i.ToString(culture),
-                    Width = btnCustom1.Width - 20
+                    Width = 20
                 };
                 b.MouseDown += BtnCustomButton_Click;
                 CustomButtons17.Add(i, b);
                 SetCustomButton(b, Properties.Settings.Default["guiCustomBtn" + i.ToString(culture)].ToString());//, i);
-                flowLayoutPanel1.Controls.Add(b);
             }
         }
 

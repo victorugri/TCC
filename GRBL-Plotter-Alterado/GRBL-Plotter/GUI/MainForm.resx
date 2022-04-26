@@ -133,7 +133,7 @@
     <value>1</value>
   </data>
   <data name="fCTBCode.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
-    <value>214, 12</value>
+    <value>191, 12</value>
   </data>
   <metadata name="cmsFCTB.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>123, 56</value>
@@ -2863,15 +2863,15 @@ Right click to choose start line number</value>
   <data name="virtualJoystickA.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAABoCAYAAADmS0B+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHVSURBVGhD7Zm9bcMwEEa1QcpUAVy5CeAmVSq3miFAUmaA
-        gK0HCcAx0nOBDMFNmO+o6ExBrGzqY6Ez8CDx+PN4NERQ9oBP6sSQUuKi4uingguoiEMacR8qHW4hOIw9
-        wlHEVFxWBkxCrh7XcoBbcRhXEslJ/cdUnAPI1EE2C1uI55XMILk5rmKPWclVZrVY9mKQW3CzEGPJmHNc
-        7sE1wMLENFTcCZnFC5WFOPgDNg5UxAMe+EfsXOsOrVBx9A9pdMcsniZwxAZyqnZqgYqlEIOITxAeUaaL
-        cUX2EnOh3qkFCzETE9NQcSck408qKo7+KRdcqDdsjYqnM9cZz3G9YWtUnAPxjDPX26rRFqj4euaqN2yN
-        imuVW2JiGiruhGT8TWUhDv4DG0i9YWtUHP0zzlxffLEUYtibmImJaai4E5LxL5WrOF7whviON8SpIvrX
-        XOnCulMLVBz8JT/D3v/kiukMJrF6x3tRsffTlz6LM1gFV5YbouJyaaN/T6Oeweod70XFZTAGbJ9FeQuq
-        YgYmpmFiGiamYWIaJqah4k5IxutD95aYmIaJaexY3AnJuP5j51aYmIaJaexY3AnJuP4H81aYmIaJaexY
-        3AnJmIuJaZiYxo7FfIb0B2lihZdfDE3mAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHMSURBVGhD7ZkxbsMgFIZ9g46dKmXKUilLp05ZfYZK7dgD
+        VKw5SCWO0Z0L9BDchP4P1y9YZkrwz+AX6ZMND/h4REY4GfBJnRhSSlxUHP1UcAGBOKQR96HS4RaCw9gj
+        HEWdistgwCTk6nEtB7gVh3ElkZzUf52KcwUydZDNwhbieSUzSG6uV7HHrOQqs1osezHILbhZiLHKMeUe
+        LBszMDENFXdCZvFCZSEO/oCNA4F4wAP/iJ1r3aEVKo7+IY3umMXTBI7YQE7VTi1QsRRiEPEJwiPKdDGu
+        yF7qXKh3asFCzMTENFTcCcn4k4qKo3/KBRfqDVuj4unMdcZzXG/YGhXninjGmett1WgLVHw9c9UbtkbF
+        teCWmJiGijshGX9TWYiD/8AGUm/YGhVH/4wz1xdfLIUY9iZmYmIaKu6EZPxL5SqOF7whvuMNcQpE/5qD
+        Lqw7tUDFwV/yM+z9Tw5MZzCpq3e8FxV7P33psziDVXBluSEqLpc2+vc06hms3vFeVFwLbomJaZiYholp
+        mJiGiWn0F3dCMl4furfExDRMTGPH4k5IxvUfO7fCxDRMTGPH4k5IxvU/mLfCxDRMTGPH4k5IxlxMTMPE
+        NHYs5jOkP4txhX3058rlAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="virtualJoystickA.Location" type="System.Drawing.Point, System.Drawing">
@@ -2907,38 +2907,38 @@ Right click to choose start line number</value>
   <data name="virtualJoystickXY.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGgAAABoCAYAAAAdHLWhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAdASURBVHhe7doxjltXEoXh3oHDiQZwpGQAJ44mctprMOAJ
-        tQCDqRcigMtwzg14EdwJp4rnUT4s/zNX5ae2r56ugQ9qsk73fXWuu6EG9BL/3Zapvdxut2VGTxd0PeuN
-        0yVeX19ur/HxpXzC8uecX9Xro+Nz9Jvvn7LveO/R9WP++Lz8OOjF5RQv4gtd8+MI5p/n+PMRXnbY/ofP
-        rl8fncaF5euPFxPdZ+bjPDxd0OML5Y0+LmZd0OeT3y3Z9f0nVLx+XEp+I+Tr/C7z1+npgu6B7Qs8/biz
-        T1j+nPvlxE+o+0+prdd8z79b7rPgn5fZ8PzmMo91QZNbFzS5dUGTa13QFl4+E+q42rI8rJT7fvkM3vyC
-        Ludv4+/r8fH12/jl6h/xy9bzAyz/35te0PX8ze319O5+Qbqod/EL7Xf32fJp3vSC0vWSF/RdXMy7eL0u
-        qOsvuiB9N+X7p8sfH2L53zqdBx5WyvGBS8+6oMmtC5rcuqDJ/a0XtH3RrxZ1Uik3tn1NHla9w99/lXod
-        jWUu8LDqHf4+/gr+z/vHpwsvc0S9jsYyF3hY9Q5/v/0bhx/i9yVe5oh6HY1lLvCw6h2+PfT1h9vp/OPv
-        rw+u19FY5gIPq97hP9q/ceBljqjX0VjmAg+r3uG8wNH1OhrLXOBh1TucFzi6XkdjmQs8rHqH8wJH1+to
-        LHOBh1XvcF7g6HodjWUu8LDqHc4LuO3wLwbtUCnHvTjlxrazeVj1DucFnHIfvgi9nbgXp9xY5gIPq97h
-        vIBTTgVczv+JX2j/WMwsejtxL065scwFHla9w3kBp9yH2/X8r9vr6ed1QSBzgYdV73BewCmnAq6XdUEk
-        c4GHVe9wXsAppwLWBbHMBR5WvcN5AaccFzKb3k7ci1NuLHOBh1XvcF7AKceFzKa3E/filBvLXOBh1Tuc
-        F3DKcSGz6e3EvTjlxjIXeFj1DucFnHJcyGx6O3EvTrmxzAUeVr3DeQGnHBfiMveW6MxKOd7DKce9OOXG
-        tmfkYdU7nBdwynEhTrnf3kTvGXgPpxz34pQby1zgYdU7nBdwynEhTrko9PrL7fXlp9tlK/d6/vd9dro8
-        l97RewbewynHvTjlxjIXeFj1DucFnHJciFPut9vl/Mv9d6Xz+Ve9vv+bh3yPy/8UvWfgPZxy3ItTbixz
-        gYdV73BewCnHhTjlfo2L0evHBd3Fd9XJXzf1noH3cMpxL065scwFHla9w3kBpxwX4pR7/pF2Pf90e/34
-        bx64/E/RewbewynHvTjlxjIXeFj1DucFnHJciFPuudjr5cOuH20PvWfgPZxy3ItTbixzgYdV73BewCnH
-        hTjluOC9es/AezjluBen3FjmAg+r3uG8gFOOC3HKccF79Z6B93DKcS9OubHMBR5WvcN5AaccF+KU44L3
-        6j0D7+GU416ccmOZCzyseofzAk45LsQpxwXv1XsG3sMpx7045cYyF3hY9Q7nBZxyXIhTjgveq/cMvIdT
-        jntxyo1lLvCw6h3OCzjluBCnHBe8V+8ZeA+nHPfilBvLXOBh1TucF3DKcSFOOS54r94z8B5OOe7FKTeW
-        ucDDqnc4L+CU40KcclzwXr1n4D2cctyLU24sc4GHVe9wXsApx4U45bjgvXrPwHs45bgXp9xY5gIPq97h
-        vIBTjgtxynHBe/WegfdwynEvTrmxzAUeVr3DeQGnHBfilOOC9+o9A+/hlONenHJjmQs8rHqH8wJOOS7E
-        KccF79V7Bt7DKce9OOXGMhd4WPUO5wWcclyIU44L3qv3DLyHU457ccqNZS7wsOodzgs45bgQpxwXvFfv
-        GXgPpxz34pQby1zgYdU7nBdwynEhTjkueK/eM/AeTjnuxSk3lrnAw6p3OC/glONCnHJc8F69Z+A9nHLc
-        i1NuLHOBh1XvcF7AKceFuMy9JTqzUo73cMpxL065se0ZeVj1DucFnHJcyGx6O3EvTrmxzAUeVr3DeQGn
-        HBcym95O3ItTbixzgYdV73BewCnHhcymtxP34pQby1zgYdU7nBdwynEhs+ntxL045cYyF3hY9Q7nBZxy
-        XMhsejtxL065scwFHla9w3kBpxwXMpveTtyLU24sc4GHVe9wXsApx4XMprcT9+KUG8tc4GHVO5wXcMpx
-        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
+        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
 </value>
   </data>
   <data name="virtualJoystickXY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -2977,15 +2977,15 @@ Right click to choose start line number</value>
   <data name="virtualJoystickZ.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAABoCAYAAADmS0B+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHVSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05ZfYYC7dgD
-        FFpzkAI8RnddoIfgTVRSthkb1tJE/hrMAA+OKCpPVGBBTjp5pUZ0KSUsJmYaGiFKB3epl/exMOC/xGCS
-        1PXX+BgbE6SDNVkmoVeS6/xDbkaKUUcuaoyZOAek0iCySVhFPK5eJ4XN4yYmqVavOqvFss+Sb2H63Ikp
-        PraXyQhcDMPEjdBZvEBZiCMdZOOQDj7IvfcoO9d6QC1MzPSQ+nDM4mECR9lATsVBNTCxNjiq+CTCo7Th
-        YrlK9RoLsTyoBgsxEhfDMHEjtOJPKCZmesqNEMuJtTHxcOY6y31cTqyNiXOAz3LmelslbYGJr2eucmJt
-        TFzq3BIXwzBxI7TibygLcaQP2UDKibUxMdOznLm+8GJtcNybGImLYZi4EVrxL5SrmC/yhPguT4hDB9Nr
-        7gxxPagGJo50yfcw0U/uGM5gGisPvBcTEw1f+iTOyCqEebsiJp4vLdN76u0MVh54LyaeBznK9jlrb0FR
-        jMDFMFwMw8UwXAzDxTBM3AiteH3o3hIXw3AxjB2LG6EVl3/s3AoXw3AxjB2LG6EVl/9g3goXw3AxjB2L
-        G6EVY3ExDBfD2LEYT5f+AC66g1uv6ffSAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHPSURBVGhD7ZkxbsMwDEV9g46dCmTyUiBLp05ZfYYC6dgD
+        FFpzkAI8RnddoIfQTVRSthm71tJE+hrMAA+OSMlPVGJDTjp+xUZ0MUYsKg40NpznROjiwO99ZsB/8U4l
+        sRvYM8Wn2NRhSniehByJj39PdBNcjDhSUVNMxSnAlTqWzcIi4mn1Oi5sGVcxcbVylFmtln3R+Rbm887M
+        H9/U3g6ojYlhqLgRMosXKCuxpwPfODgRDnztPfJXfzugFCoO9BAH1yfxOIGebyDH7KASqFgawYv4yMKe
+        23AxH7l6iTmfH1SClRiJiWGouBFS8QcUFQd6Sg3n8x1Lo+Jxz3Xi6zjfsTQqToFw4j3X26ZTDVR83XPl
+        O5ZGxblkTUwMQ8WNkIq/oKzEnt75BpLvWBoVB3rmPdcnXiyN4PcmRmJiGCpuhFT8A+UqDhd+QjzzE+KY
+        CPSaks5vB5VAxZ4u6Rom+k6JcQ8msfzAe1Ex0fihz+IEr4Jbtgui4uXSBjrHQfdg+YH3ouJcsiYmhmFi
+        GCaGYWIYJobRXtwIqXi76a6JiWGYGMaOxY2QivM/dtbCxDBMDGPH4kZIxfk/mGthYhgmhrFjcSOkYiwm
+        hmFiGDsW4+niL7VZg60r9Lt2AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="virtualJoystickZ.Location" type="System.Drawing.Point, System.Drawing">
@@ -3024,15 +3024,15 @@ Right click to choose start line number</value>
   <data name="virtualJoystickB.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABkAAABoCAYAAAAEl1sHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHNSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05ZfYYC6dgD
-        FFpzkAI8RnddoIfQTdRPOWZkWGjK2NJgMMCDI4rUAx0oMpIOr9iALsZYD5EEGgbOYyJ0scd7Xyj4C+9k
-        wdhjvTF+iV0Sesg4GQl8pSzxP4xrcD1fx7hIUgAdOCSMi98lGRZMjPHLGAvCzFe+XZNbly1yi5uSPHlt
-        TKJCJA1g40s1JhJPO2xCTIQddvwjdvy84B5EEugh9m6fJINsj814KBZpEQkPgmfJAYvvMa4qwRVdccz5
-        cpGWiaQWJlEhkgZwJx/VEEmgpzRwvpy4BJEM5/MR+6ScuASRpEA44ox/myUtRSTXM76cuASRlCbXwiQq
-        RNIA7uSrGhOJp3dsxnLiEkQS6Bln/GddCQ+C34qkFiZRIZIGcCc/1bhKwhlP8ic8yQ8TgV7TpPPzIi0i
-        8XROe4ToO00MZz7HyoUaREI0fEijJIHuXD6+E5HktyfQKfZy5pcLNYgkDwaPr5hsvJSiZG1MosIkKkyi
-        wiQqTKJCJA3gTuYPZWthEhUmUbFBSQO4k/KPL2tgEhUmUbFBSQO4k/IfLGtgEhUmUbFBSQO4k3qYRIVJ
-        VGxQUpcu/gJpkg0tHEBwvAAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHHSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05ZfYYC7dgD
+        FFpzkAI8RnddoIfQTdRPKWbsWmjK2NJgMMCDI4nkA50IMpIOr9iALsZYD5EEygPnsRC62OO9LyT8hXdS
+        MPaoN8yf584BPWQcjAC+0ijwPww1OH+oxfMiSYHowCFgKH6TJBdMDHfiPEZBmPnKt2ty60ZFrnFV8jth
+        TUyiQiQNYONTNSYSTztsICyEHXb8Pb6C84RbEEmgu9i7fZJk2R6b8VBM0iISHgTPkgOK7zGuKsEVXfGc
+        8+UkLRNJLUyiQiQN4E7eqyGSQA9p4Hw5cAkiyefzEfukHLgEkaSJcMQZ/zILWopILmd8OXAJIiktroVJ
+        VIikAdzJZzUmEk9v2IzlwCWIJNAjzviPuhIeBL8VSS1MokIkDeBOvqtxkYQTnuRf8SSfFwI9p0Xn50la
+        ROLplPYI0VdayGc+z5UTNYiEKH9IgySB7tx4fCMiGd+eQK+xlzO/nKhBJKXFtTCJCpOoMIkKk6gwiYq2
+        kgZwJ/OHsrUwiQqTqNigpAHcSfnHlzUwiQqTqNigpAHcSfkPljUwiQqTqNigpAHcST1MosIkKjYoqUsX
+        fwDxqg0/CIKheQAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="virtualJoystickB.Location" type="System.Drawing.Point, System.Drawing">
@@ -3068,15 +3068,15 @@ Right click to choose start line number</value>
   <data name="virtualJoystickC.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABkAAABoCAYAAAAEl1sHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05Zc4YC6dgD
-        FFpzkAI8RnddoIfQTdRP2WFsmC3A2NJgMMCDI5HUCxMoMpIOj9yALudcD5Ek6gchIpC6fMLzqBT8yVBT
-        FjxhvVFMJDHcghFCvhKuk4X+QeoHWXmxQ0wkZQIJAQtfF7dICIIOIi0mkpI0vILJW6cUqSB3WGxWO8yN
-        kivgEhMiaQAbX6oxkUTaYRMikHbYUI/Y8fOCexBJood8Cvsi6WV7bMaDWmRFJDxIkSUHLL7HuKoEV3TF
-        cyHqRVYmklq4xIRIGsCdfFRDJImeyiBEPXEJIunP6CP2iZ64BJGUiXTEGf82S1qKSG5nvJ64BJFowbVw
-        iQmRNIA7+arGRBLpHZtRT1yCSBI944z/rCvhQYpbkdTCJSZE0gDu5KcaN0m64E7+jDv5PpDotQRDnBdZ
-        EUmkS9kjRN8l0J/5PKcXWhAJUf8hXSUFdBfG4zsRyfjtSXTOJznz9UILIhlPpoivmNF4KapkbVxiwiUm
-        XGLCJSZcYkIkDeBO5jdla+ESEy4xsUFJA7gT/ceXNXCJCZeY2KCkAdyJ/gfLGrjEhEtMbFDSAO6kHi4x
-        4RITG5TUpcu/O5AQ4UCxriQAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVGhD7ZkxbsMwDEV9g46dCmTKUiBLp05Zc4YC6dgD
+        FFpzkAI8RnddoIfQTdRP2WFsmC3A2NJgMMCDI5HUMxMIMpIOr9yALudcD5Ek6gchIpC6fML7qBT8yVBT
+        FjxhvVFMJDHcghFCvhKuk4X+QeoHWbnZISaSMoGEgIWvi1skBEEHkRYTSUka7mDy0SlFKsgdFpvVDnOj
+        5Aq4xIRIGsDGl2pMJJF22IQIpB021CN2/LzgHkSS6CGfwr5Ietkem/GgFlkRCQ9SZMkBi+8xrirBFV3x
+        XIh6kZWJpBYuMSGSBnAnH9UQSaKnMghRT1yCSPoz+oh9oicuQSRlIh1xxr/NkpYiktsZrycuQSRacC1c
+        YkIkDeBOvqoxkUR6x2bUE5cgkkTPOOM/60p4kOJWJLVwiQmRNIA7+anGTZIueJI/40m+DyR6LcEQ50VW
+        RBLpUvYI0XcJ9Gc+z+mFFkRC1H9JV0kB3YXx+E5EMv54Ep3zSc58vdCCSLTgWrjEhEtMuMSES0y4xERb
+        SQO4k/lD2Vq4xIRLTGxQ0gDuRP/xZQ1cYsIlJjYoaQB3ov/BsgYuMeESExuUNIA7qYdLTLjExAYldeny
+        LwHfEZJvELoqAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="virtualJoystickC.Location" type="System.Drawing.Point, System.Drawing">
@@ -4849,7 +4849,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>Copy content to Clipboard</value>
   </data>
   <data name="cmsPictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 474</value>
+    <value>237, 452</value>
   </data>
   <data name="&gt;&gt;cmsPictureBox.Name" xml:space="preserve">
     <value>cmsPictureBox</value>
@@ -5015,666 +5015,6 @@ Changing import settings after the first import can lead to undesired effects.</
   </data>
   <data name="tLPRechtsOben.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="tLPCustomButton1.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tLPCustomButton2.ColumnCount" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnCustom1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnCustom1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 1</value>
-  </data>
-  <data name="btnCustom1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnCustom1.Text" xml:space="preserve">
-    <value>Custom 1</value>
-  </data>
-  <data name="&gt;&gt;btnCustom1.Name" xml:space="preserve">
-    <value>btnCustom1</value>
-  </data>
-  <data name="&gt;&gt;btnCustom1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom1.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnCustom2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="btnCustom2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 38</value>
-  </data>
-  <data name="btnCustom2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btnCustom2.Text" xml:space="preserve">
-    <value>Custom 2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom2.Name" xml:space="preserve">
-    <value>btnCustom2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom2.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnCustom3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="btnCustom3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 75</value>
-  </data>
-  <data name="btnCustom3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btnCustom3.Text" xml:space="preserve">
-    <value>Custom 3</value>
-  </data>
-  <data name="&gt;&gt;btnCustom3.Name" xml:space="preserve">
-    <value>btnCustom3</value>
-  </data>
-  <data name="&gt;&gt;btnCustom3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom3.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnCustom4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 112</value>
-  </data>
-  <data name="btnCustom4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 36</value>
-  </data>
-  <data name="btnCustom4.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnCustom4.Text" xml:space="preserve">
-    <value>Custom 4</value>
-  </data>
-  <data name="&gt;&gt;btnCustom4.Name" xml:space="preserve">
-    <value>btnCustom4</value>
-  </data>
-  <data name="&gt;&gt;btnCustom4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom4.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom4.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnCustom5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 1</value>
-  </data>
-  <data name="btnCustom5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom5.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnCustom5.Text" xml:space="preserve">
-    <value>button5</value>
-  </data>
-  <data name="&gt;&gt;btnCustom5.Name" xml:space="preserve">
-    <value>btnCustom5</value>
-  </data>
-  <data name="&gt;&gt;btnCustom5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom5.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom5.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnCustom6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 38</value>
-  </data>
-  <data name="btnCustom6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom6.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="btnCustom6.Text" xml:space="preserve">
-    <value>button6</value>
-  </data>
-  <data name="&gt;&gt;btnCustom6.Name" xml:space="preserve">
-    <value>btnCustom6</value>
-  </data>
-  <data name="&gt;&gt;btnCustom6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom6.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom6.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="btnCustom7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 75</value>
-  </data>
-  <data name="btnCustom7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom7.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="btnCustom7.Text" xml:space="preserve">
-    <value>button7</value>
-  </data>
-  <data name="&gt;&gt;btnCustom7.Name" xml:space="preserve">
-    <value>btnCustom7</value>
-  </data>
-  <data name="&gt;&gt;btnCustom7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom7.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom7.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btnCustom8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 112</value>
-  </data>
-  <data name="btnCustom8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 36</value>
-  </data>
-  <data name="btnCustom8.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btnCustom8.Text" xml:space="preserve">
-    <value>button8</value>
-  </data>
-  <data name="&gt;&gt;btnCustom8.Name" xml:space="preserve">
-    <value>btnCustom8</value>
-  </data>
-  <data name="&gt;&gt;btnCustom8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom8.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom8.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="btnCustom9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 1</value>
-  </data>
-  <data name="btnCustom9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom9.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="btnCustom9.Text" xml:space="preserve">
-    <value>button9</value>
-  </data>
-  <data name="&gt;&gt;btnCustom9.Name" xml:space="preserve">
-    <value>btnCustom9</value>
-  </data>
-  <data name="&gt;&gt;btnCustom9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom9.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom9.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="btnCustom10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 38</value>
-  </data>
-  <data name="btnCustom10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom10.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="btnCustom10.Text" xml:space="preserve">
-    <value>button10</value>
-  </data>
-  <data name="&gt;&gt;btnCustom10.Name" xml:space="preserve">
-    <value>btnCustom10</value>
-  </data>
-  <data name="&gt;&gt;btnCustom10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom10.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom10.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="btnCustom11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 75</value>
-  </data>
-  <data name="btnCustom11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom11.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="btnCustom11.Text" xml:space="preserve">
-    <value>button11</value>
-  </data>
-  <data name="&gt;&gt;btnCustom11.Name" xml:space="preserve">
-    <value>btnCustom11</value>
-  </data>
-  <data name="&gt;&gt;btnCustom11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom11.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom11.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="btnCustom12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 112</value>
-  </data>
-  <data name="btnCustom12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 36</value>
-  </data>
-  <data name="btnCustom12.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="btnCustom12.Text" xml:space="preserve">
-    <value>button12</value>
-  </data>
-  <data name="&gt;&gt;btnCustom12.Name" xml:space="preserve">
-    <value>btnCustom12</value>
-  </data>
-  <data name="&gt;&gt;btnCustom12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom12.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom12.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="btnCustom13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 1</value>
-  </data>
-  <data name="btnCustom13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom13.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="btnCustom13.Text" xml:space="preserve">
-    <value>button13</value>
-  </data>
-  <data name="&gt;&gt;btnCustom13.Name" xml:space="preserve">
-    <value>btnCustom13</value>
-  </data>
-  <data name="&gt;&gt;btnCustom13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom13.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom13.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="btnCustom14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 38</value>
-  </data>
-  <data name="btnCustom14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom14.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="btnCustom14.Text" xml:space="preserve">
-    <value>button14</value>
-  </data>
-  <data name="&gt;&gt;btnCustom14.Name" xml:space="preserve">
-    <value>btnCustom14</value>
-  </data>
-  <data name="&gt;&gt;btnCustom14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom14.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom14.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="btnCustom15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 75</value>
-  </data>
-  <data name="btnCustom15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 35</value>
-  </data>
-  <data name="btnCustom15.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="btnCustom15.Text" xml:space="preserve">
-    <value>button15</value>
-  </data>
-  <data name="&gt;&gt;btnCustom15.Name" xml:space="preserve">
-    <value>btnCustom15</value>
-  </data>
-  <data name="&gt;&gt;btnCustom15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom15.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom15.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="btnCustom16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnCustom16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCustom16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 112</value>
-  </data>
-  <data name="btnCustom16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="btnCustom16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>7, 36</value>
-  </data>
-  <data name="btnCustom16.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="btnCustom16.Text" xml:space="preserve">
-    <value>button16</value>
-  </data>
-  <data name="&gt;&gt;btnCustom16.Name" xml:space="preserve">
-    <value>btnCustom16</value>
-  </data>
-  <data name="&gt;&gt;btnCustom16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCustom16.Parent" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;btnCustom16.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="tLPCustomButton2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tLPCustomButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 1</value>
-  </data>
-  <data name="tLPCustomButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 1, 3, 1</value>
-  </data>
-  <data name="tLPCustomButton2.RowCount" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="tLPCustomButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 149</value>
-  </data>
-  <data name="tLPCustomButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tLPCustomButton2.Name" xml:space="preserve">
-    <value>tLPCustomButton2</value>
-  </data>
-  <data name="&gt;&gt;tLPCustomButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tLPCustomButton2.Parent" xml:space="preserve">
-    <value>tLPCustomButton1</value>
-  </data>
-  <data name="&gt;&gt;tLPCustomButton2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tLPCustomButton2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnCustom1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom4" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom5" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom6" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom7" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom8" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom9" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom10" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom11" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom12" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom13" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom14" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom15" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="btnCustom16" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="flowLayoutPanel1.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>61, 3</value>
-  </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 145</value>
-  </data>
-  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
-    <value>tLPCustomButton1</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tLPCustomButton1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tLPCustomButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 16</value>
-  </data>
-  <data name="tLPCustomButton1.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tLPCustomButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 151</value>
-  </data>
-  <data name="tLPCustomButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tLPCustomButton1.Name" xml:space="preserve">
-    <value>tLPCustomButton1</value>
-  </data>
-  <data name="&gt;&gt;tLPCustomButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tLPCustomButton1.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;tLPCustomButton1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tLPCustomButton1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tLPCustomButton2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="flowLayoutPanel1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="groupBox5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>403, 3</value>
-  </data>
-  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 170</value>
-  </data>
-  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="groupBox5.Text" xml:space="preserve">
-    <value>Custom Buttons</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
-    <value>tLPRechtsOben</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="label_c.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -6720,7 +6060,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>tLPRechtsOben</value>
   </data>
   <data name="&gt;&gt;groupBoxCoordinates.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="tLPRechtsOben.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -6750,7 +6090,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>1</value>
   </data>
   <data name="tLPRechtsOben.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBox5" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="groupBoxCoordinates" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,400,Percent,100" /&gt;&lt;Rows Styles="Absolute,176" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBoxCoordinates" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,400,Percent,100" /&gt;&lt;Rows Styles="Absolute,176" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tLPRechts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -7180,9 +6520,6 @@ Jazyk
   <data name="rotate180ToolStripMenuItem.Text" xml:space="preserve">
     <value>Rotate 180°</value>
   </data>
-  <data name="toolStrip_tb_rotate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_rotate.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -7198,9 +6535,6 @@ Jazyk
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
   </data>
-  <data name="toolStrip_tb_XY_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_XY_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -7212,9 +6546,6 @@ Jazyk
   </data>
   <data name="sToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY by ...%</value>
-  </data>
-  <data name="toolStrip_tb_XY_X_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_XY_X_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -7228,9 +6559,6 @@ Jazyk
   <data name="skalierenXYToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY set X=... units</value>
   </data>
-  <data name="toolStrip_tb_XY_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_XY_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -7242,9 +6570,6 @@ Jazyk
   </data>
   <data name="skalierenXYUmXUnitsZuErreichenToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY set Y=... units</value>
-  </data>
-  <data name="toolStrip_tb_X_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_X_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -7261,9 +6586,6 @@ Jazyk
   <data name="skaliereXUmToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
   </data>
-  <data name="toolStrip_tb_X_X_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_X_X_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -7279,9 +6601,6 @@ Jazyk
   <data name="skaliereAufXUnitsToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
   </data>
-  <data name="toolStrip_tb_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -7296,9 +6615,6 @@ Jazyk
   </data>
   <data name="skaliereYUmToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
-  </data>
-  <data name="toolStrip_tb_Y_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_Y_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -7318,9 +6634,6 @@ Jazyk
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
   </data>
-  <data name="toolStrip_tb_rotary_diameter.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_rotary_diameter.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -7336,9 +6649,6 @@ Jazyk
   <data name="rotaryDimaeterToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Set Diameter of part for rotary axis</value>
   </data>
-  <data name="toolStrip_tb_X_A_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_X_A_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -7353,9 +6663,6 @@ Jazyk
   </data>
   <data name="skaliereXAufDrehachseToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
-  </data>
-  <data name="toolStrip_tb_Y_A_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_Y_A_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -7374,9 +6681,6 @@ Jazyk
   </data>
   <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
-  </data>
-  <data name="toolStrip_tBRadiusCompValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tBRadiusCompValue.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -7498,9 +6802,6 @@ Jazyk
   </data>
   <data name="toolStripMenuItem1.ToolTipText" xml:space="preserve">
     <value>Show camera picture</value>
-  </data>
-  <data name="toolStrip_tb_StreamLine.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_StreamLine.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -8099,6 +7400,12 @@ Jazyk
   <data name="&gt;&gt;cmsPicBoxMarkFirstPos.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;cmsPicBoxShowProperties.Name" xml:space="preserve">
+    <value>cmsPicBoxShowProperties</value>
+  </data>
+  <data name="&gt;&gt;cmsPicBoxShowProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;cmsPicBoxDuplicatePath.Name" xml:space="preserve">
     <value>cmsPicBoxDuplicatePath</value>
   </data>
@@ -8115,12 +7422,6 @@ Jazyk
     <value>cmsPicBoxCropSelectedPath</value>
   </data>
   <data name="&gt;&gt;cmsPicBoxCropSelectedPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmsPicBoxShowProperties.Name" xml:space="preserve">
-    <value>cmsPicBoxShowProperties</value>
-  </data>
-  <data name="&gt;&gt;cmsPicBoxShowProperties.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmsPicBoxMoveSelectedPathInCode.Name" xml:space="preserve">

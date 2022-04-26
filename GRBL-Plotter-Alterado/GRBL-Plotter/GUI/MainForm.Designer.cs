@@ -306,10 +306,10 @@ namespace GrblPlotter
             this.deletenotMarkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.cmsPicBoxMarkFirstPos = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmsPicBoxShowProperties = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsPicBoxDuplicatePath = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsPicBoxDeletePath = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsPicBoxCropSelectedPath = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsPicBoxShowProperties = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsPicBoxMoveSelectedPathInCode = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsPicBoxReverseSelectedPath = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsPicBoxRotateSelectedPath = new System.Windows.Forms.ToolStripMenuItem();
@@ -320,26 +320,6 @@ namespace GrblPlotter
             this.tBURL = new System.Windows.Forms.TextBox();
             this.CbAddGraphic = new System.Windows.Forms.CheckBox();
             this.tLPRechtsOben = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.tLPCustomButton1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tLPCustomButton2 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnCustom1 = new System.Windows.Forms.Button();
-            this.btnCustom2 = new System.Windows.Forms.Button();
-            this.btnCustom3 = new System.Windows.Forms.Button();
-            this.btnCustom4 = new System.Windows.Forms.Button();
-            this.btnCustom5 = new System.Windows.Forms.Button();
-            this.btnCustom6 = new System.Windows.Forms.Button();
-            this.btnCustom7 = new System.Windows.Forms.Button();
-            this.btnCustom8 = new System.Windows.Forms.Button();
-            this.btnCustom9 = new System.Windows.Forms.Button();
-            this.btnCustom10 = new System.Windows.Forms.Button();
-            this.btnCustom11 = new System.Windows.Forms.Button();
-            this.btnCustom12 = new System.Windows.Forms.Button();
-            this.btnCustom13 = new System.Windows.Forms.Button();
-            this.btnCustom14 = new System.Windows.Forms.Button();
-            this.btnCustom15 = new System.Windows.Forms.Button();
-            this.btnCustom16 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.groupBoxCoordinates = new System.Windows.Forms.GroupBox();
             this.label_c = new System.Windows.Forms.Label();
             this.btnZeroC = new System.Windows.Forms.Button();
@@ -517,9 +497,6 @@ namespace GrblPlotter
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.cmsPictureBox.SuspendLayout();
             this.tLPRechtsOben.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.tLPCustomButton1.SuspendLayout();
-            this.tLPCustomButton2.SuspendLayout();
             this.groupBoxCoordinates.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -2129,6 +2106,12 @@ namespace GrblPlotter
             resources.ApplyResources(this.cmsPicBoxMarkFirstPos, "cmsPicBoxMarkFirstPos");
             this.cmsPicBoxMarkFirstPos.Click += new System.EventHandler(this.CmsPicBoxMoveToFirstPos_Click);
             // 
+            // cmsPicBoxShowProperties
+            // 
+            resources.ApplyResources(this.cmsPicBoxShowProperties, "cmsPicBoxShowProperties");
+            this.cmsPicBoxShowProperties.Name = "cmsPicBoxShowProperties";
+            this.cmsPicBoxShowProperties.Click += new System.EventHandler(this.CmsPicBoxShowProperties_Click);
+            // 
             // cmsPicBoxDuplicatePath
             // 
             resources.ApplyResources(this.cmsPicBoxDuplicatePath, "cmsPicBoxDuplicatePath");
@@ -2146,12 +2129,6 @@ namespace GrblPlotter
             resources.ApplyResources(this.cmsPicBoxCropSelectedPath, "cmsPicBoxCropSelectedPath");
             this.cmsPicBoxCropSelectedPath.Name = "cmsPicBoxCropSelectedPath";
             this.cmsPicBoxCropSelectedPath.Click += new System.EventHandler(this.CmsPicBoxCropSelectedPath_Click);
-            // 
-            // cmsPicBoxShowProperties
-            // 
-            resources.ApplyResources(this.cmsPicBoxShowProperties, "cmsPicBoxShowProperties");
-            this.cmsPicBoxShowProperties.Name = "cmsPicBoxShowProperties";
-            this.cmsPicBoxShowProperties.Click += new System.EventHandler(this.CmsPicBoxShowProperties_Click);
             // 
             // cmsPicBoxMoveSelectedPathInCode
             // 
@@ -2214,161 +2191,8 @@ namespace GrblPlotter
             // tLPRechtsOben
             // 
             resources.ApplyResources(this.tLPRechtsOben, "tLPRechtsOben");
-            this.tLPRechtsOben.Controls.Add(this.groupBox5, 1, 0);
             this.tLPRechtsOben.Controls.Add(this.groupBoxCoordinates, 0, 0);
             this.tLPRechtsOben.Name = "tLPRechtsOben";
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.tLPCustomButton1);
-            resources.ApplyResources(this.groupBox5, "groupBox5");
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.TabStop = false;
-            // 
-            // tLPCustomButton1
-            // 
-            resources.ApplyResources(this.tLPCustomButton1, "tLPCustomButton1");
-            this.tLPCustomButton1.Controls.Add(this.tLPCustomButton2, 0, 0);
-            this.tLPCustomButton1.Controls.Add(this.flowLayoutPanel1, 1, 0);
-            this.tLPCustomButton1.Name = "tLPCustomButton1";
-            // 
-            // tLPCustomButton2
-            // 
-            resources.ApplyResources(this.tLPCustomButton2, "tLPCustomButton2");
-            this.tLPCustomButton2.Controls.Add(this.btnCustom1, 0, 0);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom2, 0, 1);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom3, 0, 2);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom4, 0, 3);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom5, 1, 0);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom6, 1, 1);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom7, 1, 2);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom8, 1, 3);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom9, 2, 0);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom10, 2, 1);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom11, 2, 2);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom12, 2, 3);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom13, 3, 0);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom14, 3, 1);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom15, 3, 2);
-            this.tLPCustomButton2.Controls.Add(this.btnCustom16, 3, 3);
-            this.tLPCustomButton2.Name = "tLPCustomButton2";
-            // 
-            // btnCustom1
-            // 
-            resources.ApplyResources(this.btnCustom1, "btnCustom1");
-            this.btnCustom1.Name = "btnCustom1";
-            this.btnCustom1.UseVisualStyleBackColor = true;
-            this.btnCustom1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom2
-            // 
-            resources.ApplyResources(this.btnCustom2, "btnCustom2");
-            this.btnCustom2.Name = "btnCustom2";
-            this.btnCustom2.UseVisualStyleBackColor = true;
-            this.btnCustom2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom3
-            // 
-            resources.ApplyResources(this.btnCustom3, "btnCustom3");
-            this.btnCustom3.Name = "btnCustom3";
-            this.btnCustom3.UseVisualStyleBackColor = true;
-            this.btnCustom3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom4
-            // 
-            resources.ApplyResources(this.btnCustom4, "btnCustom4");
-            this.btnCustom4.Name = "btnCustom4";
-            this.btnCustom4.UseVisualStyleBackColor = true;
-            this.btnCustom4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom5
-            // 
-            resources.ApplyResources(this.btnCustom5, "btnCustom5");
-            this.btnCustom5.Name = "btnCustom5";
-            this.btnCustom5.UseVisualStyleBackColor = true;
-            this.btnCustom5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom6
-            // 
-            resources.ApplyResources(this.btnCustom6, "btnCustom6");
-            this.btnCustom6.Name = "btnCustom6";
-            this.btnCustom6.UseVisualStyleBackColor = true;
-            this.btnCustom6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom7
-            // 
-            resources.ApplyResources(this.btnCustom7, "btnCustom7");
-            this.btnCustom7.Name = "btnCustom7";
-            this.btnCustom7.UseVisualStyleBackColor = true;
-            this.btnCustom7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom8
-            // 
-            resources.ApplyResources(this.btnCustom8, "btnCustom8");
-            this.btnCustom8.Name = "btnCustom8";
-            this.btnCustom8.UseVisualStyleBackColor = true;
-            this.btnCustom8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom9
-            // 
-            resources.ApplyResources(this.btnCustom9, "btnCustom9");
-            this.btnCustom9.Name = "btnCustom9";
-            this.btnCustom9.UseVisualStyleBackColor = true;
-            this.btnCustom9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom10
-            // 
-            resources.ApplyResources(this.btnCustom10, "btnCustom10");
-            this.btnCustom10.Name = "btnCustom10";
-            this.btnCustom10.UseVisualStyleBackColor = true;
-            this.btnCustom10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom11
-            // 
-            resources.ApplyResources(this.btnCustom11, "btnCustom11");
-            this.btnCustom11.Name = "btnCustom11";
-            this.btnCustom11.UseVisualStyleBackColor = true;
-            this.btnCustom11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom12
-            // 
-            resources.ApplyResources(this.btnCustom12, "btnCustom12");
-            this.btnCustom12.Name = "btnCustom12";
-            this.btnCustom12.UseVisualStyleBackColor = true;
-            this.btnCustom12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom13
-            // 
-            resources.ApplyResources(this.btnCustom13, "btnCustom13");
-            this.btnCustom13.Name = "btnCustom13";
-            this.btnCustom13.UseVisualStyleBackColor = true;
-            this.btnCustom13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom14
-            // 
-            resources.ApplyResources(this.btnCustom14, "btnCustom14");
-            this.btnCustom14.Name = "btnCustom14";
-            this.btnCustom14.UseVisualStyleBackColor = true;
-            this.btnCustom14.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom15
-            // 
-            resources.ApplyResources(this.btnCustom15, "btnCustom15");
-            this.btnCustom15.Name = "btnCustom15";
-            this.btnCustom15.UseVisualStyleBackColor = true;
-            this.btnCustom15.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // btnCustom16
-            // 
-            resources.ApplyResources(this.btnCustom16, "btnCustom16");
-            this.btnCustom16.Name = "btnCustom16";
-            this.btnCustom16.UseVisualStyleBackColor = true;
-            this.btnCustom16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BtnCustomButton_Click);
-            // 
-            // flowLayoutPanel1
-            // 
-            resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             // 
             // groupBoxCoordinates
             // 
@@ -2890,8 +2714,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_rotate
             // 
-            resources.ApplyResources(this.toolStrip_tb_rotate, "toolStrip_tb_rotate");
             this.toolStrip_tb_rotate.Name = "toolStrip_tb_rotate";
+            resources.ApplyResources(this.toolStrip_tb_rotate, "toolStrip_tb_rotate");
             this.toolStrip_tb_rotate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_rotate_KeyDown);
             // 
             // toolStripSeparator5
@@ -2908,8 +2732,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_XY_scale, "toolStrip_tb_XY_scale");
             this.toolStrip_tb_XY_scale.Name = "toolStrip_tb_XY_scale";
+            resources.ApplyResources(this.toolStrip_tb_XY_scale, "toolStrip_tb_XY_scale");
             this.toolStrip_tb_XY_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_scale_KeyDown);
             // 
             // skalierenXYToolStripMenuItem
@@ -2921,8 +2745,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_X_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_XY_X_scale, "toolStrip_tb_XY_X_scale");
             this.toolStrip_tb_XY_X_scale.Name = "toolStrip_tb_XY_X_scale";
+            resources.ApplyResources(this.toolStrip_tb_XY_X_scale, "toolStrip_tb_XY_X_scale");
             this.toolStrip_tb_XY_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_X_scale_KeyDown);
             // 
             // skalierenXYUmXUnitsZuErreichenToolStripMenuItem
@@ -2934,8 +2758,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_Y_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_XY_Y_scale, "toolStrip_tb_XY_Y_scale");
             this.toolStrip_tb_XY_Y_scale.Name = "toolStrip_tb_XY_Y_scale";
+            resources.ApplyResources(this.toolStrip_tb_XY_Y_scale, "toolStrip_tb_XY_Y_scale");
             this.toolStrip_tb_XY_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_Y_scale_KeyDown);
             // 
             // skaliereXUmToolStripMenuItem
@@ -2948,8 +2772,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_X_scale, "toolStrip_tb_X_scale");
             this.toolStrip_tb_X_scale.Name = "toolStrip_tb_X_scale";
+            resources.ApplyResources(this.toolStrip_tb_X_scale, "toolStrip_tb_X_scale");
             this.toolStrip_tb_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_scale_KeyDown);
             // 
             // skaliereAufXUnitsToolStripMenuItem
@@ -2963,8 +2787,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_X_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_X_X_scale, "toolStrip_tb_X_X_scale");
             this.toolStrip_tb_X_X_scale.Name = "toolStrip_tb_X_X_scale";
+            resources.ApplyResources(this.toolStrip_tb_X_X_scale, "toolStrip_tb_X_X_scale");
             this.toolStrip_tb_X_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_X_scale_KeyDown);
             // 
             // skaliereYUmToolStripMenuItem
@@ -2977,8 +2801,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_Y_scale, "toolStrip_tb_Y_scale");
             this.toolStrip_tb_Y_scale.Name = "toolStrip_tb_Y_scale";
+            resources.ApplyResources(this.toolStrip_tb_Y_scale, "toolStrip_tb_Y_scale");
             this.toolStrip_tb_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_scale_KeyDown);
             // 
             // skaliereAufYUnitsToolStripMenuItem
@@ -2991,8 +2815,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_Y_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_Y_Y_scale, "toolStrip_tb_Y_Y_scale");
             this.toolStrip_tb_Y_Y_scale.Name = "toolStrip_tb_Y_Y_scale";
+            resources.ApplyResources(this.toolStrip_tb_Y_Y_scale, "toolStrip_tb_Y_Y_scale");
             this.toolStrip_tb_Y_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_Y_scale_KeyDown);
             // 
             // toolStripSeparator6
@@ -3009,8 +2833,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_rotary_diameter
             // 
-            resources.ApplyResources(this.toolStrip_tb_rotary_diameter, "toolStrip_tb_rotary_diameter");
             this.toolStrip_tb_rotary_diameter.Name = "toolStrip_tb_rotary_diameter";
+            resources.ApplyResources(this.toolStrip_tb_rotary_diameter, "toolStrip_tb_rotary_diameter");
             this.toolStrip_tb_rotary_diameter.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_rotary_diameter_KeyDown);
             // 
             // skaliereXAufDrehachseToolStripMenuItem
@@ -3023,8 +2847,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_A_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_X_A_scale, "toolStrip_tb_X_A_scale");
             this.toolStrip_tb_X_A_scale.Name = "toolStrip_tb_X_A_scale";
+            resources.ApplyResources(this.toolStrip_tb_X_A_scale, "toolStrip_tb_X_A_scale");
             this.toolStrip_tb_X_A_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_A_scale_KeyDown);
             // 
             // skaliereYAufDrehachseToolStripMenuItem
@@ -3037,8 +2861,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_A_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_Y_A_scale, "toolStrip_tb_Y_A_scale");
             this.toolStrip_tb_Y_A_scale.Name = "toolStrip_tb_Y_A_scale";
+            resources.ApplyResources(this.toolStrip_tb_Y_A_scale, "toolStrip_tb_Y_A_scale");
             this.toolStrip_tb_Y_A_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_A_scale_KeyDown);
             // 
             // toolStripSeparator15
@@ -3055,8 +2879,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tBRadiusCompValue
             // 
-            resources.ApplyResources(this.toolStrip_tBRadiusCompValue, "toolStrip_tBRadiusCompValue");
             this.toolStrip_tBRadiusCompValue.Name = "toolStrip_tBRadiusCompValue";
+            resources.ApplyResources(this.toolStrip_tBRadiusCompValue, "toolStrip_tBRadiusCompValue");
             this.toolStrip_tBRadiusCompValue.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tBRadiusCompValue_KeyDown);
             // 
             // ersetzteG23DurchLinienToolStripMenuItem
@@ -3166,8 +2990,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_StreamLine
             // 
-            resources.ApplyResources(this.toolStrip_tb_StreamLine, "toolStrip_tb_StreamLine");
             this.toolStrip_tb_StreamLine.Name = "toolStrip_tb_StreamLine";
+            resources.ApplyResources(this.toolStrip_tb_StreamLine, "toolStrip_tb_StreamLine");
             this.toolStrip_tb_StreamLine.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_StreamLine_KeyDown);
             // 
             // controlStreamingToolStripMenuItem
@@ -3422,9 +3246,6 @@ namespace GrblPlotter
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.cmsPictureBox.ResumeLayout(false);
             this.tLPRechtsOben.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.tLPCustomButton1.ResumeLayout(false);
-            this.tLPCustomButton2.ResumeLayout(false);
             this.groupBoxCoordinates.ResumeLayout(false);
             this.groupBoxCoordinates.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -3468,23 +3289,6 @@ namespace GrblPlotter
         private System.Windows.Forms.Button btnZeroY;
         private System.Windows.Forms.Button btnZeroX;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Button btnCustom1;
-        private System.Windows.Forms.Button btnCustom2;
-        private System.Windows.Forms.Button btnCustom3;
-        private System.Windows.Forms.Button btnCustom4;
-        private System.Windows.Forms.Button btnCustom5;
-        private System.Windows.Forms.Button btnCustom6;
-        private System.Windows.Forms.Button btnCustom7;
-        private System.Windows.Forms.Button btnCustom8;
-        private System.Windows.Forms.Button btnCustom9;
-        private System.Windows.Forms.Button btnCustom10;
-        private System.Windows.Forms.Button btnCustom11;
-        private System.Windows.Forms.Button btnCustom12;
-        private System.Windows.Forms.Button btnCustom13;
-        private System.Windows.Forms.Button btnCustom14;
-        private System.Windows.Forms.Button btnCustom15;
-        private System.Windows.Forms.Button btnCustom16;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label lbInfo;
         private System.Windows.Forms.ContextMenuStrip cmsFCTB;
@@ -3498,7 +3302,6 @@ namespace GrblPlotter
         private System.Windows.Forms.TableLayoutPanel tLPRechtsUnten;
         private System.Windows.Forms.TableLayoutPanel tLPRechtsOben;
         private FastColoredTextBoxNS.FastColoredTextBox fCTBCode;
-        private System.Windows.Forms.TableLayoutPanel tLPCustomButton2;
         private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.TableLayoutPanel tLPMitteUnten;
@@ -3703,8 +3506,6 @@ namespace GrblPlotter
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem franzToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem chinesischToolStripMenuItem;
-        private System.Windows.Forms.TableLayoutPanel tLPCustomButton1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.ToolStripMenuItem edgeFinderToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem workpieceToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem probingToolLengthToolStripMenuItem;

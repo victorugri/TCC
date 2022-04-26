@@ -1226,8 +1226,6 @@ namespace GrblPlotter
                 if (CustomButtons17.ContainsKey(i))
                 {
                     Button b = CustomButtons17[i];
-                    b.Width = btnCustom1.Width - 24;
-                    b.Height = btnCustom1.Height;
                 }
             }
             StatusStripSet(0, string.Format("New size X:{0}  Y:{1}",Width, Height), Color.White);
