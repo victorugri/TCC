@@ -462,6 +462,7 @@ namespace GrblPlotter
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.SplashScreenTimer = new System.Windows.Forms.Timer(this.components);
             this.loadTimer = new System.Windows.Forms.Timer(this.components);
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -2193,6 +2194,7 @@ namespace GrblPlotter
             // 
             resources.ApplyResources(this.tLPRechtsOben, "tLPRechtsOben");
             this.tLPRechtsOben.Controls.Add(this.groupBoxCoordinates, 0, 0);
+            this.tLPRechtsOben.Controls.Add(this.textBox1, 1, 0);
             this.tLPRechtsOben.Name = "tLPRechtsOben";
             // 
             // groupBoxCoordinates
@@ -2723,8 +2725,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_rotate
             // 
-            resources.ApplyResources(this.toolStrip_tb_rotate, "toolStrip_tb_rotate");
             this.toolStrip_tb_rotate.Name = "toolStrip_tb_rotate";
+            resources.ApplyResources(this.toolStrip_tb_rotate, "toolStrip_tb_rotate");
             this.toolStrip_tb_rotate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_rotate_KeyDown);
             // 
             // toolStripSeparator5
@@ -2741,8 +2743,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_XY_scale, "toolStrip_tb_XY_scale");
             this.toolStrip_tb_XY_scale.Name = "toolStrip_tb_XY_scale";
+            resources.ApplyResources(this.toolStrip_tb_XY_scale, "toolStrip_tb_XY_scale");
             this.toolStrip_tb_XY_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_scale_KeyDown);
             // 
             // skalierenXYToolStripMenuItem
@@ -2754,8 +2756,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_X_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_XY_X_scale, "toolStrip_tb_XY_X_scale");
             this.toolStrip_tb_XY_X_scale.Name = "toolStrip_tb_XY_X_scale";
+            resources.ApplyResources(this.toolStrip_tb_XY_X_scale, "toolStrip_tb_XY_X_scale");
             this.toolStrip_tb_XY_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_X_scale_KeyDown);
             // 
             // skalierenXYUmXUnitsZuErreichenToolStripMenuItem
@@ -2767,8 +2769,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_Y_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_XY_Y_scale, "toolStrip_tb_XY_Y_scale");
             this.toolStrip_tb_XY_Y_scale.Name = "toolStrip_tb_XY_Y_scale";
+            resources.ApplyResources(this.toolStrip_tb_XY_Y_scale, "toolStrip_tb_XY_Y_scale");
             this.toolStrip_tb_XY_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_Y_scale_KeyDown);
             // 
             // skaliereXUmToolStripMenuItem
@@ -2781,8 +2783,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_X_scale, "toolStrip_tb_X_scale");
             this.toolStrip_tb_X_scale.Name = "toolStrip_tb_X_scale";
+            resources.ApplyResources(this.toolStrip_tb_X_scale, "toolStrip_tb_X_scale");
             this.toolStrip_tb_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_scale_KeyDown);
             // 
             // skaliereAufXUnitsToolStripMenuItem
@@ -2796,8 +2798,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_X_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_X_X_scale, "toolStrip_tb_X_X_scale");
             this.toolStrip_tb_X_X_scale.Name = "toolStrip_tb_X_X_scale";
+            resources.ApplyResources(this.toolStrip_tb_X_X_scale, "toolStrip_tb_X_X_scale");
             this.toolStrip_tb_X_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_X_scale_KeyDown);
             // 
             // skaliereYUmToolStripMenuItem
@@ -2810,8 +2812,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_Y_scale, "toolStrip_tb_Y_scale");
             this.toolStrip_tb_Y_scale.Name = "toolStrip_tb_Y_scale";
+            resources.ApplyResources(this.toolStrip_tb_Y_scale, "toolStrip_tb_Y_scale");
             this.toolStrip_tb_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_scale_KeyDown);
             // 
             // skaliereAufYUnitsToolStripMenuItem
@@ -2824,8 +2826,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_Y_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_Y_Y_scale, "toolStrip_tb_Y_Y_scale");
             this.toolStrip_tb_Y_Y_scale.Name = "toolStrip_tb_Y_Y_scale";
+            resources.ApplyResources(this.toolStrip_tb_Y_Y_scale, "toolStrip_tb_Y_Y_scale");
             this.toolStrip_tb_Y_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_Y_scale_KeyDown);
             // 
             // toolStripSeparator6
@@ -2842,8 +2844,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_rotary_diameter
             // 
-            resources.ApplyResources(this.toolStrip_tb_rotary_diameter, "toolStrip_tb_rotary_diameter");
             this.toolStrip_tb_rotary_diameter.Name = "toolStrip_tb_rotary_diameter";
+            resources.ApplyResources(this.toolStrip_tb_rotary_diameter, "toolStrip_tb_rotary_diameter");
             this.toolStrip_tb_rotary_diameter.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_rotary_diameter_KeyDown);
             // 
             // skaliereXAufDrehachseToolStripMenuItem
@@ -2856,8 +2858,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_A_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_X_A_scale, "toolStrip_tb_X_A_scale");
             this.toolStrip_tb_X_A_scale.Name = "toolStrip_tb_X_A_scale";
+            resources.ApplyResources(this.toolStrip_tb_X_A_scale, "toolStrip_tb_X_A_scale");
             this.toolStrip_tb_X_A_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_A_scale_KeyDown);
             // 
             // skaliereYAufDrehachseToolStripMenuItem
@@ -2870,8 +2872,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_A_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_Y_A_scale, "toolStrip_tb_Y_A_scale");
             this.toolStrip_tb_Y_A_scale.Name = "toolStrip_tb_Y_A_scale";
+            resources.ApplyResources(this.toolStrip_tb_Y_A_scale, "toolStrip_tb_Y_A_scale");
             this.toolStrip_tb_Y_A_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_A_scale_KeyDown);
             // 
             // toolStripSeparator15
@@ -2888,8 +2890,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tBRadiusCompValue
             // 
-            resources.ApplyResources(this.toolStrip_tBRadiusCompValue, "toolStrip_tBRadiusCompValue");
             this.toolStrip_tBRadiusCompValue.Name = "toolStrip_tBRadiusCompValue";
+            resources.ApplyResources(this.toolStrip_tBRadiusCompValue, "toolStrip_tBRadiusCompValue");
             this.toolStrip_tBRadiusCompValue.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tBRadiusCompValue_KeyDown);
             // 
             // ersetzteG23DurchLinienToolStripMenuItem
@@ -2999,8 +3001,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_StreamLine
             // 
-            resources.ApplyResources(this.toolStrip_tb_StreamLine, "toolStrip_tb_StreamLine");
             this.toolStrip_tb_StreamLine.Name = "toolStrip_tb_StreamLine";
+            resources.ApplyResources(this.toolStrip_tb_StreamLine, "toolStrip_tb_StreamLine");
             this.toolStrip_tb_StreamLine.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_StreamLine_KeyDown);
             // 
             // controlStreamingToolStripMenuItem
@@ -3183,6 +3185,11 @@ namespace GrblPlotter
             // 
             this.loadTimer.Tick += new System.EventHandler(this.LoadTimer_Tick);
             // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -3255,6 +3262,7 @@ namespace GrblPlotter
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.cmsPictureBox.ResumeLayout(false);
             this.tLPRechtsOben.ResumeLayout(false);
+            this.tLPRechtsOben.PerformLayout();
             this.groupBoxCoordinates.ResumeLayout(false);
             this.groupBoxCoordinates.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -3620,6 +3628,7 @@ namespace GrblPlotter
         private System.Windows.Forms.Label label_wz;
         private System.Windows.Forms.Label label_wx;
         private System.Windows.Forms.Label label_wy;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

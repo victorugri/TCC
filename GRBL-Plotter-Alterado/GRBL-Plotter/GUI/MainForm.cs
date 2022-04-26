@@ -1480,8 +1480,9 @@ namespace GrblPlotter
             string diretorioParente = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName;
             string diretorioGCodeInicial = string.Format("{0}\\GCodes\\gcode.gcode", diretorioParente);
             LoadFile(diretorioGCodeInicial);
-            //LoadFile("D:\\Projetos VisualStudio\\TCC\\GRBL-Plotter-Alterado\\GRBL-Plotter\\GCodes\\gcode.gcode");
             BtnStreamStart_Click(this, null);
+            //Ver um jeito de desconectar do MEGA e continuar mostrando o caminho
+            //_serial_form.DisconnectFromGrbl(this, null);
         }
     }
 }

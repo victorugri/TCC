@@ -6086,6 +6086,27 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
   <data name="&gt;&gt;groupBoxCoordinates.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 3</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 20</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>tLPRechtsOben</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="tLPRechtsOben.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -6114,7 +6135,7 @@ Add 'G54;' to G-Code header to switch back automatically to G54 before streaming
     <value>1</value>
   </data>
   <data name="tLPRechtsOben.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBoxCoordinates" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,520,Percent,100" /&gt;&lt;Rows Styles="Absolute,176" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBoxCoordinates" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="textBox1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,520,Percent,100" /&gt;&lt;Rows Styles="Absolute,176,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tLPRechts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -6544,9 +6565,6 @@ Jazyk
   <data name="rotate180ToolStripMenuItem.Text" xml:space="preserve">
     <value>Rotate 180°</value>
   </data>
-  <data name="toolStrip_tb_rotate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_rotate.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6562,9 +6580,6 @@ Jazyk
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
   </data>
-  <data name="toolStrip_tb_XY_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_XY_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6576,9 +6591,6 @@ Jazyk
   </data>
   <data name="sToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY by ...%</value>
-  </data>
-  <data name="toolStrip_tb_XY_X_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_XY_X_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6592,9 +6604,6 @@ Jazyk
   <data name="skalierenXYToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY set X=... units</value>
   </data>
-  <data name="toolStrip_tb_XY_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_XY_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6606,9 +6615,6 @@ Jazyk
   </data>
   <data name="skalierenXYUmXUnitsZuErreichenToolStripMenuItem.Text" xml:space="preserve">
     <value>Scale XY set Y=... units</value>
-  </data>
-  <data name="toolStrip_tb_X_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_X_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6625,9 +6631,6 @@ Jazyk
   <data name="skaliereXUmToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
   </data>
-  <data name="toolStrip_tb_X_X_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_X_X_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6643,9 +6646,6 @@ Jazyk
   <data name="skaliereAufXUnitsToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
   </data>
-  <data name="toolStrip_tb_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6660,9 +6660,6 @@ Jazyk
   </data>
   <data name="skaliereYUmToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
-  </data>
-  <data name="toolStrip_tb_Y_Y_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_Y_Y_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6682,9 +6679,6 @@ Jazyk
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
   </data>
-  <data name="toolStrip_tb_rotary_diameter.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_rotary_diameter.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6700,9 +6694,6 @@ Jazyk
   <data name="rotaryDimaeterToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Set Diameter of part for rotary axis</value>
   </data>
-  <data name="toolStrip_tb_X_A_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
   <data name="toolStrip_tb_X_A_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -6717,9 +6708,6 @@ Jazyk
   </data>
   <data name="skaliereXAufDrehachseToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>G2 / G3 are not supported</value>
-  </data>
-  <data name="toolStrip_tb_Y_A_scale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_Y_A_scale.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6738,9 +6726,6 @@ Jazyk
   </data>
   <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 6</value>
-  </data>
-  <data name="toolStrip_tBRadiusCompValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tBRadiusCompValue.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6862,9 +6847,6 @@ Jazyk
   </data>
   <data name="toolStripMenuItem1.ToolTipText" xml:space="preserve">
     <value>Show camera picture</value>
-  </data>
-  <data name="toolStrip_tb_StreamLine.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStrip_tb_StreamLine.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
