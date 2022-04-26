@@ -1477,9 +1477,10 @@ namespace GrblPlotter
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //alterar pra algo mais generico tipo:
-            //string diretorioGcodeInicial = string.Format("{0}", Directory.GetCurrentDirectory());
-            LoadFile("D:\\Projetos VisualStudio\\TCC\\GRBL-Plotter-Alterado\\GRBL-Plotter\\GCodes\\gcode.gcode");
+            string diretorioParente = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName;
+            string diretorioGCodeInicial = string.Format("{0}\\GCodes\\gcode.gcode", diretorioParente);
+            LoadFile(diretorioGCodeInicial);
+            //LoadFile("D:\\Projetos VisualStudio\\TCC\\GRBL-Plotter-Alterado\\GRBL-Plotter\\GCodes\\gcode.gcode");
             BtnStreamStart_Click(this, null);
         }
     }

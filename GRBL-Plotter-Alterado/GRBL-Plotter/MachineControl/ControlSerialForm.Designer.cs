@@ -394,7 +394,9 @@ namespace GrblPlotter
             this.groupBox1.Controls.Add(this.btnCheckGRBLResult);
             this.groupBox1.Controls.Add(this.btnCheckGRBL);
             this.groupBox1.Controls.Add(this.cBStatus);
+            this.groupBox1.Controls.Add(this.LblEthernetIP);
             this.groupBox1.Controls.Add(this.lblSrA);
+            this.groupBox1.Controls.Add(this.TbEthernetIP);
             this.groupBox1.Controls.Add(this.lblSrLn);
             this.groupBox1.Controls.Add(this.LblAccessoryState);
             this.groupBox1.Controls.Add(this.lblSrState);
@@ -460,8 +462,6 @@ namespace GrblPlotter
             this.Controls.Add(this.TbEthernetPort);
             this.Controls.Add(this.BtnOpenPortEthernet);
             this.Controls.Add(this.LblEthernetPort);
-            this.Controls.Add(this.LblEthernetIP);
-            this.Controls.Add(this.TbEthernetIP);
             this.Controls.Add(this.btnScanPort);
             this.Controls.Add(this.CbEthernetUse);
             this.Controls.Add(this.btnGRBLCmndBuild);
