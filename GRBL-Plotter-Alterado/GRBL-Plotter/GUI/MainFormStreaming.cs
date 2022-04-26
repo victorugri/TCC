@@ -362,8 +362,13 @@ namespace GrblPlotter
         private void BtnStreamStart_Click(object sender, MouseEventArgs e)
         {
             UpdateLogging();
-            if (e.Button == System.Windows.Forms.MouseButtons.Right)
-            { StreamSection(); }
+            if (e != null)
+            {
+                if (e.Button == System.Windows.Forms.MouseButtons.Right)
+                { StreamSection(); }
+                else
+                { StartStreaming(0, fCTBCode.LinesCount - 1); }
+            }
             else
             { StartStreaming(0, fCTBCode.LinesCount - 1); }
         }
