@@ -46,6 +46,11 @@ namespace GrblPlotter
         private bool Connected = false;
         private bool UseSocket = true;
         private StreamReader reader;
+        DateTime horarioInicial;
+
+        TimeSpan[] vetorTempoBloco = new TimeSpan[3];
+
+        string[] vetorPosicaoBloco = new string[3];
         //     StreamWriter writer;
 
         public void ConnectToGrbl()
@@ -232,5 +237,74 @@ namespace GrblPlotter
 
 			OnRaisePosEvent(new PosEventArgs(posWork, posMachine, GrblState.unknown, machineState, mParserState, ""));// lastCmd));					
 		}
+
+        public string[] connectToArduinoUno()
+        {
+            horarioInicial = DateTime.Now;
+            string selectedPort = "COM4";
+            serialPort = new SerialPort(selectedPort, 115200, Parity.None, 8, StopBits.One);
+            serialPort.Open();
+            //textBox1.Text = "CONECTADO";
+            //button1.Text = "Disconnect";
+            //enableControls();
+
+            var teste = serialPort.ReadLine();
+            vetorTempoBloco[0] = (DateTime.Now - horarioInicial);
+            //textBox1.Text = vetorTempoBloco[0].ToString();
+            var teste2 = serialPort.ReadLine();
+            vetorTempoBloco[1] = (DateTime.Now - horarioInicial);
+            //textBox2.Text = vetorTempoBloco[1].ToString();
+            var teste3 = serialPort.ReadLine();
+            vetorTempoBloco[2] = (DateTime.Now - horarioInicial);
+            //textBox3.Text = vetorTempoBloco[2].ToString();
+
+            converterTempoEmPosicao();
+
+            return vetorPosicaoBloco;
+        }
+
+        private void converterTempoEmPosicao()
+        {
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    //if (vetorTempoBloco[0].Seconds < 22)
+            //    //    textBox1.Text = "Erro, leitura muito rapida do primeiro bloco!";
+            //    //posicao 1x1
+            //    if (22 <= vetorTempoBloco[i].Seconds && vetorTempoBloco[i].Seconds <= 24)
+            //        vetorPosicaoBloco[i] = "1x1";
+            //    //posicao 1x2
+            //    else if (25 <= vetorTempoBloco[i].Seconds && vetorTempoBloco[i].Seconds <= 27)
+            //        vetorPosicaoBloco[i] = "1x2";
+            //    //posicao 1x3
+            //    else if (28 <= vetorTempoBloco[i].Seconds && vetorTempoBloco[i].Seconds <= 30)
+            //        vetorPosicaoBloco[i] = "1x3";
+            //    //posicao 2x1
+            //    else if (40 <= vetorTempoBloco[i].Seconds && vetorTempoBloco[i].Seconds <= 42)
+            //        vetorPosicaoBloco[i] = "2x3";
+            //    //posicao 2x2
+            //    else if (43 <= vetorTempoBloco[i].Seconds && vetorTempoBloco[i].Seconds <= 45)
+            //        vetorPosicaoBloco[i] = "2x2";
+            //    //posicao 2x3
+            //    else if (46 <= vetorTempoBloco[i].Seconds && vetorTempoBloco[i].Seconds <= 48)
+            //        vetorPosicaoBloco[i] = "2x1";
+            //    //posicao 3x1
+            //    else if (58 <= vetorTempoBloco[i].Seconds && vetorTempoBloco[i].Seconds <= 60)
+            //        vetorPosicaoBloco[i] = "3x1";
+            //    //posicao 3x2
+            //    else if (61 <= vetorTempoBloco[i].Seconds && vetorTempoBloco[i].Seconds <= 63)
+            //        vetorPosicaoBloco[i] = "3x2";
+            //    //posicao 2x3
+            //    else if (64 <= vetorTempoBloco[i].Seconds && vetorTempoBloco[i].Seconds <= 66)
+            //        vetorPosicaoBloco[i] = "3x3";
+            //}
+
+            //temporario p teste
+            for (int i = 0; i < 3; i++)
+            {
+                vetorPosicaoBloco[i] = vetorTempoBloco[i].TotalSeconds.ToString();
+            }
+
+        }
+
     }
 }

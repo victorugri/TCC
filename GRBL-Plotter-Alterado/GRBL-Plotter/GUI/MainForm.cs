@@ -1483,6 +1483,14 @@ namespace GrblPlotter
             BtnStreamStart_Click(this, null);
             //Ver um jeito de desconectar do MEGA e continuar mostrando o caminho
             //_serial_form.DisconnectFromGrbl(this, null);
+
+            var testeLeiturasUno = _serial_form.connectToArduinoUno();
+            for (int i = 0; i < 3; i++)
+            {
+                textBox1.Text = string.Format("{0} {1}", textBox1.Text, testeLeiturasUno[i]);
+            }
+
+            _serial_form.ConnectToGrbl(this, null);
         }
     }
 }

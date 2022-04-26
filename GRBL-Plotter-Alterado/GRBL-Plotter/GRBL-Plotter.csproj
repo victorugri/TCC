@@ -782,6 +782,7 @@
     <None Include="Resources\barcode.png" />
     <None Include="Resources\bevOff.png" />
     <None Include="Resources\bevOn.png" />
+    <Content Include="ReadMe.txt" />
     <Content Include="Resources\efOff1.png" />
     <Content Include="Resources\efOff2.png" />
     <Content Include="Resources\efOff3.png" />
