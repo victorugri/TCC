@@ -1476,18 +1476,22 @@ namespace GrblPlotter
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string[] testeLeiturasUno = new string[3];
+            TimeSpan[] testeLeiturasUnoTempo = new TimeSpan[3];
+            string[] testeLeiturasUnoPosicao = new string[3];
 
             string diretorioParente = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName;
             string diretorioGCodeInicial = string.Format("{0}\\GCodes\\gcode.gcode", diretorioParente);
             LoadFile(diretorioGCodeInicial);
             BtnStreamStart_Click(this, null);
 
-            testeLeiturasUno = _serial_form.connectToArduinoUno();
+            testeLeiturasUnoTempo = _serial_form.connectToArduinoUno();
+
+            testeLeiturasUnoPosicao  = _serial_form.converterTempoEmPosicao();
 
             for (int i = 0; i < 3; i++)
             {
-                textBox1.Text = string.Format("{0}seg || {1}", textBox1.Text, testeLeiturasUno[i]);
+                textBox1.Text = string.Format("{0} | {1}", textBox1.Text, testeLeiturasUnoTempo[i].Seconds);
+                textBox2.Text = string.Format("{0} | {1}", textBox2.Text, testeLeiturasUnoPosicao[i]);
             }
         }
     }

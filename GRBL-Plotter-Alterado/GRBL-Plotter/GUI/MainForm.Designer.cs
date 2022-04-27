@@ -320,6 +320,9 @@ namespace GrblPlotter
             this.tBURL = new System.Windows.Forms.TextBox();
             this.CbAddGraphic = new System.Windows.Forms.CheckBox();
             this.tLPRechtsOben = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBoxCoordinates = new System.Windows.Forms.GroupBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -431,8 +434,6 @@ namespace GrblPlotter
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.SplashScreenTimer = new System.Windows.Forms.Timer(this.components);
             this.loadTimer = new System.Windows.Forms.Timer(this.components);
-            this.button1 = new System.Windows.Forms.Button();
-            this.groupBoxCoordinates = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -469,9 +470,9 @@ namespace GrblPlotter
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.cmsPictureBox.SuspendLayout();
             this.tLPRechtsOben.SuspendLayout();
+            this.groupBoxCoordinates.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
-            this.groupBoxCoordinates.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -2164,8 +2165,28 @@ namespace GrblPlotter
             // 
             resources.ApplyResources(this.tLPRechtsOben, "tLPRechtsOben");
             this.tLPRechtsOben.Controls.Add(this.groupBoxCoordinates, 0, 0);
-            this.tLPRechtsOben.Controls.Add(this.textBox1, 1, 0);
             this.tLPRechtsOben.Name = "tLPRechtsOben";
+            // 
+            // groupBoxCoordinates
+            // 
+            this.groupBoxCoordinates.Controls.Add(this.textBox2);
+            this.groupBoxCoordinates.Controls.Add(this.button1);
+            this.groupBoxCoordinates.Controls.Add(this.textBox1);
+            resources.ApplyResources(this.groupBoxCoordinates, "groupBoxCoordinates");
+            this.groupBoxCoordinates.Name = "groupBoxCoordinates";
+            this.groupBoxCoordinates.TabStop = false;
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -2938,20 +2959,6 @@ namespace GrblPlotter
             // 
             this.loadTimer.Tick += new System.EventHandler(this.LoadTimer_Tick);
             // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // groupBoxCoordinates
-            // 
-            this.groupBoxCoordinates.Controls.Add(this.button1);
-            resources.ApplyResources(this.groupBoxCoordinates, "groupBoxCoordinates");
-            this.groupBoxCoordinates.Name = "groupBoxCoordinates";
-            this.groupBoxCoordinates.TabStop = false;
-            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -3024,12 +3031,12 @@ namespace GrblPlotter
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.cmsPictureBox.ResumeLayout(false);
             this.tLPRechtsOben.ResumeLayout(false);
-            this.tLPRechtsOben.PerformLayout();
+            this.groupBoxCoordinates.ResumeLayout(false);
+            this.groupBoxCoordinates.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            this.groupBoxCoordinates.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3360,6 +3367,7 @@ namespace GrblPlotter
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBoxCoordinates;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
