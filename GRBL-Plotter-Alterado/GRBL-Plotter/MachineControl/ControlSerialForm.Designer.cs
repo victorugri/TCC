@@ -53,7 +53,7 @@ namespace GrblPlotter
             this.cbBaud = new System.Windows.Forms.ComboBox();
             this.BtnOpenPortSerial = new System.Windows.Forms.Button();
             this.btnScanPort = new System.Windows.Forms.Button();
-            this.serialPort = new System.IO.Ports.SerialPort(this.components);
+            this.serialPort[0] = new System.IO.Ports.SerialPort(this.components);
             this.rtbLog = new System.Windows.Forms.RichTextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pasteCodeFromClipboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -140,11 +140,11 @@ namespace GrblPlotter
             // 
             // serialPort
             // 
-            this.serialPort.BaudRate = 115200;
-            this.serialPort.ReadBufferSize = 2048;
-            this.serialPort.ReadTimeout = 3000;
-            this.serialPort.WriteTimeout = 3000;
-            this.serialPort.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.SerialPort1_DataReceived);
+            this.serialPort[0].BaudRate = 115200;
+            this.serialPort[0].ReadBufferSize = 2048;
+            this.serialPort[0].ReadTimeout = 3000;
+            this.serialPort[0].WriteTimeout = 3000;
+            this.serialPort[0].DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.SerialPort1_DataReceived);
             // 
             // rtbLog
             // 
@@ -501,7 +501,7 @@ namespace GrblPlotter
         private System.Windows.Forms.ComboBox cbBaud;
         private System.Windows.Forms.Button BtnOpenPortSerial;
         private System.Windows.Forms.Button btnScanPort;
-        private System.IO.Ports.SerialPort serialPort;
+        private System.IO.Ports.SerialPort[] serialPort =  new System.IO.Ports.SerialPort[2];
         private System.Windows.Forms.RichTextBox rtbLog;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnSend;

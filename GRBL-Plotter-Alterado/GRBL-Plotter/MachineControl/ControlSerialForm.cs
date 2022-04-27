@@ -260,7 +260,7 @@ namespace GrblPlotter
                 isDataProcessing = false;
                 if (countShutdown == 0)
                 {
-                    serialPort.DataReceived -= (this.SerialPort1_DataReceived); // stop receiving data
+                    serialPort[0].DataReceived -= (this.SerialPort1_DataReceived); // stop receiving data
                 //    JustgrblReset();    // nötig?
                     StopStreaming(true);    // isNotStartup = true
                     timerSerial.Stop();
@@ -660,15 +660,15 @@ namespace GrblPlotter
             try
             {
                 Logger.Info("Ser:{0}, ==== openPort '{1}' @ {2} Bd ======", iamSerial, cbPort.Text, cbBaud.Text);
-                serialPort.PortName = actualPort = cbPort.Text;
-                serialPort.DataBits = 8;
-                serialPort.BaudRate = Convert.ToInt32(cbBaud.Text);
-                serialPort.Parity = System.IO.Ports.Parity.None;
-                serialPort.StopBits = System.IO.Ports.StopBits.One;
-                serialPort.Handshake = System.IO.Ports.Handshake.None;
-                serialPort.DtrEnable = false;
-                serialPort.ReadTimeout = 1000;
-                serialPort.WriteTimeout = 1000;
+                serialPort[0].PortName = actualPort = cbPort.Text;
+                serialPort[0].DataBits = 8;
+                serialPort[0].BaudRate = Convert.ToInt32(cbBaud.Text);
+                serialPort[0].Parity = System.IO.Ports.Parity.None;
+                serialPort[0].StopBits = System.IO.Ports.StopBits.One;
+                serialPort[0].Handshake = System.IO.Ports.Handshake.None;
+                serialPort[0].DtrEnable = false;
+                serialPort[0].ReadTimeout = 1000;
+                serialPort[0].WriteTimeout = 1000;
 
                 rtbLog.Clear();
                 if (RefreshPorts())				// check if last used port is listed
@@ -698,9 +698,9 @@ namespace GrblPlotter
                 }
                 else                            // last used port is available
                 {
-                    serialPort.Open();
-                    serialPort.DiscardOutBuffer();
-                    serialPort.DiscardInBuffer();
+                    serialPort[0].Open();
+                    serialPort[0].DiscardOutBuffer();
+                    serialPort[0].DiscardInBuffer();
 
                     AddToLog("* Open " + cbPort.Text + "\r\n");
 					ConnectionSucceed("Open COM Port: " + cbPort.Text);
@@ -724,12 +724,12 @@ namespace GrblPlotter
         {
             try
             {
-                if (serialPort.IsOpen)
+                if (serialPort[0].IsOpen)
                 {
                     Logger.Info("Ser:{0}, ==== closePort {1} ====", iamSerial, actualPort);
-                    serialPort.Close();
+                    serialPort[0].Close();
                 }
-                serialPort.Dispose();
+                serialPort[0].Dispose();
                 if (!isStreaming)
                     SerialPortOpenLast = false;     // avoid connection lost error
                 SaveSettings();
@@ -764,8 +764,8 @@ namespace GrblPlotter
                 {
                     try
                     {
-                        if (serialPort.IsOpen)
-                            serialPort.Write(dataArray, 0, 1);
+                        if (serialPort[0].IsOpen)
+                            serialPort[0].Write(dataArray, 0, 1);
                     }
                     catch (TimeoutException err)
                     {
@@ -848,18 +848,18 @@ namespace GrblPlotter
             resetProcessed = false;
             bool savePos = true;
             Grbl.isMarlin = isMarlin = Properties.Settings.Default.ctrlConnectMarlin;
-            if (serialPort.IsOpen)
+            if (serialPort[0].IsOpen)
             {
                 try
                 {
                     timerSerial.Enabled = false;
-                    serialPort.DtrEnable = true;
+                    serialPort[0].DtrEnable = true;
                     StateReset(savePos);
-                    serialPort.DiscardInBuffer();
-                    serialPort.DiscardOutBuffer();
+                    serialPort[0].DiscardInBuffer();
+                    serialPort[0].DiscardOutBuffer();
                     AddToLog("> DTR/RTS reset");
-                    serialPort.DtrEnable = false;
-                    serialPort.RtsEnable = false;
+                    serialPort[0].DtrEnable = false;
+                    serialPort[0].RtsEnable = false;
                     if (iamSerial == 1)
                         Grbl.lastMessage = "Hard-RESET, waiting for response of grbl-controller";
                 }
@@ -890,23 +890,23 @@ namespace GrblPlotter
 /* SerialDataReceivedEventHandler */
         private void SerialPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
         {
-            while ((serialPort.IsOpen) && (serialPort.BytesToRead > 0))// && !blockSend)
+            while ((serialPort[0].IsOpen) && (serialPort[0].BytesToRead > 0))// && !blockSend)
             {
                 rxString = string.Empty;
                 try
                 {
-                    rxString = serialPort.ReadTo(lineEndRX).Trim();  //read line from grbl, discard CR LF
+                    rxString = serialPort[0].ReadTo(lineEndRX).Trim();  //read line from grbl, discard CR LF
                     isDataProcessing = true;
                     this.BeginInvoke(new EventHandler(ProcessMessages));        //tigger rx process 2020-09-16 change from Invoke to BeginInvoke
-                    while ((serialPort.IsOpen) && isDataProcessing)// && !blockSend)   //wait previous data line processed done
+                    while ((serialPort[0].IsOpen) && isDataProcessing)// && !blockSend)   //wait previous data line processed done
                     { }
                 }
                 catch (TimeoutException err1)
                 {
                     Logger.Error(err1, "TimeoutException try:{0} ", rxErrorCount);
                     AddToLog("Error reading line from serial port - correct baud rate? Try:" + rxErrorCount.ToString());
-                    if (serialPort.IsOpen)
-                        rxString = serialPort.ReadExisting().Trim();
+                    if (serialPort[0].IsOpen)
+                        rxString = serialPort[0].ReadExisting().Trim();
                     Logger.Error("ReadExisting '{0}'", rxString);
 
                     if (++rxErrorCount > 2)
@@ -999,7 +999,7 @@ namespace GrblPlotter
 
         private void SerialPortDataSend(byte[] tmp, int a, int b)
         {
-			if (logTransmit) Logger.Trace("SerialPortDataSend data:{0} IsConnectedToGrbl:{1} Connected:{2} useEthernet:{3}  serOpen:{4}", tmp.ToString(), IsConnectedToGrbl(), Connected, useEthernet, serialPort.IsOpen);
+			if (logTransmit) Logger.Trace("SerialPortDataSend data:{0} IsConnectedToGrbl:{1} Connected:{2} useEthernet:{3}  serOpen:{4}", tmp.ToString(), IsConnectedToGrbl(), Connected, useEthernet, serialPort[0].IsOpen);
             if (IsConnectedToGrbl())
             {
              //   useEthernet = CbEthernetUse.Checked;
@@ -1007,7 +1007,7 @@ namespace GrblPlotter
                 {
                     try
                     {
-                        serialPort.Write(tmp, a, b);
+                        serialPort[0].Write(tmp, a, b);
                         if (logStreamData) WriteLog(logFileSentData, tmp.ToString(), "1");
                         return;
                     }
@@ -1046,17 +1046,17 @@ namespace GrblPlotter
         }
         private bool SerialPortDataSend(string tmp)
         {
-			if (logTransmit) Logger.Trace("SerialPortDataSend data:{0} IsConnectedToGrbl:{1} Connected:{2} useEthernet:{3}  serOpen:{4}", tmp, IsConnectedToGrbl(), Connected, useEthernet, serialPort.IsOpen);
+			if (logTransmit) Logger.Trace("SerialPortDataSend data:{0} IsConnectedToGrbl:{1} Connected:{2} useEthernet:{3}  serOpen:{4}", tmp, IsConnectedToGrbl(), Connected, useEthernet, serialPort[0].IsOpen);
             if (IsConnectedToGrbl() && (!string.IsNullOrEmpty(tmp)))
             {
              //   useEthernet = CbEthernetUse.Checked;
                 if (!useEthernet)
                 {
-                    if (serialPort.IsOpen)// && (!string.IsNullOrEmpty(tmp)))
+                    if (serialPort[0].IsOpen)// && (!string.IsNullOrEmpty(tmp)))
                     {
                         try
                         {
-                            serialPort.Write(tmp);
+                            serialPort[0].Write(tmp);
                             if (logStreamData && (tmp != "?")) WriteLog(logFileSentData, tmp, "3");
                             return true;
                         }

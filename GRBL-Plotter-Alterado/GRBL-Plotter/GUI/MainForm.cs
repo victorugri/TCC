@@ -71,6 +71,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 using virtualJoystick;
+using System.Threading.Tasks;
 
 namespace GrblPlotter
 {
@@ -1477,6 +1478,16 @@ namespace GrblPlotter
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //_serial_form.DisconnectFromGrbl(this, null);
+            string[] testeLeiturasUno = new string[3];
+
+            //_serial_form.ConnectToArduinoMega();
+
+            //Parallel.Invoke(
+            //() => _serial_form.ConnectToArduinoMega());
+            ////,
+            ////() => testeLeiturasUno = _serial_form.connectToArduinoUno());
+
             string diretorioParente = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName;
             string diretorioGCodeInicial = string.Format("{0}\\GCodes\\gcode.gcode", diretorioParente);
             LoadFile(diretorioGCodeInicial);
@@ -1484,13 +1495,15 @@ namespace GrblPlotter
             //Ver um jeito de desconectar do MEGA e continuar mostrando o caminho
             //_serial_form.DisconnectFromGrbl(this, null);
 
-            var testeLeiturasUno = _serial_form.connectToArduinoUno();
+            //testeLeiturasUno = _serial_form.connectToArduinoUno();
+
+            //https://social.msdn.microsoft.com/Forums/en-US/acef9550-73a0-4fa6-8662-456348cdfc4f/opening-multiple-serial-ports?forum=csharpgeneral ve isso ai
+
+            //var testeLeiturasUno = _serial_form.connectToArduinoUno();
             for (int i = 0; i < 3; i++)
             {
-                textBox1.Text = string.Format("{0} {1}", textBox1.Text, testeLeiturasUno[i]);
+                textBox1.Text = string.Format("{0}seg || {1}", textBox1.Text, testeLeiturasUno[i]);
             }
-
-            _serial_form.ConnectToGrbl(this, null);
         }
     }
 }

@@ -602,7 +602,7 @@ namespace GrblPlotter
             Logger.Info("grbl reset: '{0}'  isGrblVers0:{1}  isMarlin:{2}", rxStringTmp, IsGrblVers0, isMarlin);
 			
 			string tmp = "Rst-"+GrblVers;
-			if (serialPort.IsOpen)
+			if (serialPort[0].IsOpen)
 				tmp+=" " + cbPort.Text;
 			else
 				tmp+=" IP";				

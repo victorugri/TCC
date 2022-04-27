@@ -35,7 +35,7 @@ namespace GrblPlotter
 
         public bool IsConnectedToGrbl()
         {
-            if (!useEthernet) { return serialPort.IsOpen; }
+            if (!useEthernet) { return serialPort[0].IsOpen; }
             else { return Connected; }
         }
 
@@ -72,7 +72,7 @@ namespace GrblPlotter
 				EventCollector.SetCommunication("C" + cbPort.Text);
                 Application.DoEvents();
                 OpenPortSerial();
-                if (serialPort.IsOpen)
+                if (serialPort[0].IsOpen)
                 {
                     CbEthernetUse.Enabled = false;
                     Connected = true;
@@ -242,19 +242,19 @@ namespace GrblPlotter
         {
             horarioInicial = DateTime.Now;
             string selectedPort = "COM4";
-            serialPort = new SerialPort(selectedPort, 115200, Parity.None, 8, StopBits.One);
-            serialPort.Open();
+            serialPort[1] = new SerialPort(selectedPort, 115200, Parity.None, 8, StopBits.One);
+            serialPort[1].Open();
             //textBox1.Text = "CONECTADO";
             //button1.Text = "Disconnect";
             //enableControls();
 
-            var teste = serialPort.ReadLine();
+            var teste = serialPort[1].ReadLine();
             vetorTempoBloco[0] = (DateTime.Now - horarioInicial);
             //textBox1.Text = vetorTempoBloco[0].ToString();
-            var teste2 = serialPort.ReadLine();
+            var teste2 = serialPort[1].ReadLine();
             vetorTempoBloco[1] = (DateTime.Now - horarioInicial);
             //textBox2.Text = vetorTempoBloco[1].ToString();
-            var teste3 = serialPort.ReadLine();
+            var teste3 = serialPort[1].ReadLine();
             vetorTempoBloco[2] = (DateTime.Now - horarioInicial);
             //textBox3.Text = vetorTempoBloco[2].ToString();
 
@@ -262,6 +262,124 @@ namespace GrblPlotter
 
             return vetorPosicaoBloco;
         }
+
+        public void ConnectToArduinoMega()//, bool showMessageBox = true)
+        {
+            bool showMessageBox = false;	//true;
+            rxErrorCount = 0;
+            tryDoSerialConnection = true;
+            rtbLog.Clear();
+            Grbl.isMarlin = isMarlin = Properties.Settings.Default.ctrlConnectMarlin;
+            if (isMarlin)
+                AddToLog("Force connection to Marlin");
+
+            cbBaud.Text = "115200";
+            cbPort.Text = "COM3";
+
+            useEthernet = CbEthernetUse.Checked;
+            if (!useEthernet)
+            {
+                AddToLog("\nTry to connect to serial " + cbPort.Text + " @ " + cbBaud.Text);
+                EventCollector.SetCommunication("C" + cbPort.Text);
+                Application.DoEvents();
+                OpenPortSerial();
+                if (serialPort[0].IsOpen)
+                {
+                    CbEthernetUse.Enabled = false;
+                    Connected = true;
+                    tryDoSerialConnection = false;
+                }
+            }
+            else
+            {
+                try
+                {
+                    Logger.Info("==== Connecting to {0}:{1} ====", TbEthernetIP.Text, TbEthernetPort.Text);
+                    AddToLog("\nTry to connect via Ethernet - Telnet\nConnect to " + TbEthernetIP.Text + ":" + TbEthernetPort.Text + "\nIf fails, it takes up to 20 sec. to response!");
+                    EventCollector.SetCommunication("CEther");
+                    timerSerial.Interval = 1000;
+                    timerSerial.Start();
+
+                    if (int.TryParse(TbEthernetPort.Text, out int port))
+                    {
+
+                        // https://docs.microsoft.com/de-de/dotnet/framework/network-programming/asynchronous-client-socket-example
+                        //   if (UseSocket)
+                        //   { }
+                        // Telnet
+                        //    else
+                        {
+                            if ((port >= 0) && (port <= 65535))
+                            {
+                                BtnOpenPortEthernet.Text = Localization.GetString("serialClose");
+                                BtnOpenPortEthernet.Enabled = false;
+                                CbEthernetUse.Enabled = false;
+                                Application.DoEvents();
+                                ClientEthernet = new TcpClient(TbEthernetIP.Text, port);        // Telnet
+                                Connected = true;
+                                Connection = ClientEthernet.GetStream();
+                                tryDoSerialConnection = false;
+
+                                SaveSettings();
+                                reader = new StreamReader(Connection, System.Text.Encoding.ASCII);
+                                AddToLog("Connect via Ethernet - Telnet " + TbEthernetIP.Text + ":" + TbEthernetPort.Text);
+
+                                ConnectionSucceed("Connect to Ethernet " + TbEthernetIP.Text + ":" + TbEthernetPort.Text);
+
+                                timerSerial.Interval = 500;             // timerReload;
+
+                                CbEthernetUse.Enabled = false;
+                                BtnOpenPortEthernet.Enabled = true;
+                                Application.DoEvents();
+                            }
+                            else
+                            {
+                                countMinimizeForm = 0;
+                                string msg = string.Format("Port number must be between 0 and 65535: {0}");
+                                Logger.Error(msg);
+                                AddToLog(msg);
+                                if (showMessageBox) MessageBox.Show(msg, "Error");
+                            }
+                        }
+                    }
+                    else
+                    {
+                        countMinimizeForm = 0;
+                        string msg = string.Format("Port is not a valid number: {0}", TbEthernetPort.Text);
+                        Logger.Error(msg);
+                        AddToLog(msg);
+                        if (showMessageBox) MessageBox.Show(msg, "Error");
+                    }
+                }
+                catch (ArgumentNullException)
+                {
+                    countMinimizeForm = 0;
+                    string msg = "ArgumentNullException - Invalid address or port.\nWrong port? Telnet on esp expects port 23.";
+                    Logger.Error(msg);
+                    AddToLog(msg);
+                    if (showMessageBox) MessageBox.Show(msg, "Error");
+                    CbEthernetUse.Enabled = true;
+                    BtnOpenPortEthernet.Enabled = true;
+                    BtnOpenPortEthernet.Text = Localization.GetString("serialOpen");
+                    Connected = false;
+                }
+                catch (SocketException)
+                {
+                    countMinimizeForm = 0;
+                    string msg = "SocketException - Connection failure.\nWrong port? Telnet on esp expects port 23.";
+                    Logger.Error(msg);
+                    AddToLog(msg);
+                    if (showMessageBox) MessageBox.Show(msg, "Error");
+                    CbEthernetUse.Enabled = true;
+                    BtnOpenPortEthernet.Enabled = true;
+                    BtnOpenPortEthernet.Text = Localization.GetString("serialOpen");
+                    Connected = false;
+                }
+                tryDoSerialConnection = false;
+            }
+            UpdateControls();
+        }
+
 
         private void converterTempoEmPosicao()
         {
