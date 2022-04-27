@@ -51,20 +51,8 @@ namespace GrblPlotter
         }
         private void SimuStart(Color col)
         {
-            label_wx.ForeColor = col;
-            label_wy.ForeColor = col;
-            label_wz.ForeColor = col;
-            label_wa.ForeColor = col;
-            label_wb.ForeColor = col;
-            label_wc.ForeColor = col;
 
             Color invers = ContrastColor(col);
-            label_wx.BackColor = invers;
-            label_wy.BackColor = invers;
-            label_wz.BackColor = invers;
-            label_wa.BackColor = invers;
-            label_wb.BackColor = invers;
-            label_wc.BackColor = invers;
 
             simulateA = VisuGCode.ContainsTangential();
             if (simulateA)
@@ -94,19 +82,7 @@ namespace GrblPlotter
         }
         private void SimuStop()
         {
-            label_wx.ForeColor = Color.Black;
-            label_wy.ForeColor = Color.Black;
-            label_wz.ForeColor = Color.Black;
-            label_wa.ForeColor = Color.Black;
-            label_wb.ForeColor = Color.Black;
-            label_wc.ForeColor = Color.Black;
             Color invers = Control.DefaultBackColor;
-            label_wx.BackColor = invers;
-            label_wy.BackColor = invers;
-            label_wz.BackColor = invers;
-            label_wa.BackColor = invers;
-            label_wb.BackColor = invers;
-            label_wc.BackColor = invers;
 
             if (simulateA)
             {
@@ -149,10 +125,6 @@ namespace GrblPlotter
                 fCTBCodeClickedLineLast = simuLine;
                 pictureBox1.Invalidate(); // avoid too much events
 
-                label_wx.Text = string.Format("{0:0.000}", codeInfo.X);
-                label_wy.Text = string.Format("{0:0.000}", codeInfo.Y);
-                label_wz.Text = string.Format("{0:0.000}", codeInfo.Z);
-                label_wa.Text = string.Format("{0:0.0}", codeInfo.A * 180 / Math.PI);
             }
             else
             {

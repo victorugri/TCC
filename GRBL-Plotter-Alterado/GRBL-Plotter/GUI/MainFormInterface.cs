@@ -214,34 +214,10 @@ namespace GrblPlotter
 
         private void UpdateDRO()
         {
-            if (label_mx.InvokeRequired)
-            { label_mx.BeginInvoke((MethodInvoker)delegate () { UpdateDROText(); }); }
-            else
-            { UpdateDROText(); }
+            UpdateDROText();
         }
         private void UpdateDROText()
         {
-            label_mx.Text = string.Format("{0:0.000}", Grbl.posMachine.X);
-            label_my.Text = string.Format("{0:0.000}", Grbl.posMachine.Y);
-            label_mz.Text = string.Format("{0:0.000}", Grbl.posMachine.Z);
-            label_wx.Text = string.Format("{0:0.000}", Grbl.posWork.X);
-            label_wy.Text = string.Format("{0:0.000}", Grbl.posWork.Y);
-            label_wz.Text = string.Format("{0:0.000}", Grbl.posWork.Z);
-            if (Grbl.axisA)
-            {
-                label_ma.Text = string.Format("{0:0.000}", Grbl.posMachine.A);
-                label_wa.Text = string.Format("{0:0.000}", Grbl.posWork.A);
-            }
-            if (Grbl.axisB)
-            {
-                label_mb.Text = string.Format("{0:0.000}", Grbl.posMachine.B);
-                label_wb.Text = string.Format("{0:0.000}", Grbl.posWork.B);
-            }
-            if (Grbl.axisC)
-            {
-                label_mc.Text = string.Format("{0:0.000}", Grbl.posMachine.C);
-                label_wc.Text = string.Format("{0:0.000}", Grbl.posWork.C);
-            }
         }
 
         /***************************************************************
@@ -257,12 +233,6 @@ namespace GrblPlotter
                 Logger.Trace("processStatus  Status:{0}", machineStatus.ToString());
             if ((machineStatus != lastMachineStatus) || (Grbl.lastMessage.Length > 5))
             {
-                // label at DRO
-                if (label_status.InvokeRequired)
-                { label_status.BeginInvoke((MethodInvoker)delegate () { label_status.Text = Grbl.StatusToText(machineStatus); }); }
-                else
-                { label_status.Text = Grbl.StatusToText(machineStatus); }
-                label_status.BackColor = Grbl.GrblStateColor(machineStatus);
 
                 switch (machineStatus)
                 {
@@ -425,13 +395,11 @@ namespace GrblPlotter
                 if (cmd.toolchange)
                     lblTool.Text = cmd.tool.ToString();
 
-                lblCurrentG.Text = "G" + cmd.coord_select.ToString();
-                lblCurrentG.BackColor = (cmd.coord_select == 54) ? Color.Lime : Color.Fuchsia;
                 if (_camera_form != null)
                     _camera_form.SetCoordG = cmd.coord_select;
                 if (_coordSystem_form != null)
                 {
-                    _coordSystem_form.MarkActiveCoordSystem(lblCurrentG.Text);
+                    _coordSystem_form.MarkActiveCoordSystem("vasco da gama e nada mais");
                     _coordSystem_form.UpdateTLO(cmd.TLOactive, cmd.tool_length);
                 }
             }

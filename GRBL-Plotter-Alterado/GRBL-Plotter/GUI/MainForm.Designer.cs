@@ -320,38 +320,6 @@ namespace GrblPlotter
             this.tBURL = new System.Windows.Forms.TextBox();
             this.CbAddGraphic = new System.Windows.Forms.CheckBox();
             this.tLPRechtsOben = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBoxCoordinates = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label_c = new System.Windows.Forms.Label();
-            this.btnZeroC = new System.Windows.Forms.Button();
-            this.label_mc = new System.Windows.Forms.Label();
-            this.label_wc = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.btnZeroB = new System.Windows.Forms.Button();
-            this.label_mb = new System.Windows.Forms.Label();
-            this.label_wb = new System.Windows.Forms.Label();
-            this.lblCurrentG = new System.Windows.Forms.Label();
-            this.label_status0 = new System.Windows.Forms.Label();
-            this.label_a = new System.Windows.Forms.Label();
-            this.btnZeroA = new System.Windows.Forms.Button();
-            this.label_ma = new System.Windows.Forms.Label();
-            this.label_wa = new System.Windows.Forms.Label();
-            this.btnHome = new System.Windows.Forms.Button();
-            this.btnZeroXYZ = new System.Windows.Forms.Button();
-            this.btnZeroXY = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnZeroZ = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnZeroY = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnZeroX = new System.Windows.Forms.Button();
-            this.label_status = new System.Windows.Forms.Label();
-            this.label_mx = new System.Windows.Forms.Label();
-            this.label_my = new System.Windows.Forms.Label();
-            this.label_mz = new System.Windows.Forms.Label();
-            this.label_wz = new System.Windows.Forms.Label();
-            this.label_wx = new System.Windows.Forms.Label();
-            this.label_wy = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -463,6 +431,8 @@ namespace GrblPlotter
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.SplashScreenTimer = new System.Windows.Forms.Timer(this.components);
             this.loadTimer = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBoxCoordinates = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -499,9 +469,9 @@ namespace GrblPlotter
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.cmsPictureBox.SuspendLayout();
             this.tLPRechtsOben.SuspendLayout();
-            this.groupBoxCoordinates.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            this.groupBoxCoordinates.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -2197,228 +2167,6 @@ namespace GrblPlotter
             this.tLPRechtsOben.Controls.Add(this.textBox1, 1, 0);
             this.tLPRechtsOben.Name = "tLPRechtsOben";
             // 
-            // groupBoxCoordinates
-            // 
-            this.groupBoxCoordinates.Controls.Add(this.button1);
-            this.groupBoxCoordinates.Controls.Add(this.label_c);
-            this.groupBoxCoordinates.Controls.Add(this.btnZeroC);
-            this.groupBoxCoordinates.Controls.Add(this.label_mc);
-            this.groupBoxCoordinates.Controls.Add(this.label_wc);
-            this.groupBoxCoordinates.Controls.Add(this.label11);
-            this.groupBoxCoordinates.Controls.Add(this.btnZeroB);
-            this.groupBoxCoordinates.Controls.Add(this.label_mb);
-            this.groupBoxCoordinates.Controls.Add(this.label_wb);
-            this.groupBoxCoordinates.Controls.Add(this.lblCurrentG);
-            this.groupBoxCoordinates.Controls.Add(this.label_status0);
-            this.groupBoxCoordinates.Controls.Add(this.label_a);
-            this.groupBoxCoordinates.Controls.Add(this.btnZeroA);
-            this.groupBoxCoordinates.Controls.Add(this.label_ma);
-            this.groupBoxCoordinates.Controls.Add(this.label_wa);
-            this.groupBoxCoordinates.Controls.Add(this.btnHome);
-            this.groupBoxCoordinates.Controls.Add(this.btnZeroXYZ);
-            this.groupBoxCoordinates.Controls.Add(this.btnZeroXY);
-            this.groupBoxCoordinates.Controls.Add(this.label4);
-            this.groupBoxCoordinates.Controls.Add(this.btnZeroZ);
-            this.groupBoxCoordinates.Controls.Add(this.label3);
-            this.groupBoxCoordinates.Controls.Add(this.btnZeroY);
-            this.groupBoxCoordinates.Controls.Add(this.label2);
-            this.groupBoxCoordinates.Controls.Add(this.btnZeroX);
-            this.groupBoxCoordinates.Controls.Add(this.label_status);
-            this.groupBoxCoordinates.Controls.Add(this.label_mx);
-            this.groupBoxCoordinates.Controls.Add(this.label_my);
-            this.groupBoxCoordinates.Controls.Add(this.label_mz);
-            this.groupBoxCoordinates.Controls.Add(this.label_wz);
-            this.groupBoxCoordinates.Controls.Add(this.label_wx);
-            this.groupBoxCoordinates.Controls.Add(this.label_wy);
-            resources.ApplyResources(this.groupBoxCoordinates, "groupBoxCoordinates");
-            this.groupBoxCoordinates.Name = "groupBoxCoordinates";
-            this.groupBoxCoordinates.TabStop = false;
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label_c
-            // 
-            resources.ApplyResources(this.label_c, "label_c");
-            this.label_c.Name = "label_c";
-            // 
-            // btnZeroC
-            // 
-            resources.ApplyResources(this.btnZeroC, "btnZeroC");
-            this.btnZeroC.Name = "btnZeroC";
-            this.toolTip1.SetToolTip(this.btnZeroC, resources.GetString("btnZeroC.ToolTip"));
-            this.btnZeroC.UseVisualStyleBackColor = true;
-            this.btnZeroC.Click += new System.EventHandler(this.BtnZeroC_Click);
-            // 
-            // label_mc
-            // 
-            resources.ApplyResources(this.label_mc, "label_mc");
-            this.label_mc.Name = "label_mc";
-            // 
-            // label_wc
-            // 
-            resources.ApplyResources(this.label_wc, "label_wc");
-            this.label_wc.Name = "label_wc";
-            // 
-            // label11
-            // 
-            resources.ApplyResources(this.label11, "label11");
-            this.label11.Name = "label11";
-            // 
-            // btnZeroB
-            // 
-            resources.ApplyResources(this.btnZeroB, "btnZeroB");
-            this.btnZeroB.Name = "btnZeroB";
-            this.toolTip1.SetToolTip(this.btnZeroB, resources.GetString("btnZeroB.ToolTip"));
-            this.btnZeroB.UseVisualStyleBackColor = true;
-            this.btnZeroB.Click += new System.EventHandler(this.BtnZeroB_Click);
-            // 
-            // label_mb
-            // 
-            resources.ApplyResources(this.label_mb, "label_mb");
-            this.label_mb.Name = "label_mb";
-            // 
-            // label_wb
-            // 
-            resources.ApplyResources(this.label_wb, "label_wb");
-            this.label_wb.Name = "label_wb";
-            // 
-            // lblCurrentG
-            // 
-            resources.ApplyResources(this.lblCurrentG, "lblCurrentG");
-            this.lblCurrentG.Name = "lblCurrentG";
-            this.toolTip1.SetToolTip(this.lblCurrentG, resources.GetString("lblCurrentG.ToolTip"));
-            // 
-            // label_status0
-            // 
-            resources.ApplyResources(this.label_status0, "label_status0");
-            this.label_status0.Name = "label_status0";
-            // 
-            // label_a
-            // 
-            resources.ApplyResources(this.label_a, "label_a");
-            this.label_a.Name = "label_a";
-            // 
-            // btnZeroA
-            // 
-            resources.ApplyResources(this.btnZeroA, "btnZeroA");
-            this.btnZeroA.Name = "btnZeroA";
-            this.toolTip1.SetToolTip(this.btnZeroA, resources.GetString("btnZeroA.ToolTip"));
-            this.btnZeroA.UseVisualStyleBackColor = true;
-            this.btnZeroA.Click += new System.EventHandler(this.BtnZeroA_Click);
-            // 
-            // label_ma
-            // 
-            resources.ApplyResources(this.label_ma, "label_ma");
-            this.label_ma.Name = "label_ma";
-            // 
-            // label_wa
-            // 
-            resources.ApplyResources(this.label_wa, "label_wa");
-            this.label_wa.Name = "label_wa";
-            // 
-            // btnHome
-            // 
-            resources.ApplyResources(this.btnHome, "btnHome");
-            this.btnHome.Name = "btnHome";
-            this.toolTip1.SetToolTip(this.btnHome, resources.GetString("btnHome.ToolTip"));
-            this.btnHome.UseVisualStyleBackColor = true;
-            this.btnHome.Click += new System.EventHandler(this.BtnHome_Click);
-            // 
-            // btnZeroXYZ
-            // 
-            resources.ApplyResources(this.btnZeroXYZ, "btnZeroXYZ");
-            this.btnZeroXYZ.Name = "btnZeroXYZ";
-            this.toolTip1.SetToolTip(this.btnZeroXYZ, resources.GetString("btnZeroXYZ.ToolTip"));
-            this.btnZeroXYZ.UseVisualStyleBackColor = true;
-            this.btnZeroXYZ.Click += new System.EventHandler(this.BtnZeroXYZ_Click);
-            // 
-            // btnZeroXY
-            // 
-            resources.ApplyResources(this.btnZeroXY, "btnZeroXY");
-            this.btnZeroXY.Name = "btnZeroXY";
-            this.toolTip1.SetToolTip(this.btnZeroXY, resources.GetString("btnZeroXY.ToolTip"));
-            this.btnZeroXY.UseVisualStyleBackColor = true;
-            this.btnZeroXY.Click += new System.EventHandler(this.BtnZeroXY_Click);
-            // 
-            // label4
-            // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
-            // 
-            // btnZeroZ
-            // 
-            resources.ApplyResources(this.btnZeroZ, "btnZeroZ");
-            this.btnZeroZ.Name = "btnZeroZ";
-            this.toolTip1.SetToolTip(this.btnZeroZ, resources.GetString("btnZeroZ.ToolTip"));
-            this.btnZeroZ.UseVisualStyleBackColor = true;
-            this.btnZeroZ.Click += new System.EventHandler(this.BtnZeroZ_Click);
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
-            // 
-            // btnZeroY
-            // 
-            resources.ApplyResources(this.btnZeroY, "btnZeroY");
-            this.btnZeroY.Name = "btnZeroY";
-            this.toolTip1.SetToolTip(this.btnZeroY, resources.GetString("btnZeroY.ToolTip"));
-            this.btnZeroY.UseVisualStyleBackColor = true;
-            this.btnZeroY.Click += new System.EventHandler(this.BtnZeroY_Click);
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
-            // btnZeroX
-            // 
-            resources.ApplyResources(this.btnZeroX, "btnZeroX");
-            this.btnZeroX.Name = "btnZeroX";
-            this.toolTip1.SetToolTip(this.btnZeroX, resources.GetString("btnZeroX.ToolTip"));
-            this.btnZeroX.UseVisualStyleBackColor = true;
-            this.btnZeroX.Click += new System.EventHandler(this.BtnZeroX_Click);
-            // 
-            // label_status
-            // 
-            resources.ApplyResources(this.label_status, "label_status");
-            this.label_status.Name = "label_status";
-            // 
-            // label_mx
-            // 
-            resources.ApplyResources(this.label_mx, "label_mx");
-            this.label_mx.Name = "label_mx";
-            // 
-            // label_my
-            // 
-            resources.ApplyResources(this.label_my, "label_my");
-            this.label_my.Name = "label_my";
-            // 
-            // label_mz
-            // 
-            resources.ApplyResources(this.label_mz, "label_mz");
-            this.label_mz.Name = "label_mz";
-            // 
-            // label_wz
-            // 
-            resources.ApplyResources(this.label_wz, "label_wz");
-            this.label_wz.Name = "label_wz";
-            // 
-            // label_wx
-            // 
-            resources.ApplyResources(this.label_wx, "label_wx");
-            this.label_wx.Name = "label_wx";
-            // 
-            // label_wy
-            // 
-            resources.ApplyResources(this.label_wy, "label_wy");
-            this.label_wy.Name = "label_wy";
-            // 
             // textBox1
             // 
             resources.ApplyResources(this.textBox1, "textBox1");
@@ -2730,8 +2478,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_rotate
             // 
-            resources.ApplyResources(this.toolStrip_tb_rotate, "toolStrip_tb_rotate");
             this.toolStrip_tb_rotate.Name = "toolStrip_tb_rotate";
+            resources.ApplyResources(this.toolStrip_tb_rotate, "toolStrip_tb_rotate");
             this.toolStrip_tb_rotate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_rotate_KeyDown);
             // 
             // toolStripSeparator5
@@ -2748,8 +2496,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_XY_scale, "toolStrip_tb_XY_scale");
             this.toolStrip_tb_XY_scale.Name = "toolStrip_tb_XY_scale";
+            resources.ApplyResources(this.toolStrip_tb_XY_scale, "toolStrip_tb_XY_scale");
             this.toolStrip_tb_XY_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_scale_KeyDown);
             // 
             // skalierenXYToolStripMenuItem
@@ -2761,8 +2509,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_X_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_XY_X_scale, "toolStrip_tb_XY_X_scale");
             this.toolStrip_tb_XY_X_scale.Name = "toolStrip_tb_XY_X_scale";
+            resources.ApplyResources(this.toolStrip_tb_XY_X_scale, "toolStrip_tb_XY_X_scale");
             this.toolStrip_tb_XY_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_X_scale_KeyDown);
             // 
             // skalierenXYUmXUnitsZuErreichenToolStripMenuItem
@@ -2774,8 +2522,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_XY_Y_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_XY_Y_scale, "toolStrip_tb_XY_Y_scale");
             this.toolStrip_tb_XY_Y_scale.Name = "toolStrip_tb_XY_Y_scale";
+            resources.ApplyResources(this.toolStrip_tb_XY_Y_scale, "toolStrip_tb_XY_Y_scale");
             this.toolStrip_tb_XY_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_XY_Y_scale_KeyDown);
             // 
             // skaliereXUmToolStripMenuItem
@@ -2788,8 +2536,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_X_scale, "toolStrip_tb_X_scale");
             this.toolStrip_tb_X_scale.Name = "toolStrip_tb_X_scale";
+            resources.ApplyResources(this.toolStrip_tb_X_scale, "toolStrip_tb_X_scale");
             this.toolStrip_tb_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_scale_KeyDown);
             // 
             // skaliereAufXUnitsToolStripMenuItem
@@ -2803,8 +2551,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_X_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_X_X_scale, "toolStrip_tb_X_X_scale");
             this.toolStrip_tb_X_X_scale.Name = "toolStrip_tb_X_X_scale";
+            resources.ApplyResources(this.toolStrip_tb_X_X_scale, "toolStrip_tb_X_X_scale");
             this.toolStrip_tb_X_X_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_X_scale_KeyDown);
             // 
             // skaliereYUmToolStripMenuItem
@@ -2817,8 +2565,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_Y_scale, "toolStrip_tb_Y_scale");
             this.toolStrip_tb_Y_scale.Name = "toolStrip_tb_Y_scale";
+            resources.ApplyResources(this.toolStrip_tb_Y_scale, "toolStrip_tb_Y_scale");
             this.toolStrip_tb_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_scale_KeyDown);
             // 
             // skaliereAufYUnitsToolStripMenuItem
@@ -2831,8 +2579,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_Y_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_Y_Y_scale, "toolStrip_tb_Y_Y_scale");
             this.toolStrip_tb_Y_Y_scale.Name = "toolStrip_tb_Y_Y_scale";
+            resources.ApplyResources(this.toolStrip_tb_Y_Y_scale, "toolStrip_tb_Y_Y_scale");
             this.toolStrip_tb_Y_Y_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_Y_scale_KeyDown);
             // 
             // toolStripSeparator6
@@ -2849,8 +2597,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_rotary_diameter
             // 
-            resources.ApplyResources(this.toolStrip_tb_rotary_diameter, "toolStrip_tb_rotary_diameter");
             this.toolStrip_tb_rotary_diameter.Name = "toolStrip_tb_rotary_diameter";
+            resources.ApplyResources(this.toolStrip_tb_rotary_diameter, "toolStrip_tb_rotary_diameter");
             this.toolStrip_tb_rotary_diameter.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_rotary_diameter_KeyDown);
             // 
             // skaliereXAufDrehachseToolStripMenuItem
@@ -2863,8 +2611,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_X_A_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_X_A_scale, "toolStrip_tb_X_A_scale");
             this.toolStrip_tb_X_A_scale.Name = "toolStrip_tb_X_A_scale";
+            resources.ApplyResources(this.toolStrip_tb_X_A_scale, "toolStrip_tb_X_A_scale");
             this.toolStrip_tb_X_A_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_X_A_scale_KeyDown);
             // 
             // skaliereYAufDrehachseToolStripMenuItem
@@ -2877,8 +2625,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_Y_A_scale
             // 
-            resources.ApplyResources(this.toolStrip_tb_Y_A_scale, "toolStrip_tb_Y_A_scale");
             this.toolStrip_tb_Y_A_scale.Name = "toolStrip_tb_Y_A_scale";
+            resources.ApplyResources(this.toolStrip_tb_Y_A_scale, "toolStrip_tb_Y_A_scale");
             this.toolStrip_tb_Y_A_scale.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_Y_A_scale_KeyDown);
             // 
             // toolStripSeparator15
@@ -2895,8 +2643,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tBRadiusCompValue
             // 
-            resources.ApplyResources(this.toolStrip_tBRadiusCompValue, "toolStrip_tBRadiusCompValue");
             this.toolStrip_tBRadiusCompValue.Name = "toolStrip_tBRadiusCompValue";
+            resources.ApplyResources(this.toolStrip_tBRadiusCompValue, "toolStrip_tBRadiusCompValue");
             this.toolStrip_tBRadiusCompValue.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tBRadiusCompValue_KeyDown);
             // 
             // ersetzteG23DurchLinienToolStripMenuItem
@@ -3006,8 +2754,8 @@ namespace GrblPlotter
             // 
             // toolStrip_tb_StreamLine
             // 
-            resources.ApplyResources(this.toolStrip_tb_StreamLine, "toolStrip_tb_StreamLine");
             this.toolStrip_tb_StreamLine.Name = "toolStrip_tb_StreamLine";
+            resources.ApplyResources(this.toolStrip_tb_StreamLine, "toolStrip_tb_StreamLine");
             this.toolStrip_tb_StreamLine.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ToolStrip_tb_StreamLine_KeyDown);
             // 
             // controlStreamingToolStripMenuItem
@@ -3190,6 +2938,20 @@ namespace GrblPlotter
             // 
             this.loadTimer.Tick += new System.EventHandler(this.LoadTimer_Tick);
             // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // groupBoxCoordinates
+            // 
+            this.groupBoxCoordinates.Controls.Add(this.button1);
+            resources.ApplyResources(this.groupBoxCoordinates, "groupBoxCoordinates");
+            this.groupBoxCoordinates.Name = "groupBoxCoordinates";
+            this.groupBoxCoordinates.TabStop = false;
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -3263,12 +3025,11 @@ namespace GrblPlotter
             this.cmsPictureBox.ResumeLayout(false);
             this.tLPRechtsOben.ResumeLayout(false);
             this.tLPRechtsOben.PerformLayout();
-            this.groupBoxCoordinates.ResumeLayout(false);
-            this.groupBoxCoordinates.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.groupBoxCoordinates.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3596,39 +3357,9 @@ namespace GrblPlotter
         private System.Windows.Forms.ToolStripMenuItem cmsPicBoxDuplicatePath;
         private System.Windows.Forms.ToolStripMenuItem cmsPicBoxShowProperties;
         private System.Windows.Forms.TableLayoutPanel tLPRechtsOben;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBoxCoordinates;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label_c;
-        private System.Windows.Forms.Button btnZeroC;
-        private System.Windows.Forms.Label label_mc;
-        private System.Windows.Forms.Label label_wc;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button btnZeroB;
-        private System.Windows.Forms.Label label_mb;
-        private System.Windows.Forms.Label label_wb;
-        private System.Windows.Forms.Label lblCurrentG;
-        private System.Windows.Forms.Label label_status0;
-        private System.Windows.Forms.Label label_a;
-        private System.Windows.Forms.Button btnZeroA;
-        private System.Windows.Forms.Label label_ma;
-        private System.Windows.Forms.Label label_wa;
-        private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Button btnZeroXYZ;
-        private System.Windows.Forms.Button btnZeroXY;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnZeroZ;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnZeroY;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnZeroX;
-        private System.Windows.Forms.Label label_status;
-        private System.Windows.Forms.Label label_mx;
-        private System.Windows.Forms.Label label_my;
-        private System.Windows.Forms.Label label_mz;
-        private System.Windows.Forms.Label label_wz;
-        private System.Windows.Forms.Label label_wx;
-        private System.Windows.Forms.Label label_wy;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

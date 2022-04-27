@@ -314,59 +314,26 @@ namespace GrblPlotter
         {
             ctrl4thAxis = Properties.Settings.Default.ctrl4thUse;
             ctrl4thName = Properties.Settings.Default.ctrl4thName;
-            label_a.Visible = ctrl4thAxis || Grbl.axisA || simulateA;
-            label_a.Text = ctrl4thName;
-            label_wa.Visible = ctrl4thAxis || Grbl.axisA || simulateA;
-            label_ma.Visible = ctrl4thAxis || Grbl.axisA || simulateA;
-            btnZeroA.Visible = ctrl4thAxis || Grbl.axisA;
             mirrorRotaryToolStripMenuItem.Visible = ctrl4thAxis;
-            btnZeroA.Text = "Zero " + ctrl4thName;
-            if (Properties.Settings.Default.guiLanguage == "de-DE")
-                btnZeroA.Text = ctrl4thName + " nullen";
 
             btnJogZeroA.Visible = ctrl4thAxis || Grbl.axisA;
             btnJogZeroA.Text = ctrl4thName + "=0";
 
             if (Grbl.axisB || Grbl.axisC)
             {
-                label_a.Location = new Point(230, 14);      // move A controls to upper right
-                label_wa.Location = new Point(251, 14);
-                label_ma.Location = new Point(263, 32);
-                btnZeroA.Location = new Point(335, 14);
-                label_status0.Location = new Point(1, 118); // keep home and status
-                label_status.Location = new Point(1, 138);
-                btnHome.Location = new Point(106, 111);
-                btnHome.Size = new Size(122, 57);
                 groupBoxCoordinates.Width = 394;            // extend width
                 tLPRechtsOben.ColumnStyles[0].Width = 400;
-
-                label_c.Visible = Grbl.axisC;
-                label_wc.Visible = Grbl.axisC;
-                label_mc.Visible = Grbl.axisC;
-                btnZeroC.Visible = Grbl.axisC;
             }
             else
             {
-                label_a.Location = new Point(1, 110);      // move A controls to lower left
-                label_wa.Location = new Point(22, 110);
-                label_ma.Location = new Point(34, 128);
-                btnZeroA.Location = new Point(106, 110);
                 groupBoxCoordinates.Width = 230;
                 tLPRechtsOben.ColumnStyles[0].Width = 236;
 
                 if (ctrl4thAxis || Grbl.axisA || simulateA)
                 {
-                    label_status0.Location = new Point(1, 128);
-                    label_status.Location = new Point(1, 148);
-                    btnHome.Location = new Point(106, 138);
-                    btnHome.Size = new Size(122, 30);
                 }
                 else
                 {
-                    label_status0.Location = new Point(1, 118);
-                    label_status.Location = new Point(1, 138);
-                    btnHome.Location = new Point(106, 111);
-                    btnHome.Size = new Size(122, 57);
                 }
             }
         }
@@ -492,15 +459,6 @@ namespace GrblPlotter
             virtualJoystickA.Enabled = isConnected && (!isStreaming || allowControl);
             virtualJoystickZ.Enabled = isConnected && (!isStreaming || allowControl);
             virtualJoystickXY.Enabled = isConnected && (!isStreaming || allowControl);
-            btnHome.Enabled = isConnected & !isStreaming | allowControl;
-            btnZeroX.Enabled = isConnected & !isStreaming | allowControl;
-            btnZeroY.Enabled = isConnected & !isStreaming | allowControl;
-            btnZeroZ.Enabled = isConnected & !isStreaming | allowControl;
-            btnZeroA.Enabled = isConnected & !isStreaming | allowControl;
-            btnZeroB.Enabled = isConnected & !isStreaming | allowControl;
-            btnZeroC.Enabled = isConnected & !isStreaming | allowControl;
-            btnZeroXY.Enabled = isConnected & !isStreaming | allowControl;
-            btnZeroXYZ.Enabled = isConnected & !isStreaming | allowControl;
             btnJogZeroX.Enabled = isConnected & !isStreaming | allowControl;
             btnJogZeroY.Enabled = isConnected & !isStreaming | allowControl;
             btnJogZeroZ.Enabled = isConnected & !isStreaming | allowControl;

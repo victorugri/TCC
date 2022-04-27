@@ -1626,12 +1626,6 @@ namespace GrblPlotter
                     }
                     if (action.StartsWith("Offset") && _serial_form.SerialPortOpen && (!isStreaming || isStreamingPause))
                     {
-                        if (action.Contains("XYZ")) { btnZeroXYZ.PerformClick(); }
-                        else if (action.Contains("XY")) { btnZeroXY.PerformClick(); }
-                        else if (action.Contains("X")) { btnZeroX.PerformClick(); }
-                        else if (action.Contains("Y")) { btnZeroY.PerformClick(); }
-                        else if (action.Contains("Z")) { btnZeroZ.PerformClick(); }
-                        else if (action.Contains("A")) { btnZeroA.PerformClick(); }
                         return true;
                     }
                     if (action.StartsWith("MoveZero") && _serial_form.SerialPortOpen && (!isStreaming || isStreamingPause))
@@ -1645,8 +1639,7 @@ namespace GrblPlotter
                     }
                     if (action.StartsWith("grbl") && _serial_form.SerialPortOpen)
                     {
-                        if (action.Contains("Home")) { btnHome.PerformClick(); }
-                        else if (action.Contains("FeedHold")) { btnFeedHold.PerformClick(); }
+                        if (action.Contains("FeedHold")) { btnFeedHold.PerformClick(); }
                         else if (action.Contains("Reset")) { btnReset.PerformClick(); }
                         else if (action.Contains("Resume")) { btnResume.PerformClick(); }
                         else if (action.Contains("KillAlarm")) { btnKillAlarm.PerformClick(); }
